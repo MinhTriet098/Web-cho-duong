@@ -5,1787 +5,6460 @@
       "level": "HSK1",
       "hanzi": "爱",
       "pinyin": "ài",
-      "meaning": "yêu",
+      "meaning": "Yêu; thương; yêu quý",
+      "pos": "Động từ",
       "example": {
-        "hanzi": "我爱你。",
-        "pinyin": "Wǒ ài nǐ.",
-        "meaning": "Tôi yêu bạn."
+        "hanzi": "爸爸爱妈妈。",
+        "pinyin": "Bàba ài māmā",
+        "meaning": "Ba yêu mẹ."
       }
     },
     {
       "id": 2,
       "level": "HSK1",
-      "hanzi": "八",
-      "pinyin": "bā",
-      "meaning": "tám",
+      "hanzi": "爱好",
+      "pinyin": "àihào",
+      "meaning": "Yêu thích; yêu chuộng; Sở thích",
+      "pos": "Động từ",
       "example": {
-        "hanzi": "他有八个苹果。",
-        "pinyin": "Tā yǒu bā ge píngguǒ.",
-        "meaning": "Anh ấy có tám quả táo."
+        "hanzi": "我爱好打篮球。",
+        "pinyin": "Wǒ àihào dǎ lánqiú",
+        "meaning": "Tôi thích chơi bóng rổ."
       }
     },
     {
       "id": 3,
       "level": "HSK1",
-      "hanzi": "爸爸",
-      "pinyin": "bàba",
-      "meaning": "bố",
+      "hanzi": "八",
+      "pinyin": "bā",
+      "meaning": "Số tám",
+      "pos": "Số từ",
       "example": {
-        "hanzi": "我的爸爸很高。",
-        "pinyin": "Wǒ de bàba hěn gāo.",
-        "meaning": "Bố của tôi rất cao."
+        "hanzi": "他买了八个苹果。",
+        "pinyin": "Tā mǎi le bā gè píngguǒ",
+        "meaning": "Anh ấy đã mua tám quả táo."
       }
     },
     {
       "id": 4,
       "level": "HSK1",
-      "hanzi": "杯子",
-      "pinyin": "bēizi",
-      "meaning": "cốc",
+      "hanzi": "爸爸 | 爸",
+      "pinyin": "bàba",
+      "meaning": "Bố; ba",
+      "pos": "Danh từ",
       "example": {
-        "hanzi": "这是我的杯子。",
-        "pinyin": "Zhè shì wǒ de bēizi.",
-        "meaning": "Đây là cốc của tôi."
+        "hanzi": "他是我的爸爸。",
+        "pinyin": "Tā shì wǒ de bàba",
+        "meaning": "Ông ấy là ba của tôi."
       }
     },
     {
       "id": 5,
       "level": "HSK1",
-      "hanzi": "北京",
-      "pinyin": "Běijīng",
-      "meaning": "Bắc Kinh",
+      "hanzi": "吧",
+      "pinyin": "ba",
+      "meaning": "Nhé; chứ; nào; thôi",
+      "pos": "Trợ từ",
       "example": {
-        "hanzi": "北京很大。",
-        "pinyin": "Běijīng hěn dà.",
-        "meaning": "Bắc Kinh thì lớn."
+        "hanzi": "我们去公园玩儿吧。",
+        "pinyin": "Wǒmen qù gōngyuán wán er ba",
+        "meaning": "Chúng mình đi công viên chơi nhé."
       }
     },
     {
       "id": 6,
       "level": "HSK1",
-      "hanzi": "本",
-      "pinyin": "běn",
-      "meaning": "cuốn (dùng cho sách)",
+      "hanzi": "白",
+      "pinyin": "bái",
+      "meaning": "Trắng, màu trắng",
+      "pos": "Tính từ",
       "example": {
-        "hanzi": "这本书很有趣。",
-        "pinyin": "Zhè běn shū hěn yǒuqù.",
-        "meaning": "Quyển sách này rất thú vị."
+        "hanzi": "我姐姐的皮肤很白。",
+        "pinyin": "Wǒ jiějiě de pífū hěn bái",
+        "meaning": "Da của chị tôi rất trắng."
       }
     },
     {
       "id": 7,
       "level": "HSK1",
-      "hanzi": "不客气",
-      "pinyin": "bú kèqì",
-      "meaning": "không có gì (đáp lại lời cảm ơn)",
+      "hanzi": "白天",
+      "pinyin": "báitiān",
+      "meaning": "Ban ngày",
+      "pos": "Danh từ",
       "example": {
-        "hanzi": "不客气。",
-        "pinyin": "bú kèqì.",
-        "meaning": "Không có gì."
+        "hanzi": "早睡吧，你白天还要去上课。",
+        "pinyin": "Zǎo shuì ba, nǐ báitiān hái yào qù shàngkè",
+        "meaning": "Ngủ sớm đi, bạn ban ngày còn phải đi học."
       }
     },
     {
       "id": 8,
       "level": "HSK1",
-      "hanzi": "不",
-      "pinyin": "bù",
-      "meaning": "không",
+      "hanzi": "百",
+      "pinyin": "bǎi",
+      "meaning": "Một trăm; số 100",
+      "pos": "Số từ",
       "example": {
-        "hanzi": "他不喜欢吃鱼。",
-        "pinyin": "Tā bù xǐhuān chī yú.",
-        "meaning": "Anh ấy không thích ăn cá."
+        "hanzi": "我有一百块钱。",
+        "pinyin": "Wǒ yǒu yībǎi kuài qián",
+        "meaning": "Tôi có một trăm tệ."
       }
     },
     {
       "id": 9,
       "level": "HSK1",
-      "hanzi": "菜",
-      "pinyin": "cài",
-      "meaning": "món ăn, rau củ",
+      "hanzi": "班",
+      "pinyin": "bān",
+      "meaning": "Lớp học",
+      "pos": "Danh từ",
       "example": {
-        "hanzi": "我喜欢吃菜。",
-        "pinyin": "Wǒ xǐhuān chī cài.",
-        "meaning": "Tôi thích ăn rau."
+        "hanzi": "Chúng tôi班 có 45 học sinh. / 我们班有四十五个学生。",
+        "pinyin": "Wǒmen bān yǒu sìshíwǔ gè xuéshēng",
+        "meaning": "Lớp của chúng tôi có 45 học sinh."
       }
     },
     {
       "id": 10,
       "level": "HSK1",
-      "hanzi": "茶",
-      "pinyin": "chá",
-      "meaning": "trà",
+      "hanzi": "半",
+      "pinyin": "bàn",
+      "meaning": "Một nửa; giữa; trung gian",
+      "pos": "Số từ",
       "example": {
-        "hanzi": "我喝茶。",
-        "pinyin": "Wǒ hē chá.",
-        "meaning": "Tôi uống trà."
+        "hanzi": "现在六点半。 我们在半路上遇到了他。",
+        "pinyin": "Xiànzài liù diǎn bàn/ /Wǒmen zài bàn lùshàng yù dàole tā",
+        "meaning": "Bây giờ là 6 giờ rưỡi. Chúng tôi đã gặp anh ấy giữa đường."
       }
     },
     {
       "id": 11,
       "level": "HSK1",
-      "hanzi": "吃",
-      "pinyin": "chī",
-      "meaning": "ăn",
+      "hanzi": "半年",
+      "pinyin": "bànnián",
+      "meaning": "Nửa năm",
+      "pos": "Danh từ",
       "example": {
-        "hanzi": "我吃苹果。",
-        "pinyin": "Wǒ chī píngguǒ.",
-        "meaning": "Tôi ăn táo."
+        "hanzi": "我来上海学习已经有半年了。",
+        "pinyin": "Wǒ lái shànghǎi xuéxí yǐjīng yǒu bànnián le",
+        "meaning": "Tôi đến Thượng Hải học đã được nửa năm."
       }
     },
     {
       "id": 12,
       "level": "HSK1",
-      "hanzi": "出租车",
-      "pinyin": "chūzūchē",
-      "meaning": "taxi",
+      "hanzi": "半天",
+      "pinyin": "bàntiān",
+      "meaning": "Nửa ngày; cả buổi; rất lâu",
+      "pos": "Danh từ",
       "example": {
-        "hanzi": "我坐出租车。",
-        "pinyin": "Wǒ zuò chūzūchē.",
-        "meaning": "Tôi đi taxi."
+        "hanzi": "我今天要工作半天。 我在门口等了你半天。",
+        "pinyin": "Wǒ jīntiān yào gōngzuò bàntiān/ /Wǒ zài ménkǒu děng le nǐ bàntiān",
+        "meaning": "Tôi hôm nay phải đi làm nửa ngày. Anh đã đứng trước cửa đợi em rất lâu."
       }
     },
     {
       "id": 13,
       "level": "HSK1",
-      "hanzi": "打电话",
-      "pinyin": "dǎ diànhuà",
-      "meaning": "gọi điện thoại",
+      "hanzi": "帮",
+      "pinyin": "bāng",
+      "meaning": "Giúp đỡ, trợ giúp",
+      "pos": "Động từ",
       "example": {
-        "hanzi": "她给我打电话。",
-        "pinyin": "Tā gěi wǒ dǎ diànhuà.",
-        "meaning": "Cô ấy gọi điện cho tôi."
+        "hanzi": "他经常帮我做家务。",
+        "pinyin": "Tā jīngcháng bāng wǒ zuò jiāwù",
+        "meaning": "Anh ấy thường giúp tôi làm việc nhà."
       }
     },
     {
       "id": 14,
       "level": "HSK1",
-      "hanzi": "大",
-      "pinyin": "dà",
-      "meaning": "lớn, to",
+      "hanzi": "帮忙",
+      "pinyin": "bāngmáng",
+      "meaning": "Giúp, giúp đỡ",
+      "pos": "Động từ",
       "example": {
-        "hanzi": "这件衣服很大。",
-        "pinyin": "Zhè jiàn yīfú hěn dà.",
-        "meaning": "Cái áo này rất to."
+        "hanzi": "你可以来帮忙吗？",
+        "pinyin": "Nǐ kěyǐ lái bāngmáng ma?",
+        "meaning": "Bạn có thể lại giúp đỡ không?"
       }
     },
     {
       "id": 15,
       "level": "HSK1",
-      "hanzi": "的",
-      "pinyin": "de",
-      "meaning": "của (thuộc tính)",
+      "hanzi": "包",
+      "pinyin": "bāo",
+      "meaning": "Bao; gói; bọc; quấn",
+      "pos": "Động từ",
       "example": {
-        "hanzi": "这是我的书。",
-        "pinyin": "Zhè shì wǒ de shū.",
-        "meaning": "Đây là sách của tôi."
+        "hanzi": "妈妈在包饺子。",
+        "pinyin": "Māma zài bāo jiǎozǐ",
+        "meaning": "Mẹ đang gói sủi cảo."
       }
     },
     {
       "id": 16,
       "level": "HSK1",
-      "hanzi": "点",
-      "pinyin": "diǎn",
-      "meaning": "giờ (trong thời gian)",
+      "hanzi": "包子",
+      "pinyin": "bāozǐ",
+      "meaning": "Bánh bao",
+      "pos": "Danh từ",
       "example": {
-        "hanzi": "现在是三点。",
-        "pinyin": "Xiànzài shì sān diǎn?",
-        "meaning": "Bây giờ là mấy giờ?"
+        "hanzi": "我今天早上吃了两个包子。",
+        "pinyin": "Wǒ jīntiān zǎoshang chī le liǎng gè bāozǐ",
+        "meaning": "Sáng nay tôi đã ăn 2 cái bánh bao."
       }
     },
     {
       "id": 17,
       "level": "HSK1",
-      "hanzi": "电脑",
-      "pinyin": "diànnǎo",
-      "meaning": "máy tính",
+      "hanzi": "杯",
+      "pinyin": "bēi",
+      "meaning": "Ly; cốc; cúp (giải thưởng)",
+      "pos": "Danh từ",
       "example": {
-        "hanzi": "我用电脑。",
-        "pinyin": "Wǒ yòng diànnǎo.",
-        "meaning": "Tôi dùng máy tính."
+        "hanzi": "我喝了一杯奶茶。 我们队赢得了冠军杯。",
+        "pinyin": "Wǒ hēle yībēi nǎichá/ /Wǒmen duì yíngdéle guànjūn bēi",
+        "meaning": "Tôi đã uống 1 ly trà sữa. Đội chúng tôi đã giành được cúp vô địch."
       }
     },
     {
       "id": 18,
       "level": "HSK1",
-      "hanzi": "电视",
-      "pinyin": "diànshì",
-      "meaning": "ti vi",
+      "hanzi": "杯子",
+      "pinyin": "bēizi",
+      "meaning": "Ly; cốc; tách",
+      "pos": "Danh từ",
       "example": {
-        "hanzi": "电视很大。",
-        "pinyin": "Diànshì hěn dà.",
-        "meaning": "Tivi thì lớn."
+        "hanzi": "这个杯子太小了。",
+        "pinyin": "Zhège bēizǐ tài xiǎole",
+        "meaning": "Cái ly này quá nhỏ."
       }
     },
     {
       "id": 19,
       "level": "HSK1",
-      "hanzi": "电影",
-      "pinyin": "diànyǐng",
-      "meaning": "phim",
+      "hanzi": "北",
+      "pinyin": "běi",
+      "meaning": "Bắc, phía bắc",
+      "pos": "Danh từ",
       "example": {
-        "hanzi": "我喜欢看电影。",
-        "pinyin": "Wǒ xǐhuān kàn diànyǐng.",
-        "meaning": "Tôi thích xem phim."
+        "hanzi": "我们一直往北走吧。",
+        "pinyin": "Wǒmen yīzhí wǎng běi zǒu ba",
+        "meaning": "Chúng ta cứ đi về phía bắc đi."
       }
     },
     {
       "id": 20,
       "level": "HSK1",
-      "hanzi": "东西",
-      "pinyin": "dōngxī",
-      "meaning": "đồ vật, thứ",
+      "hanzi": "北边",
+      "pinyin": "běibian",
+      "meaning": "Phía bắc",
+      "pos": "Danh từ",
       "example": {
-        "hanzi": "这是什么东西？",
-        "pinyin": "Zhè shì shénme dōngxī?",
-        "meaning": "Đây là cái gì?"
+        "hanzi": "北边的天气很冷。",
+        "pinyin": "Běibian de tiānqì hěn lěng",
+        "meaning": "Thời tiết của phương bắc rất lạnh."
       }
     },
     {
       "id": 21,
       "level": "HSK1",
-      "hanzi": "都",
-      "pinyin": "dōu",
-      "meaning": "đều",
+      "hanzi": "北京",
+      "pinyin": "Běijīng",
+      "meaning": "Bắc kinh",
+      "pos": "Danh từ",
       "example": {
-        "hanzi": "我们都去学校。",
-        "pinyin": "Wǒmen dōu qù xuéxiào.",
-        "meaning": "Chúng tôi đều đi đến trường."
+        "hanzi": "北京是中国的首都。",
+        "pinyin": "Běijīng shì zhōngguó de shǒudū",
+        "meaning": "Bắc Kinh là thủ đô của Trung Quốc."
       }
     },
     {
       "id": 22,
       "level": "HSK1",
-      "hanzi": "读",
-      "pinyin": "dú",
-      "meaning": "đọc",
+      "hanzi": "本",
+      "pinyin": "běn",
+      "meaning": "Cuốn; tập; vở",
+      "pos": "Lượng từ",
       "example": {
-        "hanzi": "她读书很快。",
-        "pinyin": "Tā dúshū hěn kuài.",
-        "meaning": "Cô ấy đọc sách rất nhanh."
+        "hanzi": "你读过这本书了吗？",
+        "pinyin": "Nǐ dúguò zhè běn shū le ma?",
+        "meaning": "Bạn đã đọc cuốn sách này chưa?"
       }
     },
     {
       "id": 23,
       "level": "HSK1",
-      "hanzi": "对不起",
-      "pinyin": "duìbùqǐ",
-      "meaning": "xin lỗi",
+      "hanzi": "本子",
+      "pinyin": "běnzǐ",
+      "meaning": "Cuốn; tập; vở; giấy phép; chứng chỉ",
+      "pos": "Danh từ",
       "example": {
-        "hanzi": "对不起，我迟到了。",
-        "pinyin": "Duìbuqǐ, wǒ chídào le.",
-        "meaning": "Xin lỗi, tôi đến muộn."
+        "hanzi": "这个歌剧的本子挺有意思的。 在越南，满18周岁就可以考本子了。",
+        "pinyin": "Zhège gējù de běnzi tǐng yǒuyìsi de/ /Zài Yuènán, mǎn 18 zhōusuì jiù kěyǐ kǎo běnzǐ le",
+        "meaning": "Bản nhạc kịch này thật thú vị. Ở Việt Nam, bạn đủ 18 tuổi đã có thể thi giấy phép lấy xe."
       }
     },
     {
       "id": 24,
       "level": "HSK1",
-      "hanzi": "多",
-      "pinyin": "duō",
-      "meaning": "nhiều",
+      "hanzi": "比",
+      "pinyin": "bǐ",
+      "meaning": "Hơn, so, so với",
+      "pos": "Giới từ",
       "example": {
-        "hanzi": "我有很多书。",
-        "pinyin": "Wǒ yǒu hěn duō shū.",
-        "meaning": "Tôi có nhiều sách."
+        "hanzi": "我哥哥比我高。",
+        "pinyin": "Wǒ gēge bǐ wǒ gāo",
+        "meaning": "Anh trai tôi cao hơn tôi."
       }
     },
     {
       "id": 25,
       "level": "HSK1",
-      "hanzi": "多少",
-      "pinyin": "duōshǎo",
-      "meaning": "bao nhiêu",
+      "hanzi": "别",
+      "pinyin": "bié",
+      "meaning": "Đừng; chớ; hẳn là; hay là; lẽ nào",
+      "pos": "Phó từ",
       "example": {
-        "hanzi": "这本书多少钱？",
-        "pinyin": "Zhè běn shū duōshǎo qián?",
-        "meaning": "Quyển sách này bao nhiêu tiền?"
+        "hanzi": "在医院，大家别大声说话。 他到现在还没来，别是忘了吗？",
+        "pinyin": "Zài yīyuàn, dàjiā bié dàshēng shuōhuà/ /Tā dào xiànzài hái méi lái, bié shì wàng le ma",
+        "meaning": "Ở bệnh viện, mọi người đừng nói lớn tiếng. Anh ấy đến bây giờ vẫn chưa đến, lẽ nào anh ấy quên rồi sao?"
       }
     },
     {
       "id": 26,
       "level": "HSK1",
-      "hanzi": "儿子",
-      "pinyin": "érzi",
-      "meaning": "con trai",
+      "hanzi": "别的",
+      "pinyin": "bié de",
+      "meaning": "Khác; cái khác",
+      "pos": "Đại từ",
       "example": {
-        "hanzi": "我的儿子很聪明。",
-        "pinyin": "Wǒ de érzi hěn cōngmíng.",
-        "meaning": "Con trai của tôi rất thông minh."
+        "hanzi": "我不要别的，只要那支钢笔。",
+        "pinyin": "Wǒ bùyào bié de, zhǐyào nà zhī gāngbǐ",
+        "meaning": "Tôi không cần cái nào khác, chỉ cần cây bút đó."
       }
     },
     {
       "id": 27,
       "level": "HSK1",
-      "hanzi": "二",
-      "pinyin": "èr",
-      "meaning": "hai",
+      "hanzi": "别人",
+      "pinyin": "biérén",
+      "meaning": "Người khác; người ta",
+      "pos": "Danh từ",
       "example": {
-        "hanzi": "我喜欢“二”数字。",
-        "pinyin": "Wǒ xǐhuān \"èr\" shùzi",
-        "meaning": "Tôi thích số 2."
+        "hanzi": "这本书可能是别人的。",
+        "pinyin": "Chúle Xiǎo Lì yǐwài, biérén dōu bù yuànyì qù",
+        "meaning": "Ngoại trừ Tiểu Lệ ra, những người khác đều không muốn đi."
       }
     },
     {
       "id": 28,
       "level": "HSK1",
-      "hanzi": "饭馆",
-      "pinyin": "fànguǎn",
-      "meaning": "nhà hàng",
+      "hanzi": "病",
+      "pinyin": "bìng",
+      "meaning": "Bệnh; ốm",
+      "pos": "Danh từ",
       "example": {
-        "hanzi": "我们去饭馆吃饭。",
-        "pinyin": "Wǒmen qù fànguǎn chīfàn.",
-        "meaning": "Chúng tôi đi nhà hàng ăn cơm."
+        "hanzi": "我生病了。",
+        "pinyin": "Wǒ shēng bìng le",
+        "meaning": "Tôi bị bệnh rồi."
       }
     },
     {
       "id": 29,
       "level": "HSK1",
-      "hanzi": "飞机",
-      "pinyin": "fēijī",
-      "meaning": "máy bay",
+      "hanzi": "病人",
+      "pinyin": "bìngrén",
+      "meaning": "Bệnh nhân; người bệnh",
+      "pos": "Danh từ",
       "example": {
-        "hanzi": "飞机很快。",
-        "pinyin": "Fēijī hěn kuài.",
-        "meaning": "Máy bay thì nhanh."
+        "hanzi": "王医生每天都要看十到二十位病人。",
+        "pinyin": "Wáng yīshēng měitiān dōu yào kàn shí dào èrshí wèi bìngrén",
+        "meaning": "Bác sĩ Vương mỗi ngày đều phải khám từ 10 đến 20 bệnh nhân."
       }
     },
     {
       "id": 30,
       "level": "HSK1",
-      "hanzi": "分钟",
-      "pinyin": "fēnzhōng",
-      "meaning": "phút",
+      "hanzi": "不大",
+      "pinyin": "bù dà",
+      "meaning": "Không to; không lớn",
+      "pos": "Phó từ",
       "example": {
-        "hanzi": "他等了五分钟。",
-        "pinyin": "Tā děngle wǔ fēnzhōng.",
-        "meaning": "Anh ấy đợi năm phút."
+        "hanzi": "这个房间不大。",
+        "pinyin": "Zhège fángjiān bù dà",
+        "meaning": "Căn phòng này không lớn."
       }
     },
     {
       "id": 31,
       "level": "HSK1",
-      "hanzi": "高兴",
-      "pinyin": "gāoxìng",
-      "meaning": "vui",
+      "hanzi": "不对",
+      "pinyin": "bùduì",
+      "meaning": "Không đúng",
+      "pos": "Tính từ",
       "example": {
-        "hanzi": "我很高兴。",
-        "pinyin": "Wǒ hěn gāoxìng.",
-        "meaning": "Tôi rất vui."
+        "hanzi": "你的答案不对。",
+        "pinyin": "Nǐ de dá'àn bù duì",
+        "meaning": "Đáp án của bạn không đúng."
       }
     },
     {
       "id": 32,
       "level": "HSK1",
-      "hanzi": "个",
-      "pinyin": "gè",
-      "meaning": "cái (đơn vị lượng từ)",
+      "hanzi": "不客气",
+      "pinyin": "búkèqi",
+      "meaning": "Không có gì; đừng khách sáo",
+      "pos": "Cụm từ",
       "example": {
-        "hanzi": "我有一个钱包。",
-        "pinyin": "Wǒ yǒu yī ge qiánbāo.",
-        "meaning": "Tôi có một cái ví tiền."
+        "hanzi": "A: 谢谢你！ B: 不客气！",
+        "pinyin": "A: /Xièxiè nǐ/ B: /Búkèqi/",
+        "meaning": "A: Cảm ơn bạn! B: Đừng khách sáo!"
       }
     },
     {
       "id": 33,
       "level": "HSK1",
-      "hanzi": "工作",
-      "pinyin": "gōngzuò",
-      "meaning": "công việc",
+      "hanzi": "不用",
+      "pinyin": "búyòng",
+      "meaning": "Không cần; không phải",
+      "pos": "Phó từ",
       "example": {
-        "hanzi": "我的工作很忙。",
-        "pinyin": "Wǒ de gōngzuò hěn máng.",
-        "meaning": "Công việc của tôi rất bận."
+        "hanzi": "你不用担心。",
+        "pinyin": "Nǐ búyòng dānxīn",
+        "meaning": "Bạn không cần phải lo lắng."
       }
     },
     {
       "id": 34,
       "level": "HSK1",
-      "hanzi": "狗",
-      "pinyin": "gǒu",
-      "meaning": "chó",
+      "hanzi": "不",
+      "pinyin": "bù",
+      "meaning": "Không",
+      "pos": "Phó từ",
       "example": {
-        "hanzi": "这只狗很可爱。",
-        "pinyin": "Zhè zhī gǒu hěn kě'ài.",
-        "meaning": "Con chó này rất dễ thương."
+        "hanzi": "我不喜欢吃辣。",
+        "pinyin": "Wǒ bù xǐhuān chī là",
+        "meaning": "Tôi không thích ăn cay."
       }
     },
     {
       "id": 35,
       "level": "HSK1",
-      "hanzi": "汉语",
-      "pinyin": "Hànyǔ",
-      "meaning": "tiếng Hán",
+      "hanzi": "菜",
+      "pinyin": "cài",
+      "meaning": "Món ăn; đồ ăn",
+      "pos": "Danh từ",
       "example": {
-        "hanzi": "我在学汉语。",
-        "pinyin": "Wǒ zài xué Hànyǔ.",
-        "meaning": "Tôi đang học tiếng Trung."
+        "hanzi": "今天的菜很好吃。",
+        "pinyin": "Jīntiān de cài hěn hǎo chī",
+        "meaning": "Món ăn của hôm nay rất ngon."
       }
     },
     {
       "id": 36,
       "level": "HSK1",
-      "hanzi": "好",
-      "pinyin": "hǎo",
-      "meaning": "tốt, khỏe",
+      "hanzi": "茶",
+      "pinyin": "chá",
+      "meaning": "Trà (đồ uống)",
+      "pos": "Danh từ",
       "example": {
-        "hanzi": "他很好。",
-        "pinyin": "Tā hěn hǎo.",
-        "meaning": "Anh ấy rất tốt."
+        "hanzi": "我喜欢喝茶。",
+        "pinyin": "Wǒ xǐhuān hē chá",
+        "meaning": "Tôi thích uống trà."
       }
     },
     {
       "id": 37,
       "level": "HSK1",
-      "hanzi": "喝",
-      "pinyin": "hē",
-      "meaning": "uống",
+      "hanzi": "差",
+      "pinyin": "chà",
+      "meaning": "Kém; tệ; không đạt",
+      "pos": "Tính từ",
       "example": {
-        "hanzi": "我喝水。",
-        "pinyin": "Wǒ hē shuǐ.",
-        "meaning": "Tôi uống nước."
+        "hanzi": "他今天状态很差。",
+        "pinyin": "Tā jīntiān zhuàngtài hěn chà",
+        "meaning": "Trạng thái của anh hôm nay rất tệ."
       }
     },
     {
       "id": 38,
       "level": "HSK1",
-      "hanzi": "和",
-      "pinyin": "hé",
-      "meaning": "và",
+      "hanzi": "常",
+      "pinyin": "cháng",
+      "meaning": "Thường; thường xuyên",
+      "pos": "Phó từ",
       "example": {
-        "hanzi": "我和你一起去。",
-        "pinyin": "Wǒ hé nǐ yīqǐ qù.",
-        "meaning": "Tôi và bạn cùng đi."
+        "hanzi": "我常去跑步。",
+        "pinyin": "Wǒ cháng qù pǎobù",
+        "meaning": "Tôi thường xuyên chạy bộ."
       }
     },
     {
       "id": 39,
       "level": "HSK1",
-      "hanzi": "很",
-      "pinyin": "hěn",
-      "meaning": "rất",
+      "hanzi": "尝尝",
+      "pinyin": "cháng cháng",
+      "meaning": "Nếm; thử (ăn, uống)",
+      "pos": "Động từ",
       "example": {
-        "hanzi": "这个苹果很甜。",
-        "pinyin": "Zhège píngguǒ hěn tián.",
-        "meaning": "Cái táo này rất ngọt."
+        "hanzi": "你尝尝这个菜。",
+        "pinyin": "Nǐ cháng cháng zhège cài",
+        "meaning": "Bạn hãy nếm thử món ăn này."
       }
     },
     {
       "id": 40,
       "level": "HSK1",
-      "hanzi": "后面",
-      "pinyin": "hòumiàn",
-      "meaning": "phía sau",
+      "hanzi": "唱",
+      "pinyin": "chàng",
+      "meaning": "Hát; ca",
+      "pos": "Động từ",
       "example": {
-        "hanzi": "我家在后面。",
-        "pinyin": "Wǒ jiā zài hòumiàn.",
-        "meaning": "Nhà tôi ở phía sau."
+        "hanzi": "她唱太好了，大家都起立鼓掌。",
+        "pinyin": "Tā chàng tài hǎo le, dàjiā dōu qǐlì gǔzhǎng",
+        "meaning": "Cô ấy hát rất hay, mọi người đều đứng dậy vỗ tay."
       }
     },
     {
       "id": 41,
       "level": "HSK1",
-      "hanzi": "回",
-      "pinyin": "huí",
-      "meaning": "quay lại, về",
+      "hanzi": "唱歌",
+      "pinyin": "chànggē",
+      "meaning": "Hát; ca hát",
+      "pos": "Động từ",
       "example": {
-        "hanzi": "我回家了。",
-        "pinyin": "Wǒ huí jiā le.",
-        "meaning": "Tôi đã về nhà."
+        "hanzi": "我家邻居昨天一直不停地唱歌。",
+        "pinyin": "Wǒjiā línjū zuótiān yīzhí bù tíng de chànggē",
+        "meaning": "Ngày hôm qua hàng xóm của tôi ca hát không ngừng."
       }
     },
     {
       "id": 42,
       "level": "HSK1",
-      "hanzi": "会",
-      "pinyin": "huì",
-      "meaning": "sẽ, biết (kỹ năng)",
+      "hanzi": "车",
+      "pinyin": "chē",
+      "meaning": "Xe",
+      "pos": "Danh từ",
       "example": {
-        "hanzi": "我会说汉语。",
-        "pinyin": "Wǒ huì shuō Hànyǔ.",
-        "meaning": "Tôi biết nói tiếng Trung."
+        "hanzi": "我们开车去旅行。",
+        "pinyin": "Wǒmen kāichē qù lǚxíng",
+        "meaning": "Chúng tôi lái xe đi du lịch."
       }
     },
     {
       "id": 43,
       "level": "HSK1",
-      "hanzi": "火车站",
-      "pinyin": "huǒchēzhàn",
-      "meaning": "ga tàu",
+      "hanzi": "车票",
+      "pinyin": "chēpiào",
+      "meaning": "Vé xe",
+      "pos": "Danh từ",
       "example": {
-        "hanzi": "火车站在前面。",
-        "pinyin": "Huǒchēzhàn zài qiánmiàn.",
-        "meaning": "Ga tàu ở phía trước."
+        "hanzi": "快过年了，你买火车票了吗？",
+        "pinyin": "Kuài guò nián le, nǐ mǎi huǒchē piào huí jiā le ma?",
+        "meaning": "Tết sắp đến rồi, bạn đã mua vé tàu về nhà chưa?"
       }
     },
     {
       "id": 44,
       "level": "HSK1",
-      "hanzi": "几",
-      "pinyin": "jǐ",
-      "meaning": "mấy",
+      "hanzi": "车上",
+      "pinyin": "chē shàng",
+      "meaning": "Trên xe",
+      "pos": "Danh từ",
       "example": {
-        "hanzi": "你有几个苹果？",
-        "pinyin": "Nǐ yǒu jǐ ge píngguǒ?",
-        "meaning": "Bạn có mấy quả táo?"
+        "hanzi": "她在车上学英语。",
+        "pinyin": "Tā zài chē shàng xué yīngyǔ",
+        "meaning": "Cô ấy học tiếng Anh trên xe."
       }
     },
     {
       "id": 45,
       "level": "HSK1",
-      "hanzi": "家",
-      "pinyin": "jiā",
-      "meaning": "gia đình, nhà",
+      "hanzi": "车站",
+      "pinyin": "chēzhàn",
+      "meaning": "Trạm xe",
+      "pos": "Danh từ",
       "example": {
-        "hanzi": "我家有四口人。",
-        "pinyin": "Wǒ jiā yǒu sì kǒu rén.",
-        "meaning": "Nhà tôi có bốn người."
+        "hanzi": "车站离这里不远。",
+        "pinyin": "Chēzhàn lí zhè lǐ bù yuǎn",
+        "meaning": "Trạm xe cách đây không xa."
       }
     },
     {
       "id": 46,
       "level": "HSK1",
-      "hanzi": "叫",
-      "pinyin": "jiào",
-      "meaning": "gọi, tên gọi",
+      "hanzi": "吃",
+      "pinyin": "chī",
+      "meaning": "Ăn",
+      "pos": "Động từ",
       "example": {
-        "hanzi": "她叫李娜。",
-        "pinyin": "Tā jiào Lǐ Nà.",
-        "meaning": "Cô ấy tên là Lý Na."
+        "hanzi": "我喜欢吃苹果。",
+        "pinyin": "Wǒ xǐhuan chī píngguǒ",
+        "meaning": "Tôi thích ăn táo."
       }
     },
     {
       "id": 47,
       "level": "HSK1",
-      "hanzi": "今天",
-      "pinyin": "jīntiān",
-      "meaning": "hôm nay",
+      "hanzi": "吃饭",
+      "pinyin": "chīfàn",
+      "meaning": "Ăn cơm",
+      "pos": "Động từ",
       "example": {
-        "hanzi": "今天是星期一。",
-        "pinyin": "Jīntiān shì xīngqī yī.",
-        "meaning": "Hôm nay là thứ Hai."
+        "hanzi": "我们一起去吃饭吧。",
+        "pinyin": "Wǒmen yīqǐ qù chīfàn ba",
+        "meaning": "Chúng ta cùng nhau đi ăn cơm nhé."
       }
     },
     {
       "id": 48,
       "level": "HSK1",
-      "hanzi": "九",
-      "pinyin": "jiǔ",
-      "meaning": "chín",
+      "hanzi": "出",
+      "pinyin": "chū",
+      "meaning": "Đi; xuất phát",
+      "pos": "Động từ",
       "example": {
-        "hanzi": "我有九本书。",
-        "pinyin": "Wǒ yǒu jiǔ běn shū.",
-        "meaning": "Tôi có chín quyển sách."
+        "hanzi": "他出去买东西了。",
+        "pinyin": "Tā chū qù mǎi dōngxi le",
+        "meaning": "Anh ấy ra ngoài mua đồ ăn rồi."
       }
     },
     {
       "id": 49,
       "level": "HSK1",
-      "hanzi": "开",
-      "pinyin": "kāi",
-      "meaning": "mở, khởi động",
+      "hanzi": "出来",
+      "pinyin": "chūlái",
+      "meaning": "Ra; ra đây",
+      "pos": "Động từ",
       "example": {
-        "hanzi": "我们开车去。",
-        "pinyin": "Wǒmen kāichē qù.",
-        "meaning": "Chúng tôi đi bằng ô tô."
+        "hanzi": "你出来，我跟你说句话。",
+        "pinyin": "Nǐ chūlái，wǒ gēn nǐ shuō jù huà",
+        "meaning": "Anh ra đây tôi nói chuyện với anh."
       }
     },
     {
       "id": 50,
       "level": "HSK1",
-      "hanzi": "看",
-      "pinyin": "kàn",
-      "meaning": "xem",
+      "hanzi": "出去",
+      "pinyin": "chūqù",
+      "meaning": "Ra; ra ngoài",
+      "pos": "Động từ",
       "example": {
-        "hanzi": "我喜欢看电影。",
-        "pinyin": "Wǒ xǐhuān kàn diànyǐng.",
-        "meaning": "Tôi thích xem phim."
+        "hanzi": "我们一起出去玩儿吧。",
+        "pinyin": "Wǒmen yīqǐ chūqù wánr ba",
+        "meaning": "Chúng ta cùng nhau đi chơi đi."
       }
     },
     {
       "id": 51,
       "level": "HSK1",
-      "hanzi": "看见",
-      "pinyin": "kànjiàn",
-      "meaning": "nhìn thấy",
+      "hanzi": "穿",
+      "pinyin": "chuān",
+      "meaning": "Mặc; đi; mang; đeo",
+      "pos": "Động từ",
       "example": {
-        "hanzi": "我看见你了。",
-        "pinyin": "Wǒ kànjiàn nǐ le.",
-        "meaning": "Tôi đã thấy bạn."
+        "hanzi": "今天我穿了件新衣服。",
+        "pinyin": "Jīntiān wǒ chuān le jiàn xīn yīfu",
+        "meaning": "Hôm nay tôi mặc quần áo mới."
       }
     },
     {
       "id": 52,
       "level": "HSK1",
-      "hanzi": "块",
-      "pinyin": "kuài",
-      "meaning": "miếng, đồng (tiền)",
+      "hanzi": "床",
+      "pinyin": "chuáng",
+      "meaning": "Giường",
+      "pos": "Danh từ",
       "example": {
-        "hanzi": "这个苹果两块钱。",
-        "pinyin": "Zhège píngguǒ liǎng kuài qián.",
-        "meaning": "Cái táo này hai tệ."
+        "hanzi": "我很累，想躺在床上。",
+        "pinyin": "Wǒ hěn lèi, xiǎng tǎng zài chuáng shàng",
+        "meaning": "Tôi rất mệt, muốn nằm trên giường."
       }
     },
     {
       "id": 53,
       "level": "HSK1",
-      "hanzi": "来",
-      "pinyin": "lái",
-      "meaning": "đến",
+      "hanzi": "次",
+      "pinyin": "cì",
+      "meaning": "Lần; lượt; đợt",
+      "pos": "Lượng từ",
       "example": {
-        "hanzi": "明天我来。",
-        "pinyin": "Míngtiān wǒ lái.",
-        "meaning": "Ngày mai tôi đến."
+        "hanzi": "这是我第一次来这里。",
+        "pinyin": "Zhè shì wǒ dì yī cì lái zhè lǐ",
+        "meaning": "Đây là lần đầu tiên tôi đến đây."
       }
     },
     {
       "id": 54,
       "level": "HSK1",
-      "hanzi": "老师",
-      "pinyin": "lǎoshī",
-      "meaning": "giáo viên",
+      "hanzi": "从",
+      "pinyin": "cóng",
+      "meaning": "Từ; bắt đầu từ",
+      "pos": "Giới từ",
       "example": {
-        "hanzi": "我的老师很友好。",
-        "pinyin": "Wǒ de lǎoshī hěn yǒuhǎo.",
-        "meaning": "Giáo viên của tôi rất thân thiện."
+        "hanzi": "我从家里走到学校。",
+        "pinyin": "Wǒ cóng jiālǐ zǒu dào xuéxiào",
+        "meaning": "Tôi đi bộ từ nhà đến trường."
       }
     },
     {
       "id": 55,
       "level": "HSK1",
-      "hanzi": "了",
-      "pinyin": "le",
-      "meaning": "đã (dùng để chỉ sự thay đổi)",
+      "hanzi": "错",
+      "pinyin": "cuò",
+      "meaning": "Sai; nhầm; không đúng",
+      "pos": "Tính từ",
       "example": {
-        "hanzi": "她去了学校。",
-        "pinyin": "Tā qùle xuéxiào.",
-        "meaning": "Cô ấy đã đi đến trường."
+        "hanzi": "你做错了。",
+        "pinyin": "Nǐ zuò cuò le",
+        "meaning": "Bạn làm sai rồi."
       }
     },
     {
       "id": 56,
       "level": "HSK1",
-      "hanzi": "冷",
-      "pinyin": "lěng",
-      "meaning": "lạnh",
+      "hanzi": "打",
+      "pinyin": "dǎ",
+      "meaning": "Gõ; đánh; đập;...",
+      "pos": "Động từ",
       "example": {
-        "hanzi": "外面很冷。",
-        "pinyin": "Wàimiàn hěn lěng.",
-        "meaning": "Bên ngoài rất lạnh."
+        "hanzi": "我弟弟在打篮球。",
+        "pinyin": "Wǒ dìdi zài dǎqiú",
+        "meaning": "Em trai tôi đang chơi bóng rổ."
       }
     },
     {
       "id": 57,
       "level": "HSK1",
-      "hanzi": "里",
-      "pinyin": "lǐ",
-      "meaning": "trong",
+      "hanzi": "打车",
+      "pinyin": "dǎchē",
+      "meaning": "Bắt xe; gọi xe (taxi)",
+      "pos": "Động từ",
       "example": {
-        "hanzi": "我的书在里面。",
-        "pinyin": "Wǒ de shū zài lǐmiàn.",
-        "meaning": "Sách của tôi ở bên trong."
+        "hanzi": "我们打车去机场。",
+        "pinyin": "Wǒmen dǎ chē qù jīchǎng",
+        "meaning": "Chúng ta bắt xe đến sân bay."
       }
     },
     {
       "id": 58,
       "level": "HSK1",
-      "hanzi": "零",
-      "pinyin": "líng",
-      "meaning": "không (số 0)",
+      "hanzi": "打电话",
+      "pinyin": "dǎ diànhuà",
+      "meaning": "Gọi điện thoại",
+      "pos": "Động từ",
       "example": {
-        "hanzi": "今天零度。",
-        "pinyin": "Jīntiān líng dù.",
-        "meaning": "Hôm nay không độ."
+        "hanzi": "等一下，我要打电话问问。",
+        "pinyin": "Děng yīxià, wǒ yào dǎ diànhuà wèn wèn",
+        "meaning": "Đợi chút nha, tôi cần gọi điện thoại hỏi thăm."
       }
     },
     {
       "id": 59,
       "level": "HSK1",
-      "hanzi": "六",
-      "pinyin": "liù",
-      "meaning": "sáu",
+      "hanzi": "打开",
+      "pinyin": "dǎkāi",
+      "meaning": "Mở ra",
+      "pos": "Động từ",
       "example": {
-        "hanzi": "我有六个苹果。",
-        "pinyin": "Wǒ yǒu liù ge píngguǒ.",
-        "meaning": "Tôi có sáu quả táo."
+        "hanzi": "请你把门打开。",
+        "pinyin": "Qǐng nǐ bǎ mén dǎkāi",
+        "meaning": "Xin bạn hãy mở cửa ra."
       }
     },
     {
       "id": 60,
       "level": "HSK1",
-      "hanzi": "妈妈",
-      "pinyin": "māma",
-      "meaning": "mẹ",
+      "hanzi": "打球",
+      "pinyin": "dǎqiú",
+      "meaning": "Đánh bóng; chơi bóng",
+      "pos": "Động từ",
       "example": {
-        "hanzi": "我的妈妈很漂亮。",
-        "pinyin": "Wǒ de māmā hěn piàoliang.",
-        "meaning": "Mẹ của tôi rất xinh đẹp."
+        "hanzi": "他们很喜欢打球。",
+        "pinyin": "Tā xǐhuān dǎ lánqiú",
+        "meaning": "Cậu ấy thích chơi bóng rổ."
       }
     },
     {
       "id": 61,
       "level": "HSK1",
-      "hanzi": "吗",
-      "pinyin": "ma",
-      "meaning": "không (dùng trong câu hỏi)",
+      "hanzi": "大",
+      "pinyin": "dà",
+      "meaning": "Lớn; to",
+      "pos": "Tính từ",
       "example": {
-        "hanzi": "你好吗？",
-        "pinyin": "Nǐ hǎo ma?",
-        "meaning": "Bạn khỏe không?"
+        "hanzi": "这个房子很大。",
+        "pinyin": "Zhège fángzi hěn dà",
+        "meaning": "Căn nhà này rất lớn."
       }
     },
     {
       "id": 62,
       "level": "HSK1",
-      "hanzi": "买",
-      "pinyin": "mǎi",
-      "meaning": "mua",
+      "hanzi": "大学",
+      "pinyin": "dàxué",
+      "meaning": "Đại học",
+      "pos": "Danh từ",
       "example": {
-        "hanzi": "我买了水果。",
-        "pinyin": "Wǒ mǎile shuǐguǒ.",
-        "meaning": "Tôi đã mua trái cây."
+        "hanzi": "他在北京大学学习。",
+        "pinyin": "Tā zài Běijīng dàxué xuéxí",
+        "meaning": "Anh ấy học ở Đại học Bắc Kinh."
       }
     },
     {
       "id": 63,
       "level": "HSK1",
-      "hanzi": "猫",
-      "pinyin": "māo",
-      "meaning": "mèo",
+      "hanzi": "大学生",
+      "pinyin": "dàxuéshēng",
+      "meaning": "Sinh viên đại học",
+      "pos": "Danh từ",
       "example": {
-        "hanzi": "这只猫很可爱。",
-        "pinyin": "Zhè zhī māo hěn kě'ài.",
-        "meaning": "Con mèo này rất dễ thương."
+        "hanzi": "我是大学生。",
+        "pinyin": "Wǒ shì dàxuéshēng",
+        "meaning": "Tôi là sinh viên đại học."
       }
     },
     {
       "id": 64,
       "level": "HSK1",
-      "hanzi": "没",
-      "pinyin": "méi",
-      "meaning": "không có, chưa",
+      "hanzi": "到",
+      "pinyin": "dào",
+      "meaning": "Đến",
+      "pos": "Động từ",
       "example": {
-        "hanzi": "我没看见他。",
-        "pinyin": "Wǒ méi kànjiàn tā.",
-        "meaning": "Tôi không nhìn thấy anh ấy."
+        "hanzi": "我们到达了目的地。",
+        "pinyin": "Wǒmen dàodá le mùdìdì",
+        "meaning": "Chúng ta đã đến nơi."
       }
     },
     {
       "id": 65,
       "level": "HSK1",
-      "hanzi": "没关系",
-      "pinyin": "méi guānxi",
-      "meaning": "không sao, không có gì",
+      "hanzi": "得到",
+      "pinyin": "dédào",
+      "meaning": "Đạt được; nhận được",
+      "pos": "Động từ",
       "example": {
-        "hanzi": "下雨了，没关系，我们有伞。",
-        "pinyin": "Xiàyǔ le, méi guānxì, wǒmen yǒu sǎn.",
-        "meaning": "Trời mưa rồi, không sao đâu, chúng ta có ô."
+        "hanzi": "他得到了奖学金。",
+        "pinyin": "Tā dédào le jiǎngxuéjīn",
+        "meaning": "Anh ấy đã nhận được học bổng."
       }
     },
     {
       "id": 66,
       "level": "HSK1",
-      "hanzi": "米饭",
-      "pinyin": "mǐfàn",
-      "meaning": "cơm",
+      "hanzi": "地",
+      "pinyin": "de",
+      "meaning": "Mà, một cách",
+      "pos": "Trợ từ",
       "example": {
-        "hanzi": "我们吃米饭。",
-        "pinyin": "Wǒmen chī mǐfàn.",
-        "meaning": "Chúng tôi ăn cơm."
+        "hanzi": "孩子们快乐地唱歌。",
+        "pinyin": "Háizimen kuàilè de chànggē",
+        "meaning": "Mấy đứa nhỏ vui vẻ hát ca."
       }
     },
     {
       "id": 67,
       "level": "HSK1",
-      "hanzi": "明天",
-      "pinyin": "míngtiān",
-      "meaning": "ngày mai",
+      "hanzi": "的",
+      "pinyin": "de",
+      "meaning": "Của (chỉ sở hữu)",
+      "pos": "Trợ từ",
       "example": {
-        "hanzi": "明天见。",
-        "pinyin": "Míngtiān jiàn.",
-        "meaning": "Ngày mai gặp."
+        "hanzi": "这是我的书。",
+        "pinyin": "Zhè shì wǒ de shū",
+        "meaning": "Đây là sách của tôi."
       }
     },
     {
       "id": 68,
       "level": "HSK1",
-      "hanzi": "名字",
-      "pinyin": "míngzi",
-      "meaning": "tên",
+      "hanzi": "等",
+      "pinyin": "děng",
+      "meaning": "Đợi; chờ; chờ đợi",
+      "pos": "Động từ",
       "example": {
-        "hanzi": "你叫什么名字？",
-        "pinyin": "Nǐ jiào shénme míngzì?",
-        "meaning": "Bạn tên là gì?"
+        "hanzi": "我在等她的电话。",
+        "pinyin": "Wǒ zài děng tā de diànhuà",
+        "meaning": "Tôi đang đợi cuộc gọi của cô ấy."
       }
     },
     {
       "id": 69,
       "level": "HSK1",
-      "hanzi": "哪里 (哪儿)",
-      "pinyin": "nǎlǐ (nǎr)",
-      "meaning": "đâu, chỗ nào",
+      "hanzi": "地",
+      "pinyin": "dì",
+      "meaning": "Đất; trái đất",
+      "pos": "Danh từ",
       "example": {
-        "hanzi": "你要去哪儿？",
-        "pinyin": "Nǐ yào qù nǎr？",
-        "meaning": "Bạn muốn đi đâu?"
+        "hanzi": "地球上有许多不同的生物。",
+        "pinyin": "Dìqiú shàng yǒu xǔduō bùtóng de shēngwù",
+        "meaning": "Trên Trái Đất có rất nhiều sinh vật khác nhau."
       }
     },
     {
       "id": 70,
       "level": "HSK1",
-      "hanzi": "那",
-      "pinyin": "nà",
-      "meaning": "đó, kia",
+      "hanzi": "地点",
+      "pinyin": "dìdiǎn",
+      "meaning": "Địa điểm; nơi chốn",
+      "pos": "Danh từ",
       "example": {
-        "hanzi": "那个书包很漂亮。",
-        "pinyin": "Nàge shūbāo hěn piàoliang.",
-        "meaning": "Cái cặp sách đó rất đẹp."
+        "hanzi": "会议的地点已经确定了。",
+        "pinyin": "Huìyì de dìdiǎn yǐjīng quèdìng le",
+        "meaning": "Địa điểm cuộc họp đã được xác định."
       }
     },
     {
       "id": 71,
       "level": "HSK1",
-      "hanzi": "呢",
-      "pinyin": "ne",
-      "meaning": "thì sao? (dùng để hỏi thêm)",
+      "hanzi": "地方",
+      "pinyin": "dìfāng",
+      "meaning": "Bản xứ, bản địa",
+      "pos": "Danh từ",
       "example": {
-        "hanzi": "你呢？",
-        "pinyin": "Nǐ ne?",
-        "meaning": "Còn bạn thì sao?"
+        "hanzi": "他是这个地方的人。",
+        "pinyin": "Tā shì zhège dìfāng de rén",
+        "meaning": "Anh ấy là người bản địa."
       }
     },
     {
       "id": 72,
       "level": "HSK1",
-      "hanzi": "能",
-      "pinyin": "néng",
-      "meaning": "có thể",
+      "hanzi": "地上",
+      "pinyin": "dìshàng",
+      "meaning": "Mặt đất; dưới đất",
+      "pos": "Danh từ",
       "example": {
-        "hanzi": "他能说三种语言。",
-        "pinyin": "Tā néng shuō sān zhǒng yǔyán.",
-        "meaning": "Anh ấy có thể nói ba ngôn ngữ."
+        "hanzi": "地上有很多树叶。",
+        "pinyin": "Dìshàng yǒu hěnduō shùyè",
+        "meaning": "Dưới đất có rất nhiều lá cây."
       }
     },
     {
       "id": 73,
       "level": "HSK1",
-      "hanzi": "你",
-      "pinyin": "nǐ",
-      "meaning": "bạn",
+      "hanzi": "地图",
+      "pinyin": "dìtú",
+      "meaning": "Bản đồ",
+      "pos": "Danh từ",
       "example": {
-        "hanzi": "你叫什么名字？",
-        "pinyin": "Nǐ jiào shénme míngzi?",
-        "meaning": "Bạn tên là gì?"
+        "hanzi": "这是世界地图。",
+        "pinyin": "Zhè shì shìjiè dìtú",
+        "meaning": "Đây là bản đồ thế giới."
       }
     },
     {
       "id": 74,
       "level": "HSK1",
-      "hanzi": "年",
-      "pinyin": "nián",
-      "meaning": "năm",
+      "hanzi": "弟弟 |  弟",
+      "pinyin": "dìdi | dì",
+      "meaning": "Em trai",
+      "pos": "Danh từ",
       "example": {
-        "hanzi": "我结婚三年了。",
-        "pinyin": "Wǒ jiéhūn sān nián le.",
-        "meaning": "Tôi kết hôn 3 năm rồi."
+        "hanzi": "我有一个弟弟。",
+        "pinyin": "Wǒ yǒu yīgè dìdi",
+        "meaning": "Tôi có một người em trai."
       }
     },
     {
       "id": 75,
       "level": "HSK1",
-      "hanzi": "女儿",
-      "pinyin": "nǚ'ér",
-      "meaning": "con gái",
+      "hanzi": "第 （第二）",
+      "pinyin": "dì (dì èr)",
+      "meaning": "Thứ tự; thứ hạng",
+      "pos": "Tiền tố",
       "example": {
-        "hanzi": "她是我的女儿。",
-        "pinyin": "Tā shì wǒ de nǚ'ér.",
-        "meaning": "Con bé là con gái của tôi."
+        "hanzi": "这是第一个问题。",
+        "pinyin": "Zhè shì dì yī gè wèntí",
+        "meaning": "Đây là câu hỏi đầu tiên."
       }
     },
     {
       "id": 76,
       "level": "HSK1",
-      "hanzi": "朋友",
-      "pinyin": "péngyou",
-      "meaning": "bạn",
+      "hanzi": "点",
+      "pinyin": "diǎn",
+      "meaning": "Nơi; chỗ; điểm",
+      "pos": "Danh từ",
       "example": {
-        "hanzi": "她的朋友很聪明。",
-        "pinyin": "Tā de péngyou hěn cōngmíng.",
-        "meaning": "Bạn của cô ấy rất thông minh."
+        "hanzi": "我们去那个点看看。",
+        "pinyin": "Wǒmen qù nàgè diǎn kàn kàn",
+        "meaning": "Chúng ta đi đến chỗ đó xem thử."
       }
     },
     {
       "id": 77,
       "level": "HSK1",
-      "hanzi": "漂亮",
-      "pinyin": "piàoliang",
-      "meaning": "đẹp",
+      "hanzi": "电",
+      "pinyin": "diàn",
+      "meaning": "Điện; pin; điện năng",
+      "pos": "Danh từ",
       "example": {
-        "hanzi": "她很漂亮。",
-        "pinyin": "Tā hěn piàoliang.",
-        "meaning": "Cô ấy rất xinh đẹp."
+        "hanzi": "我的手机没电了。",
+        "pinyin": "Wǒ de shǒujī méi diàn le",
+        "meaning": "Điện thoại tôi hết pin rồi."
       }
     },
     {
       "id": 78,
       "level": "HSK1",
-      "hanzi": "苹果",
-      "pinyin": "píngguǒ",
-      "meaning": "táo",
+      "hanzi": "电话",
+      "pinyin": "diànhuà",
+      "meaning": "Điện thoại",
+      "pos": "Danh từ",
       "example": {
-        "hanzi": "这个苹果很好吃。",
-        "pinyin": "Zhège píngguǒ hěn hǎochī.",
-        "meaning": "Táo này rất ngon."
+        "hanzi": "他正在打电话。",
+        "pinyin": "Tā zhèngzài dǎ diànhuà",
+        "meaning": "Anh ấy đang gọi điện thoại."
       }
     },
     {
       "id": 79,
       "level": "HSK1",
-      "hanzi": "七",
-      "pinyin": "qī",
-      "meaning": "bảy",
+      "hanzi": "电脑",
+      "pinyin": "diànnǎo",
+      "meaning": "Máy tính",
+      "pos": "Danh từ",
       "example": {
-        "hanzi": "我有七个朋友。",
-        "pinyin": "Wǒ yǒu qī ge péngyou.",
-        "meaning": "Tôi có bảy người bạn."
+        "hanzi": "这个电脑非常贵。",
+        "pinyin": "Zhège diànnǎo fēicháng guì",
+        "meaning": "Máy tính này rất đắt."
       }
     },
     {
       "id": 80,
       "level": "HSK1",
-      "hanzi": "钱",
-      "pinyin": "qián",
-      "meaning": "tiền",
+      "hanzi": "电视 | 电视机",
+      "pinyin": "diànshì | diànshì jī",
+      "meaning": "Tivi",
+      "pos": "Danh từ",
       "example": {
-        "hanzi": "这本书多少钱？",
-        "pinyin": "Zhè běn shū duōshǎo qián?",
-        "meaning": "Cuốn sách này giá bao nhiêu?"
+        "hanzi": "爸爸在看电视。",
+        "pinyin": "Bàba zài kàn diànshì",
+        "meaning": "Bố đang xem tivi."
       }
     },
     {
       "id": 81,
       "level": "HSK1",
-      "hanzi": "前面",
-      "pinyin": "qiánmiàn",
-      "meaning": "phía trước",
+      "hanzi": "电影",
+      "pinyin": "diànyǐng",
+      "meaning": "Phim ảnh",
+      "pos": "Danh từ",
       "example": {
-        "hanzi": "火车站在前面。",
-        "pinyin": "Huǒchēzhàn zài qiánmiàn.",
-        "meaning": "Ga tàu ở phía trước."
+        "hanzi": "昨天我们看了一部电影。",
+        "pinyin": "Zuótiān wǒmen kàn le yī bù diànyǐng",
+        "meaning": "Hôm qua chúng tôi đã xem một bộ phim."
       }
     },
     {
       "id": 82,
       "level": "HSK1",
-      "hanzi": "请",
-      "pinyin": "qǐng",
-      "meaning": "xin vui lòng, mời",
+      "hanzi": "电影院",
+      "pinyin": "diànyǐngyuàn",
+      "meaning": "Rạp chiếu phim",
+      "pos": "Danh từ",
       "example": {
-        "hanzi": "请给我菜单。",
-        "pinyin": "Qǐng gěi wǒ càidān.",
-        "meaning": "Xin vui lòng đưa cho tôi thực đơn."
+        "hanzi": "我们去电影院看电影。",
+        "pinyin": "Wǒmen qù diànyǐngyuàn kàn diànyǐng",
+        "meaning": "Chúng tôi đi rạp chiếu phim để xem phim."
       }
     },
     {
       "id": 83,
       "level": "HSK1",
-      "hanzi": "去",
-      "pinyin": "qù",
-      "meaning": "đi",
+      "hanzi": "东",
+      "pinyin": "dōng",
+      "meaning": "Đông; hướng đông",
+      "pos": "Danh từ",
       "example": {
-        "hanzi": "我们要去商店。",
-        "pinyin": "Wǒmen yào qù shāngdiàn.",
-        "meaning": "Chúng tôi phải đến cửa hàng."
+        "hanzi": "学校在东边。",
+        "pinyin": "Xuéxiào zài dōngbian",
+        "meaning": "Trường học ở phía Đông."
       }
     },
     {
       "id": 84,
       "level": "HSK1",
-      "hanzi": "热",
-      "pinyin": "rè",
-      "meaning": "nóng",
+      "hanzi": "东边",
+      "pinyin": "dōngbian",
+      "meaning": "Phía đông, hướng đông",
+      "pos": "Danh từ",
       "example": {
-        "hanzi": "天气很热。",
-        "pinyin": "Tiānqì hěn rè.",
-        "meaning": "Thời tiết rất nóng."
+        "hanzi": "学校在东边。",
+        "pinyin": "Xuéxiào zài dōngbian",
+        "meaning": "Trường học ở phía Đông."
       }
     },
     {
       "id": 85,
       "level": "HSK1",
-      "hanzi": "人",
-      "pinyin": "rén",
-      "meaning": "người",
+      "hanzi": "东西",
+      "pinyin": "dōngxi",
+      "meaning": "Đồ; vật; đồ ăn; đồ đạc",
+      "pos": "Danh từ",
       "example": {
-        "hanzi": "这个人很友好。",
-        "pinyin": "Zhè ge rén hěn yǒuhǎo.",
-        "meaning": "Người này rất thân thiện."
+        "hanzi": "吃东西的时候不要说话。",
+        "pinyin": "Chī dōngxi de shíhòu bùyào shuōhuà",
+        "meaning": "Không nên nói chuyện khi đang ăn."
       }
     },
     {
       "id": 86,
       "level": "HSK1",
-      "hanzi": "认识",
-      "pinyin": "rènshi",
-      "meaning": "quen biết",
+      "hanzi": "动",
+      "pinyin": "dòng",
+      "meaning": "Chuyển động; cử động",
+      "pos": "Động từ",
       "example": {
-        "hanzi": "我认识他。",
-        "pinyin": "Wǒ rènshi tā.",
-        "meaning": "Tôi quen anh ấy."
+        "hanzi": "她的眼睛动了一下。",
+        "pinyin": "Tā de yǎnjīng dòng le yīxià",
+        "meaning": "Mắt của cô ấy nhúc nhích một cái."
       }
     },
     {
       "id": 87,
       "level": "HSK1",
-      "hanzi": "日",
-      "pinyin": "rì",
-      "meaning": "ngày",
+      "hanzi": "动作",
+      "pinyin": "dòngzuò",
+      "meaning": "Động tác; hành động",
+      "pos": "Danh từ",
       "example": {
-        "hanzi": "今天是几月几日？",
-        "pinyin": "Jīntiān shì jǐ yuè jǐ rì?",
-        "meaning": "Hôm nay là ngày mấy tháng mấy?"
+        "hanzi": "舞蹈的动作很优美。",
+        "pinyin": "Wǔdǎo de dòngzuò hěn yōuměi",
+        "meaning": "Động tác của điệu nhảy rất đẹp."
       }
     },
     {
       "id": 88,
       "level": "HSK1",
-      "hanzi": "三",
-      "pinyin": "sān",
-      "meaning": "ba",
+      "hanzi": "都",
+      "pinyin": "dōu",
+      "meaning": "Đều, cả",
+      "pos": "Phó từ",
       "example": {
-        "hanzi": "我有三本书。",
-        "pinyin": "Wǒ yǒu sān běn shū.",
-        "meaning": "Tôi có ba cuốn sách."
+        "hanzi": "我们都很忙。",
+        "pinyin": "Wǒmen dōu hěn máng",
+        "meaning": "Chúng tôi đều rất bận."
       }
     },
     {
       "id": 89,
       "level": "HSK1",
-      "hanzi": "商店",
-      "pinyin": "shāngdiàn",
-      "meaning": "cửa hàng",
+      "hanzi": "读",
+      "pinyin": "dú",
+      "meaning": "Đọc; xem",
+      "pos": "Động từ",
       "example": {
-        "hanzi": "这个商店很大。",
-        "pinyin": "Zhège shāngdiàn hěn dà.",
-        "meaning": "Cửa hàng này rất lớn."
+        "hanzi": "我正在读书。",
+        "pinyin": "Wǒ zhèngzài dú shū",
+        "meaning": "Tôi đang đọc sách."
       }
     },
     {
       "id": 90,
       "level": "HSK1",
-      "hanzi": "上",
-      "pinyin": "shàng",
-      "meaning": "lên",
+      "hanzi": "读书",
+      "pinyin": "dúshū",
+      "meaning": "Học bài",
+      "pos": "Động từ",
       "example": {
-        "hanzi": "他在上楼。",
-        "pinyin": "Tā zài shàng lóu.",
-        "meaning": "Anh ấy đang lên tầng."
+        "hanzi": "他很努力读书。",
+        "pinyin": "Tā hěn nǔ lì dú shū",
+        "meaning": "Anh ấy rất chăm chỉ học bài."
       }
     },
     {
       "id": 91,
       "level": "HSK1",
-      "hanzi": "上午",
-      "pinyin": "shàngwǔ",
-      "meaning": "buổi sáng",
+      "hanzi": "对",
+      "pinyin": "duì",
+      "meaning": "Đúng; chính xác",
+      "pos": "Tính từ",
       "example": {
-        "hanzi": "上午我们去学校。",
-        "pinyin": "Shàngwǔ wǒmen qù xuéxiào.",
-        "meaning": "Vào buổi sáng chúng tôi đi học."
+        "hanzi": "你的答案是对的。",
+        "pinyin": "Nǐ de dá'àn shì duì de",
+        "meaning": "Câu trả lời của bạn là đúng."
       }
     },
     {
       "id": 92,
       "level": "HSK1",
-      "hanzi": "少",
-      "pinyin": "shǎo",
-      "meaning": "ít",
+      "hanzi": "对不起",
+      "pinyin": "duìbuqǐ",
+      "meaning": "Xin lỗi",
+      "pos": "Động từ",
       "example": {
-        "hanzi": "我们还少一个人。",
-        "pinyin": "Wǒmen hái shǎo yīgè rén.",
-        "meaning": "Chúng tôi vẫn thiếu một người."
+        "hanzi": "对不起，我迟到了。",
+        "pinyin": "Duìbuqǐ, wǒ chídào le",
+        "meaning": "Xin lỗi, tôi đã đến muộn."
       }
     },
     {
       "id": 93,
       "level": "HSK1",
-      "hanzi": "谁",
-      "pinyin": "shuí/ shéi",
-      "meaning": "ai",
+      "hanzi": "多",
+      "pinyin": "duō",
+      "meaning": "Nhiều; rất nhiều; Dư ra; thừa ra",
+      "pos": "Tính từ",
       "example": {
-        "hanzi": "谁是你的老师？",
-        "pinyin": "Shéi shì nǐ de lǎoshī?",
-        "meaning": "Ai là giáo viên của bạn?"
+        "hanzi": "今天的作业不太多。",
+        "pinyin": "Jīntiān de zuòyè bù tài duō",
+        "meaning": "Bài tập hôm nay không nhiều lắm."
       }
     },
     {
       "id": 94,
       "level": "HSK1",
-      "hanzi": "什么",
-      "pinyin": "shénme",
-      "meaning": "cái gì",
+      "hanzi": "多少",
+      "pinyin": "duōshǎo",
+      "meaning": "Bao nhiêu; mấy; mấy mươi",
+      "pos": "Đại từ",
       "example": {
-        "hanzi": "你想吃什么？",
-        "pinyin": "Nǐ xiǎng chī shénme?",
-        "meaning": "Bạn muốn ăn gì?"
+        "hanzi": "这个多少钱？",
+        "pinyin": "Zhège duōshǎo qián?",
+        "meaning": "Cái này bao nhiêu tiền?"
       }
     },
     {
       "id": 95,
       "level": "HSK1",
-      "hanzi": "十",
-      "pinyin": "shí",
-      "meaning": "mười",
+      "hanzi": "饿",
+      "pinyin": "è",
+      "meaning": "Đói; bị đói",
+      "pos": "Động từ",
       "example": {
-        "hanzi": "我有十块钱。",
-        "pinyin": "Wǒ yǒu shí kuài qián.",
-        "meaning": "Tôi có mười tệ."
+        "hanzi": "我现在很饿。",
+        "pinyin": "Wǒ xiànzài hěn è",
+        "meaning": "Bây giờ tôi rất đói."
       }
     },
     {
       "id": 96,
       "level": "HSK1",
-      "hanzi": "时候",
-      "pinyin": "shíhòu",
-      "meaning": "lúc, khi",
+      "hanzi": "儿子",
+      "pinyin": "érzi",
+      "meaning": "Con trai",
+      "pos": "Danh từ",
       "example": {
-        "hanzi": "你什么时候来？",
-        "pinyin": "Nǐ shénme shíhòu lái?",
-        "meaning": "Bạn đến lúc nào ?"
+        "hanzi": "我有一个儿子。",
+        "pinyin": "Wǒ yǒu yí gè érzi",
+        "meaning": "Tôi có một cậu con trai."
       }
     },
     {
       "id": 97,
       "level": "HSK1",
-      "hanzi": "是",
-      "pinyin": "shì",
-      "meaning": "là, thì",
+      "hanzi": "二",
+      "pinyin": "èr",
+      "meaning": "Số hai",
+      "pos": "Số từ",
       "example": {
-        "hanzi": "这是一本好书。",
-        "pinyin": "Zhè shì yī běn hǎo shū.",
-        "meaning": "Đây là một cuốn sách hay."
+        "hanzi": "我们班有二十人。",
+        "pinyin": "Wǒmen bān yǒu èrshí rén",
+        "meaning": "Lớp chúng ta có 20 người."
       }
     },
     {
       "id": 98,
       "level": "HSK1",
-      "hanzi": "书",
-      "pinyin": "shū",
-      "meaning": "sách",
+      "hanzi": "饭",
+      "pinyin": "fàn",
+      "meaning": "Cơm; bữa",
+      "pos": "Danh từ",
       "example": {
-        "hanzi": "这本书很有意思。",
-        "pinyin": "Zhè běn shū hěn yǒuyìsi.",
-        "meaning": "Cuốn sách này rất thú vị."
+        "hanzi": "我还没吃晚饭呢。 他每天都吃三顿饭。",
+        "pinyin": "Wǒ hái méi chī wǎnfàn ne/ /Tā měitiān dōu chī sān dùn fàn",
+        "meaning": "Tôi vẫn chưa ăn cơm tối. Mỗi ngày anh ấy đều ăn ba bữa."
       }
     },
     {
       "id": 99,
       "level": "HSK1",
-      "hanzi": "水",
-      "pinyin": "shuǐ",
-      "meaning": "nước",
+      "hanzi": "饭店",
+      "pinyin": "fàndiàn",
+      "meaning": "Quán cơm; nhà hàng",
+      "pos": "Danh từ",
       "example": {
-        "hanzi": "我喝水。",
-        "pinyin": "Wǒ hē shuǐ.",
-        "meaning": "Tôi uống nước."
+        "hanzi": "这家饭店的菜很好吃。",
+        "pinyin": "Zhè jiā fàndiàn de cài hěn hǎochī",
+        "meaning": "Đồ ăn của nhà hàng này rất ngon."
       }
     },
     {
       "id": 100,
       "level": "HSK1",
-      "hanzi": "水果",
-      "pinyin": "shuǐguǒ",
-      "meaning": "trái cây",
+      "hanzi": "房间",
+      "pinyin": "fángjiān",
+      "meaning": "Căn phòng",
+      "pos": "Danh từ",
       "example": {
-        "hanzi": "她喜欢吃水果。",
-        "pinyin": "Tā xǐhuān chī shuǐguǒ.",
-        "meaning": "Cô ấy thích ăn trái cây."
+        "hanzi": "这是我的房间。",
+        "pinyin": "Zhè shì wǒ de fángjiān",
+        "meaning": "Đây là phòng của tôi."
       }
     },
     {
       "id": 101,
       "level": "HSK1",
-      "hanzi": "睡觉",
-      "pinyin": "shuìjiào",
-      "meaning": "ngủ",
+      "hanzi": "房子",
+      "pinyin": "fángzi",
+      "meaning": "Căn nhà; nhà",
+      "pos": "Danh từ",
       "example": {
-        "hanzi": "他每天晚上十点睡觉。",
-        "pinyin": "Tā měitiān wǎnshàng shí diǎn shuìjiào.",
-        "meaning": "Anh ấy đi ngủ lúc mười giờ tối mỗi ngày."
+        "hanzi": "他们买了一套新房子。",
+        "pinyin": "Tāmen mǎi le yī tào xīn fángzi",
+        "meaning": "Họ đã mua một căn nhà mới."
       }
     },
     {
       "id": 102,
       "level": "HSK1",
-      "hanzi": "说话",
-      "pinyin": "shuōhuà",
-      "meaning": "nói chuyện",
+      "hanzi": "放",
+      "pinyin": "fàng",
+      "meaning": "Đặt; để",
+      "pos": "Động từ",
       "example": {
-        "hanzi": "你怎么不说话？",
-        "pinyin": "Nǐ zěnme bù shuōhuà?",
-        "meaning": "Sao bạn không nói chuyện thế?"
+        "hanzi": "请把书放在桌子上。",
+        "pinyin": "Qǐng bǎ shū fàng zài zhuōzi shàng",
+        "meaning": "Vui lòng đặt quyển sách lên bàn."
       }
     },
     {
       "id": 103,
       "level": "HSK1",
-      "hanzi": "四",
-      "pinyin": "sì",
-      "meaning": "bốn",
+      "hanzi": "放假",
+      "pinyin": "fàngjià",
+      "meaning": "Nghỉ, nghỉ lễ",
+      "pos": "Động từ",
       "example": {
-        "hanzi": "他们四个人去旅行。",
-        "pinyin": "Tāmen sì gè rén qù lǚxíng.",
-        "meaning": "Bốn người họ đi du lịch."
+        "hanzi": "放假了，我们一起去玩吧。",
+        "pinyin": "Fàngjià le, wǒmen yīqǐ qù wán ba",
+        "meaning": "Nghỉ lễ rồi, chúng ta cùng đi chơi nhé."
       }
     },
     {
       "id": 104,
       "level": "HSK1",
-      "hanzi": "岁",
-      "pinyin": "suì",
-      "meaning": "tuổi",
+      "hanzi": "放学",
+      "pinyin": "fàngxué",
+      "meaning": "Tan học",
+      "pos": "Động từ",
       "example": {
-        "hanzi": "我今年二十五岁。",
-        "pinyin": "Wǒ jīnnián èrshíwǔ suì.",
-        "meaning": "Tôi năm nay hai mươi lăm tuổi."
+        "hanzi": "我们下午四点半放学。",
+        "pinyin": "Wǒmen xiàwǔ sì diǎn bàn fàngxué",
+        "meaning": "Chúng tôi tan học lúc 4 giờ 30 chiều."
       }
     },
     {
       "id": 105,
       "level": "HSK1",
-      "hanzi": "他",
-      "pinyin": "tā",
-      "meaning": "anh ấy, ông ấy",
+      "hanzi": "飞",
+      "pinyin": "fēi",
+      "meaning": "Bay",
+      "pos": "Động từ",
       "example": {
-        "hanzi": "他是我的朋友。",
-        "pinyin": "Tā shì wǒ de péngyou.",
-        "meaning": "Anh ấy là bạn của tôi."
+        "hanzi": "小鸟在天上飞得很快。",
+        "pinyin": "Xiǎo niǎo zài tiān shàng fēi de hěn kuài",
+        "meaning": "Con chim nhỏ bay rất nhanh trên trời."
       }
     },
     {
       "id": 106,
       "level": "HSK1",
-      "hanzi": "她",
-      "pinyin": "tā",
-      "meaning": "cô ấy, bà ấy",
+      "hanzi": "飞机",
+      "pinyin": "fēijī",
+      "meaning": "Máy bay",
+      "pos": "Danh từ",
       "example": {
-        "hanzi": "她在家里。",
-        "pinyin": "Tā zài jiālǐ.",
-        "meaning": "Cô ấy ở nhà."
+        "hanzi": "我第一次坐飞机时特别开心。",
+        "pinyin": "Wǒ dì yī cì zuò fēijī shí tèbié kāixīn",
+        "meaning": "Lần đầu tiên tôi đi máy bay, tôi rất vui mừng."
       }
     },
     {
       "id": 107,
       "level": "HSK1",
-      "hanzi": "太",
-      "pinyin": "tài",
-      "meaning": "quá",
+      "hanzi": "非常",
+      "pinyin": "fēicháng",
+      "meaning": "Đặc biệt; rất; vô cùng",
+      "pos": "Phó từ",
       "example": {
-        "hanzi": "今天太热了。",
-        "pinyin": "Jīntiān tài rè le.",
-        "meaning": "Hôm nay nóng quá."
+        "hanzi": "这个地方非常漂亮。",
+        "pinyin": "Zhège dìfāng fēicháng piàoliang",
+        "meaning": "Nơi này cực kỳ đẹp."
       }
     },
     {
       "id": 108,
       "level": "HSK1",
-      "hanzi": "天气",
-      "pinyin": "tiānqì",
-      "meaning": "thời tiết",
+      "hanzi": "分",
+      "pinyin": "fēn",
+      "meaning": "Điểm số; Phần; phút",
+      "pos": "Danh từ",
       "example": {
-        "hanzi": "今天天气很好。",
-        "pinyin": "Jīntiān tiānqì hěn hǎo.",
-        "meaning": "Thời tiết hôm nay rất tốt."
+        "hanzi": "这次考试我考了100分。",
+        "pinyin": "Zhè cì kǎoshì wǒ kǎole 100 fēn",
+        "meaning": "Kỳ thi lần này tôi thi được 100 điểm."
       }
     },
     {
       "id": 109,
       "level": "HSK1",
-      "hanzi": "听",
-      "pinyin": "tīng",
-      "meaning": "nghe",
+      "hanzi": "风",
+      "pinyin": "fēng",
+      "meaning": "Gió",
+      "pos": "Danh từ",
       "example": {
-        "hanzi": "我喜欢听音乐。",
-        "pinyin": "Wǒ xǐhuān tīng yīnyuè.",
-        "meaning": "Tôi thích nghe nhạc."
+        "hanzi": "今天的风很大，不要出去。",
+        "pinyin": "Jīntiān de fēng hěn dà, bù yào chūqù",
+        "meaning": "Hôm nay gió lớn, đừng ra ngoài."
       }
     },
     {
       "id": 110,
       "level": "HSK1",
-      "hanzi": "同学",
-      "pinyin": "tóngxué",
-      "meaning": "bạn học",
+      "hanzi": "干",
+      "pinyin": "gān",
+      "meaning": "Khô; cạn",
+      "pos": "Tính từ",
       "example": {
-        "hanzi": "我们是同学。",
-        "pinyin": "Wǒmen shì tóngxué.",
-        "meaning": "Chúng tôi là bạn học."
+        "hanzi": "这件衣服干了，可以穿了。",
+        "pinyin": "Zhè jiàn yīfu gān le, kěyǐ chuān le",
+        "meaning": "Quần áo này khô rồi, có thể mặc rồi."
       }
     },
     {
       "id": 111,
       "level": "HSK1",
-      "hanzi": "喂",
-      "pinyin": "wèi",
-      "meaning": "alo",
+      "hanzi": "干净",
+      "pinyin": "gānjìng",
+      "meaning": "Sạch sẽ, gọn gàng",
+      "pos": "",
       "example": {
-        "hanzi": "喂，你好吗？",
-        "pinyin": "Wèi, nǐ hǎo ma?",
-        "meaning": "Alo, bạn khỏe không?"
+        "hanzi": "你的房间很干净。",
+        "pinyin": "Nǐ de fángjiān hěn gānjìng",
+        "meaning": "Phòng của bạn rất sạch sẽ."
       }
     },
     {
       "id": 112,
       "level": "HSK1",
-      "hanzi": "我",
-      "pinyin": "wǒ",
-      "meaning": "tôi",
+      "hanzi": "干",
+      "pinyin": "gàn",
+      "meaning": "Quấy rầy; làm loạn; uống cạn; uống sạch",
+      "pos": "Động từ",
       "example": {
-        "hanzi": "我想喝水。",
-        "pinyin": "Wǒ xiǎng hē shuǐ.",
-        "meaning": "Tôi muốn uống nước."
+        "hanzi": "他总干乱我的计划。 咱们干了这杯酒吧。",
+        "pinyin": "Tā zǒng gān luàn wǒ de jìhuà/ /Zánmen gān le zhè bēi jiǔ ba",
+        "meaning": "Anh ấy luôn làm loạn kế hoạch của tôi. Chúng ta uống cạn ly rượu này."
       }
     },
     {
       "id": 113,
       "level": "HSK1",
-      "hanzi": "我们",
-      "pinyin": "wǒmen",
-      "meaning": "chúng tôi",
+      "hanzi": "干什么",
+      "pinyin": "gàn shénme",
+      "meaning": "Làm gì thế; tại sao",
+      "pos": "Động từ",
       "example": {
-        "hanzi": "我们一起去吧。",
-        "pinyin": "Wǒmen yīqǐ qù ba.",
-        "meaning": "Chúng ta cùng đi nhé."
+        "hanzi": "你干什么不早说呀?",
+        "pinyin": "Nǐ gànshénme bù zǎo shuō ya",
+        "meaning": "Tại sao bạn không nói sớm?"
       }
     },
     {
       "id": 114,
       "level": "HSK1",
-      "hanzi": "五",
-      "pinyin": "wǔ",
-      "meaning": "năm",
+      "hanzi": "高",
+      "pinyin": "gāo",
+      "meaning": "Cao",
+      "pos": "Tính từ",
       "example": {
-        "hanzi": "他有五本书。",
-        "pinyin": "Tā yǒu wǔ běn shū.",
-        "meaning": "Anh ấy có năm cuốn sách."
+        "hanzi": "你比我高一点儿。",
+        "pinyin": "Nǐ bǐ wǒ gāo yìdiǎnr",
+        "meaning": "Bạn cao hơn tôi một chút."
       }
     },
     {
       "id": 115,
       "level": "HSK1",
-      "hanzi": "喜欢",
-      "pinyin": "xǐhuān",
-      "meaning": "thích",
+      "hanzi": "高兴",
+      "pinyin": "gāoxìng",
+      "meaning": "Vui mừng; háo hức",
+      "pos": "Tính từ",
       "example": {
-        "hanzi": "我喜欢喝咖啡。",
-        "pinyin": "Wǒ xǐhuān hē kāfēi.",
-        "meaning": "Tôi thích uống cà phê."
+        "hanzi": "今天我很高兴。",
+        "pinyin": "Jīntiān wǒ hěn gāoxìng",
+        "meaning": "Hôm nay tôi rất vui."
       }
     },
     {
       "id": 116,
       "level": "HSK1",
-      "hanzi": "下",
-      "pinyin": "xià",
-      "meaning": "xuống",
+      "hanzi": "告诉",
+      "pinyin": "gàosu",
+      "meaning": "Nói; bày tỏ",
+      "pos": "Động từ",
       "example": {
-        "hanzi": "我在下楼。",
-        "pinyin": "Wǒ zài xià lóu.",
-        "meaning": "Tôi đang xuống lầu."
+        "hanzi": "妈妈告诉我早点回家。",
+        "pinyin": "Māma gàosu wǒ zǎodiǎn huíjiā",
+        "meaning": "Mẹ bảo tôi về nhà sớm."
       }
     },
     {
       "id": 117,
       "level": "HSK1",
-      "hanzi": "下午",
-      "pinyin": "xiàwǔ",
-      "meaning": "buổi chiều",
+      "hanzi": "哥哥  | 哥",
+      "pinyin": "gēge/  |  /gē",
+      "meaning": "Anh trai",
+      "pos": "Danh từ",
       "example": {
-        "hanzi": "下午我们去逛街。",
-        "pinyin": "Xiàwǔ wǒmen qù guàngjiē.",
-        "meaning": "uổi chiều, chúng tôi đi dạo phố."
+        "hanzi": "我的哥哥比我大五岁。",
+        "pinyin": "Wǒ de gēge bǐ wǒ dà wǔ suì",
+        "meaning": "Anh trai tôi lớn hơn tôi năm tuổi."
       }
     },
     {
       "id": 118,
       "level": "HSK1",
-      "hanzi": "下雨",
-      "pinyin": "xià yǔ",
-      "meaning": "mưa",
+      "hanzi": "歌",
+      "pinyin": "gē",
+      "meaning": "Hát; ca",
+      "pos": "Động từ",
       "example": {
-        "hanzi": "外面下雨了，记得带伞。",
-        "pinyin": "Wàimiàn xià yǔ le, jìdé dài sǎn.",
-        "meaning": "Ngoài trời mưa, nhớ mang theo ô."
+        "hanzi": "这首歌很好听。",
+        "pinyin": "Zhè shǒu gē hěn hǎotīng",
+        "meaning": "Bài hát này rất hay."
       }
     },
     {
       "id": 119,
       "level": "HSK1",
-      "hanzi": "先生",
-      "pinyin": "xiānshēng",
-      "meaning": "ông, ngài",
+      "hanzi": "个",
+      "pinyin": "gè",
+      "meaning": "Cái này",
+      "pos": "Lượng từ",
       "example": {
-        "hanzi": "先生，这边请。",
-        "pinyin": "Xiānshēng, zhè biān qǐng",
-        "meaning": "Mời anh qua bên này."
+        "hanzi": "我买了一个新手机。",
+        "pinyin": "Wǒ mǎi le yī gè xīn shǒujī",
+        "meaning": "Tôi đã mua một chiếc điện thoại mới."
       }
     },
     {
       "id": 120,
       "level": "HSK1",
-      "hanzi": "现在",
-      "pinyin": "xiànzài",
-      "meaning": "bây giờ",
+      "hanzi": "给",
+      "pinyin": "gěi",
+      "meaning": "Đưa",
+      "pos": "Động từ",
       "example": {
-        "hanzi": "我现在很累。",
-        "pinyin": "Wǒ xiànzài hěn lèi.",
-        "meaning": "Tôi hiện tại rất mệt."
+        "hanzi": "妈妈给我买了一本书。",
+        "pinyin": "Māma gěi wǒ mǎi le yī běn shū",
+        "meaning": "Mẹ đã mua cho tôi một quyển sách."
       }
     },
     {
       "id": 121,
       "level": "HSK1",
-      "hanzi": "想",
-      "pinyin": "xiǎng",
-      "meaning": "nghĩ, muốn",
+      "hanzi": "跟",
+      "pinyin": "gēn",
+      "meaning": "Cùng; với",
+      "pos": "Giới từ",
       "example": {
-        "hanzi": "我想去看电影。",
-        "pinyin": "Wǒ xiǎng qù kàn diànyǐng.",
-        "meaning": "Tôi muốn đi xem phim."
+        "hanzi": "我跟朋友一起去旅行。",
+        "pinyin": "Wǒ gēn péngyǒu yīqǐ qù lǚxíng",
+        "meaning": "Tôi đi du lịch cùng bạn bè."
       }
     },
     {
       "id": 122,
       "level": "HSK1",
-      "hanzi": "小",
-      "pinyin": "xiǎo",
-      "meaning": "nhỏ",
+      "hanzi": "工人",
+      "pinyin": "gōngrén",
+      "meaning": "Công nhân",
+      "pos": "Danh từ",
       "example": {
-        "hanzi": "这是一只小狗。",
-        "pinyin": "Zhè shì yī zhī xiǎo gǒu.",
-        "meaning": "Đây là một chú chó con."
+        "hanzi": "工人们每天都努力工作。",
+        "pinyin": "Gōngrénmen měitiān dōu nǔlì gōngzuò",
+        "meaning": "Những công nhân làm việc chăm chỉ mỗi ngày."
       }
     },
     {
       "id": 123,
       "level": "HSK1",
-      "hanzi": "小姐",
-      "pinyin": "xiǎojiě",
-      "meaning": "cô (trong cách gọi)",
+      "hanzi": "工作",
+      "pinyin": "gōngzuò",
+      "meaning": "Công việc",
+      "pos": "Danh từ",
       "example": {
-        "hanzi": "小姐，请问这里有洗手间吗？",
-        "pinyin": "Xiǎojiě, qǐngwèn zhèlǐ yǒu xǐshǒujiān ma?",
-        "meaning": "Cô ơi, xin hỏi ở đây có nhà vệ sinh không?"
+        "hanzi": "他的工作非常忙。",
+        "pinyin": "Tā de gōngzuò fēicháng máng",
+        "meaning": "Công việc của anh ấy rất bận."
       }
     },
     {
       "id": 124,
       "level": "HSK1",
-      "hanzi": "些",
-      "pinyin": "xiē",
-      "meaning": "vài",
+      "hanzi": "关",
+      "pinyin": "guān",
+      "meaning": "Đóng; tắt",
+      "pos": "Động từ",
       "example": {
-        "hanzi": "我们买了一些水果。",
-        "pinyin": "Wǒmen mǎile yīxiē shuǐguǒ.",
-        "meaning": "Chúng tôi đã mua một ít trái cây."
+        "hanzi": "睡觉前别忘了关灯。",
+        "pinyin": "Shuìjiào qián bié wàngle guān dēng",
+        "meaning": "Trước khi ngủ đừng quên tắt đèn."
       }
     },
     {
       "id": 125,
       "level": "HSK1",
-      "hanzi": "写",
-      "pinyin": "xiě",
-      "meaning": "viết",
+      "hanzi": "关上",
+      "pinyin": "guān shàng",
+      "meaning": "Đóng; đóng vào; đóng lại",
+      "pos": "Động từ",
       "example": {
-        "hanzi": "我正在写信。",
-        "pinyin": "Wǒ zhèngzài xiě xìn.",
-        "meaning": "Tôi đang viết thư."
+        "hanzi": "请关上门，谢谢你！",
+        "pinyin": "Qǐng guānshàng mén, xièxiè nǐ",
+        "meaning": "Hãy đóng cửa lại, cảm ơn bạn."
       }
     },
     {
       "id": 126,
       "level": "HSK1",
-      "hanzi": "谢谢",
-      "pinyin": "xièxiè",
-      "meaning": "cảm ơn",
+      "hanzi": "贵",
+      "pinyin": "guì",
+      "meaning": "Đắt; mắc",
+      "pos": "Tính từ",
       "example": {
-        "hanzi": "谢谢你的帮助。",
-        "pinyin": "Xièxiè nǐ de bāngzhù.",
-        "meaning": "Cảm ơn sự giúp đỡ của bạn."
+        "hanzi": "这件衣服太贵了。",
+        "pinyin": "Zhè jiàn yīfu tài guì le",
+        "meaning": "Bộ quần áo này quá đắt!"
       }
     },
     {
       "id": 127,
       "level": "HSK1",
-      "hanzi": "星期",
-      "pinyin": "xīngqī",
-      "meaning": "tuần",
+      "hanzi": "国",
+      "pinyin": "guó",
+      "meaning": "Nước; quốc gia",
+      "pos": "Danh từ",
       "example": {
-        "hanzi": "一个星期就好。",
-        "pinyin": "Yí gè xīngqī jiǔ hǎo.",
-        "meaning": "Một tuần là được"
+        "hanzi": "中国的美食非常有名。",
+        "pinyin": "Zhōngguó de měishí fēicháng yǒumíng",
+        "meaning": "Ẩm thực của Trung Quốc rất nổi tiếng."
       }
     },
     {
       "id": 128,
       "level": "HSK1",
-      "hanzi": "学生",
-      "pinyin": "xuéshēng",
-      "meaning": "học sinh",
+      "hanzi": "国家",
+      "pinyin": "guó jiā",
+      "meaning": "Quốc gia",
+      "pos": "Danh từ",
       "example": {
-        "hanzi": "他是一个好学生。",
-        "pinyin": "Tā shì yīgè hǎo xuéshēng.",
-        "meaning": "Anh ấy là một học sinh giỏi."
+        "hanzi": "我爱我的国家。",
+        "pinyin": "Wǒ ài wǒ de guójiā",
+        "meaning": "Tôi yêu đất nước của tôi."
       }
     },
     {
       "id": 129,
       "level": "HSK1",
-      "hanzi": "学习",
-      "pinyin": "xuéxí",
-      "meaning": "học tập",
+      "hanzi": "国外",
+      "pinyin": "guó wài",
+      "meaning": "Nước ngoài",
+      "pos": "Danh từ",
       "example": {
-        "hanzi": "学习中文很有趣。",
-        "pinyin": "Xuéxí zhōngwén hěn yǒuqù.",
-        "meaning": "Học tiếng Trung rất thú vị."
+        "hanzi": "他在国外上大学。",
+        "pinyin": "Tā zài guówài shàng dàxué",
+        "meaning": "Anh ấy học đại học ở nước ngoài."
       }
     },
     {
       "id": 130,
       "level": "HSK1",
-      "hanzi": "学校",
-      "pinyin": "xuéxiào",
-      "meaning": "trường học",
+      "hanzi": "过",
+      "pinyin": "guò",
+      "meaning": "Qua; đi qua; vượt qua",
+      "pos": "Động từ",
       "example": {
-        "hanzi": "我在学校学习中文。",
-        "pinyin": "Wǒ zài xuéxiào xuéxí zhōngwén.",
-        "meaning": "Tôi học tiếng Trung ở trường."
+        "hanzi": "我去过中国三次。",
+        "pinyin": "Wǒ qù guò Zhōngguó sān cì",
+        "meaning": "Tôi đã đến Trung Quốc ba lần."
       }
     },
     {
       "id": 131,
       "level": "HSK1",
-      "hanzi": "一",
-      "pinyin": "yī",
-      "meaning": "một",
+      "hanzi": "还",
+      "pinyin": "hái",
+      "meaning": "Vẫn; còn; vẫn còn",
+      "pos": "Phó từ",
       "example": {
-        "hanzi": "一个人在公园散步。",
-        "pinyin": "Yī gè rén zài gōngyuán sànbù.",
-        "meaning": "Một người đang đi dạo trong công viên."
+        "hanzi": "他有一个哥哥，还有一个妹妹。",
+        "pinyin": "Tā yǒu yī gè gēge, hái yǒu yī gè mèimei",
+        "meaning": "Cậu ấy có một anh trai, còn có một em gái nữa."
       }
     },
     {
       "id": 132,
       "level": "HSK1",
-      "hanzi": "衣服",
-      "pinyin": "yīfu",
-      "meaning": "quần áo",
+      "hanzi": "还是",
+      "pinyin": "hái shì",
+      "meaning": "Vẫn; còn; vẫn còn",
+      "pos": "Phó từ",
       "example": {
-        "hanzi": "这件衣服很漂亮。",
-        "pinyin": "Zhè jiàn yīfu hěn piàoliang.",
-        "meaning": "Bộ quần áo này rất đẹp."
+        "hanzi": "你想喝茶还是咖啡？",
+        "pinyin": "Nǐ xiǎng hē chá háishì kāfēi?",
+        "meaning": "Bạn muốn uống trà hay cà phê?"
       }
     },
     {
       "id": 133,
       "level": "HSK1",
-      "hanzi": "医生",
-      "pinyin": "yīshēng",
-      "meaning": "bác sĩ",
+      "hanzi": "还有",
+      "pinyin": "hái yǒu",
+      "meaning": "Vẫn; còn; vẫn còn",
+      "pos": "Phó từ",
       "example": {
-        "hanzi": "他是一位医生。",
-        "pinyin": "Tā shì yī wèi yīshēng.",
-        "meaning": "Anh ấy là một bác sĩ."
+        "hanzi": "我家里还有两只猫。",
+        "pinyin": "Wǒ jiālǐ hái yǒu liǎng zhī māo",
+        "meaning": "Nhà tôi còn có hai con mèo."
       }
     },
     {
       "id": 134,
       "level": "HSK1",
-      "hanzi": "医院",
-      "pinyin": "yīyuàn",
-      "meaning": "bệnh viện",
+      "hanzi": "孩子",
+      "pinyin": "hái zi",
+      "meaning": "Con; bọn trẻ; trẻ em",
+      "pos": "Danh từ",
       "example": {
-        "hanzi": "我们去医院看病。",
-        "pinyin": "Wǒmen qù yīyuàn kàn bìng.",
-        "meaning": "Chúng tôi đến bệnh viện để khám bệnh."
+        "hanzi": "孩子们在公园玩儿。",
+        "pinyin": "Háizimen zài gōngyuán wánr",
+        "meaning": "Mấy đứa trẻ đang chơi trong công viên."
       }
     },
     {
       "id": 135,
       "level": "HSK1",
-      "hanzi": "椅子",
-      "pinyin": "yǐzi",
-      "meaning": "ghế",
+      "hanzi": "汉语",
+      "pinyin": "Hàn yǔ",
+      "meaning": "Tiếng hán; hán ngữ",
+      "pos": "Danh từ",
       "example": {
-        "hanzi": "请坐在椅子上。",
-        "pinyin": "Qǐng zuò zài yǐzi shàng.",
-        "meaning": "Xin ngồi lên ghế."
+        "hanzi": "他的汉语说得很好。",
+        "pinyin": "Tā de Hànyǔ shuō de hěn hăo",
+        "meaning": "Anh ấy nói tiếng Trung rất giỏi."
       }
     },
     {
       "id": 136,
       "level": "HSK1",
-      "hanzi": "月",
-      "pinyin": "yuè",
-      "meaning": "tháng, mặt trăng",
+      "hanzi": "汉字",
+      "pinyin": "Hàn zì",
+      "meaning": "Chữ hán",
+      "pos": "Danh từ",
       "example": {
-        "hanzi": "这个月我很忙。",
-        "pinyin": "Zhège yuè wǒ hěn máng.",
-        "meaning": "Tháng này tôi rất bận."
+        "hanzi": "我会写汉字。",
+        "pinyin": "Wǒ huì xiě Hànzì",
+        "meaning": "Tôi biết viết chữ Hán."
       }
     },
     {
       "id": 137,
       "level": "HSK1",
-      "hanzi": "在",
-      "pinyin": "zài",
-      "meaning": "ở, tại",
+      "hanzi": "好",
+      "pinyin": "hǎo",
+      "meaning": "Tốt; hay; ổn",
+      "pos": "Tính từ",
       "example": {
-        "hanzi": "他在学校学习。",
-        "pinyin": "Tā zài xuéxiào xuéxí.",
-        "meaning": "Anh ấy học ở trường."
+        "hanzi": "你身体好吗？",
+        "pinyin": "Nǐ shēntǐ hǎo ma",
+        "meaning": "Bạn có khỏe không?"
       }
     },
     {
       "id": 138,
       "level": "HSK1",
-      "hanzi": "再见",
-      "pinyin": "zàijiàn",
-      "meaning": "tạm biệt",
+      "hanzi": "好吃",
+      "pinyin": "hǎo chī",
+      "meaning": "Ngon; ngon miệng",
+      "pos": "Tính từ",
       "example": {
-        "hanzi": "我们明天再见。",
-        "pinyin": "Wǒmen míngtiān zàijiàn.",
-        "meaning": "Chúng ta gặp lại vào ngày mai."
+        "hanzi": "这家餐厅的菜非常好吃。",
+        "pinyin": "Zhè jiā cāntīng de cài fēicháng hǎochī",
+        "meaning": "Món ăn của nhà hàng này rất ngon."
       }
     },
     {
       "id": 139,
       "level": "HSK1",
-      "hanzi": "怎么",
-      "pinyin": "zěnme",
-      "meaning": "làm sao",
+      "hanzi": "好看",
+      "pinyin": "hǎo kàn",
+      "meaning": "Đẹp; hay; thú vị",
+      "pos": "Tính từ",
       "example": {
-        "hanzi": "你怎么了？",
-        "pinyin": "Nǐ zěnme le?",
-        "meaning": "Bạn sao vậy?"
+        "hanzi": "这本书很好看，我喜欢。",
+        "pinyin": "Zhè běn shū hěn hǎokàn, wǒ xǐhuān",
+        "meaning": "Cuốn sách này rất hay, tôi thích."
       }
     },
     {
       "id": 140,
       "level": "HSK1",
-      "hanzi": "怎么样",
-      "pinyin": "zěnmeyàng",
-      "meaning": "như thế nào",
+      "hanzi": "好听",
+      "pinyin": "hǎotīng",
+      "meaning": "Hay; dễ nghe; êm tai (âm thanh)",
+      "pos": "Tính từ",
       "example": {
-        "hanzi": "你的工作怎么样？",
-        "pinyin": "Nǐ de gōngzuò zěnmeyàng?",
-        "meaning": "Công việc của bạn thế nào?"
+        "hanzi": "这首歌很好听。",
+        "pinyin": "Zhè shǒu gē hěn hǎotīng",
+        "meaning": "Bài hát này rất hay."
       }
     },
     {
       "id": 141,
       "level": "HSK1",
-      "hanzi": "这",
-      "pinyin": "zhè",
-      "meaning": "Đây, này",
+      "hanzi": "好玩儿",
+      "pinyin": "hǎowánr",
+      "meaning": "Hay; thú vị; thích thú",
+      "pos": "Tính từ",
       "example": {
-        "hanzi": "这件事怎么样？",
-        "pinyin": "Zhè jiàn shì zěnme yàng?",
-        "meaning": "Việc này như thế nào?"
+        "hanzi": "这个游戏很好玩儿。",
+        "pinyin": "Zhège yóuxì hěn hǎowánr",
+        "meaning": "Trò chơi này rất vui."
       }
     },
     {
       "id": 142,
       "level": "HSK1",
-      "hanzi": "中国",
-      "pinyin": "Zhōngguó",
-      "meaning": "Trung Quốc",
+      "hanzi": "号",
+      "pinyin": "hào",
+      "meaning": "Số; số thứ tự",
+      "pos": "Danh từ",
       "example": {
-        "hanzi": "中国有很多美丽的风景。",
-        "pinyin": "Zhōngguó yǒu hěn duō měilì de fēngjǐng.",
-        "meaning": "Trung Quốc có nhiều cảnh đẹp."
+        "hanzi": "你的房间号是多少？",
+        "pinyin": "Nǐ de fángjiān hào shì duōshǎo",
+        "meaning": "Số phòng của bạn là bao nhiêu?"
       }
     },
     {
       "id": 143,
       "level": "HSK1",
-      "hanzi": "中午",
-      "pinyin": "zhōngwǔ",
-      "meaning": "buổi trưa",
+      "hanzi": "喝",
+      "pinyin": "hē",
+      "meaning": "Uống",
+      "pos": "Động từ",
       "example": {
-        "hanzi": "中午我们去吃饭吧。",
-        "pinyin": "Zhōngwǔ wǒmen qù chīfàn ba.",
-        "meaning": "Buổi trưa chúng ta đi ăn cơm nhé."
+        "hanzi": "我每天早上都喝咖啡。",
+        "pinyin": "Wǒ měitiān zǎoshang dōu hē kāfēi",
+        "meaning": "Mỗi sáng tôi đều uống cà phê."
       }
     },
     {
       "id": 144,
       "level": "HSK1",
-      "hanzi": "住",
-      "pinyin": "zhù",
-      "meaning": "sống, cư trú",
+      "hanzi": "和",
+      "pinyin": "hé",
+      "meaning": "Và; với; Với; cùng",
+      "pos": "Liên từ",
       "example": {
-        "hanzi": "我住在一个很安静的地方。",
-        "pinyin": "Wǒ zhù zài yīgè hěn ānjìng de dìfāng.",
-        "meaning": "Tôi sống ở một nơi rất yên tĩnh."
+        "hanzi": "我买了一本书和一件衣服。",
+        "pinyin": "Wǒ mǎile yī běn shū hé yī jiàn yīfú",
+        "meaning": "Tôi đã mua 1 cuốn sách và 1 bộ quần áo."
       }
     },
     {
       "id": 145,
       "level": "HSK1",
-      "hanzi": "桌子",
-      "pinyin": "zhuōzi",
-      "meaning": "bàn",
+      "hanzi": "很",
+      "pinyin": "hěn",
+      "meaning": "Rất, nhiều",
+      "pos": "Phó từ",
       "example": {
-        "hanzi": "桌子上放着一本书。",
-        "pinyin": "Zhuōzi shàng fàngzhe yī běn shū.",
-        "meaning": "Trên bàn có một cuốn sách."
+        "hanzi": "今天的课文很长， 生词很多。",
+        "pinyin": "Jīntiān de kèwén hěn cháng, shēngcí hěnduō",
+        "meaning": "Hôm nay bài khoá rất dài, nên từ mới rất nhiều."
       }
     },
     {
       "id": 146,
       "level": "HSK1",
-      "hanzi": "字",
-      "pinyin": "zì",
-      "meaning": "chữ",
+      "hanzi": "后 | 后边",
+      "pinyin": "hòu/ | /hòubian",
+      "meaning": "Sau; phía sau",
+      "pos": "Danh từ",
       "example": {
-        "hanzi": "我们要学会写字。",
-        "pinyin": "Wǒmen yào xuéhuì xiě zì.",
-        "meaning": "Chúng ta phải học viết chữ."
+        "hanzi": "书店在学校的后边。",
+        "pinyin": "Shūdiàn zài xuéxiào de hòubian",
+        "meaning": "Hiệu sách ở phía sau trường học."
       }
     },
     {
       "id": 147,
       "level": "HSK1",
-      "hanzi": "昨天",
-      "pinyin": "zuótiān",
-      "meaning": "hôm qua",
+      "hanzi": "后天",
+      "pinyin": "hòutiān",
+      "meaning": "Ngày hôm sau",
+      "pos": "Danh từ",
       "example": {
-        "hanzi": "昨天我去看了一部电影。",
-        "pinyin": "Zuótiān wǒ qù kànle yī bù diànyǐng.",
-        "meaning": "Hôm qua tôi đã đi xem một bộ phim."
+        "hanzi": "我们后天去北京。",
+        "pinyin": "Wǒmen hòutiān qù Běijīng",
+        "meaning": "Chúng tôi sẽ đi Bắc Kinh vào ngày kia."
       }
     },
     {
       "id": 148,
       "level": "HSK1",
-      "hanzi": "坐",
-      "pinyin": "zuò",
-      "meaning": "ngồi",
+      "hanzi": "花",
+      "pinyin": "huā",
+      "meaning": "Hoa; bông hoa",
+      "pos": "Danh từ",
       "example": {
-        "hanzi": "我们在公园里坐了一会儿。",
-        "pinyin": "Wǒmen zài gōngyuán lǐ zuòle yīhuìr.",
-        "meaning": "Chúng tôi đã ngồi một lúc trong công viên."
+        "hanzi": "花园里有很多花。",
+        "pinyin": "Huāyuán lǐ yǒu hěn duō huā",
+        "meaning": "Trong vườn có rất nhiều hoa."
       }
     },
     {
       "id": 149,
       "level": "HSK1",
+      "hanzi": "话",
+      "pinyin": "huà",
+      "meaning": "Lời nói; ngôn từ",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "她的话让我很高兴。",
+        "pinyin": "Tā de huà ràng wǒ hěn gāoxìng",
+        "meaning": "Lời của cô ấy làm tôi rất vui."
+      }
+    },
+    {
+      "id": 150,
+      "level": "HSK1",
+      "hanzi": "坏",
+      "pinyin": "huài",
+      "meaning": "Hư; hư hỏng; xấu",
+      "pos": "Tính từ",
+      "example": {
+        "hanzi": "我的手机坏了，不能用。",
+        "pinyin": "Wǒ de shǒujī huài le, bù néng yòng",
+        "meaning": "Điện thoại của tôi bị hỏng, không thể dùng."
+      }
+    },
+    {
+      "id": 151,
+      "level": "HSK1",
+      "hanzi": "还",
+      "pinyin": "huán",
+      "meaning": "Trả lại",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "她明天把书还给图书馆。",
+        "pinyin": "Tā míngtiān bǎ shū huán gěi túshū guǎn",
+        "meaning": "Ngày mai cô ấy sẽ đem sách trả lại cho thư viện"
+      }
+    },
+    {
+      "id": 152,
+      "level": "HSK1",
+      "hanzi": "回",
+      "pinyin": "huí",
+      "meaning": "Quay lại; quay về",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "我每天六点回家。",
+        "pinyin": "Wǒ měitiān liù diǎn huí jiā",
+        "meaning": "Tôi về nhà lúc 6 giờ mỗi ngày."
+      }
+    },
+    {
+      "id": 153,
+      "level": "HSK1",
+      "hanzi": "回答",
+      "pinyin": "huídá",
+      "meaning": "Trả lời",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "请回答我的问题。",
+        "pinyin": "Qǐng huídá wǒ de wèntí",
+        "meaning": "Hãy trả lời câu hỏi của tôi."
+      }
+    },
+    {
+      "id": 154,
+      "level": "HSK1",
+      "hanzi": "回到",
+      "pinyin": "huídào",
+      "meaning": "Về đến; trở về",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "他回到家了。",
+        "pinyin": "Tā huídào jiā le",
+        "meaning": "Anh ấy đã về đến nhà rồi."
+      }
+    },
+    {
+      "id": 155,
+      "level": "HSK1",
+      "hanzi": "回家",
+      "pinyin": "huí jiā",
+      "meaning": "Về nhà; đến nhà",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "朋友们都回家了。",
+        "pinyin": "Péngyǒumen dōu huí jiā le",
+        "meaning": "Các bạn tôi đều đã về nhà rồi."
+      }
+    },
+    {
+      "id": 156,
+      "level": "HSK1",
+      "hanzi": "回来",
+      "pinyin": "huí lái",
+      "meaning": "Trở lại",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "他晚上七点回来。",
+        "pinyin": "Tā wǎnshàng qī diǎn huí lái",
+        "meaning": "Anh ấy sẽ quay lại lúc 7 giờ tối."
+      }
+    },
+    {
+      "id": 157,
+      "level": "HSK1",
+      "hanzi": "回去",
+      "pinyin": "huí qù",
+      "meaning": "Về; trở lại; đi về",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "我们早点回去吧。",
+        "pinyin": "Wǒmen zǎodiǎn huí qù ba",
+        "meaning": "Chúng ta về sớm một chút đi."
+      }
+    },
+    {
+      "id": 158,
+      "level": "HSK1",
+      "hanzi": "会",
+      "pinyin": "huì",
+      "meaning": "Sẽ; có; biết",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "你会做中国菜吗？",
+        "pinyin": "Nǐ huì zuò zhōngguó cài ma",
+        "meaning": "Bạn biết nấu món Trung Quốc không?"
+      }
+    },
+    {
+      "id": 159,
+      "level": "HSK1",
+      "hanzi": "火车",
+      "pinyin": "huǒchē",
+      "meaning": "Tàu hỏa; xe lửa",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "我坐火车去北京。",
+        "pinyin": "Wǒ zuò huǒchē qù Běijīng",
+        "meaning": "Tôi đi Bắc Kinh bằng tàu hỏa."
+      }
+    },
+    {
+      "id": 160,
+      "level": "HSK1",
+      "hanzi": "机场",
+      "pinyin": "jīchǎng",
+      "meaning": "Sân bay",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "他去机场接朋友。",
+        "pinyin": "Tā qù jīchǎng jiē péngyǒu",
+        "meaning": "Anh ấy đến sân bay đón bạn."
+      }
+    },
+    {
+      "id": 161,
+      "level": "HSK1",
+      "hanzi": "机票",
+      "pinyin": "jīpiào",
+      "meaning": "Vé máy bay",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "你买机票了吗？",
+        "pinyin": "Nǐ mǎi jīpiào le ma",
+        "meaning": "Bạn đã mua vé máy bay chưa?"
+      }
+    },
+    {
+      "id": 162,
+      "level": "HSK1",
+      "hanzi": "鸡蛋",
+      "pinyin": "jīdàn",
+      "meaning": "Trứng gà",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "我买了一些鸡蛋。",
+        "pinyin": "Wǒ mǎi le yīxiē jīdàn",
+        "meaning": "Tôi đã mua một vài quả trứng."
+      }
+    },
+    {
+      "id": 163,
+      "level": "HSK1",
+      "hanzi": "几",
+      "pinyin": "jǐ",
+      "meaning": "Mấy; bao nhiêu",
+      "pos": "Số từ",
+      "example": {
+        "hanzi": "你有几个兄弟姐妹？",
+        "pinyin": "Nǐ yǒu jǐ gè xiōngdì jiěmèi",
+        "meaning": "Bạn có mấy anh chị em?"
+      }
+    },
+    {
+      "id": 164,
+      "level": "HSK1",
+      "hanzi": "记",
+      "pinyin": "jì",
+      "meaning": "Nhớ",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "我记不住这个汉字。",
+        "pinyin": "Wǒ jì bù zhù zhège hànzì",
+        "meaning": "Tôi không nhớ được chữ Hán này."
+      }
+    },
+    {
+      "id": 165,
+      "level": "HSK1",
+      "hanzi": "记得",
+      "pinyin": "jìde",
+      "meaning": "Ghi nhớ",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "你还记得他的生日吗？",
+        "pinyin": "Nǐ hái jìdé tā de shēngrì ma",
+        "meaning": "Bạn còn nhớ sinh nhật của anh ấy không?"
+      }
+    },
+    {
+      "id": 166,
+      "level": "HSK1",
+      "hanzi": "记住",
+      "pinyin": "jìzhù",
+      "meaning": "Nhớ; ghi nhớ",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "请记住这个电话号码。",
+        "pinyin": "Qǐng jìzhù zhège diànhuà hàomǎ",
+        "meaning": "Hãy nhớ số điện thoại này."
+      }
+    },
+    {
+      "id": 167,
+      "level": "HSK1",
+      "hanzi": "家",
+      "pinyin": "jiā",
+      "meaning": "Nhà",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "我家在上海。",
+        "pinyin": "Wǒ jiā zài Shànghǎi",
+        "meaning": "Nhà tôi ở Thượng Hải."
+      }
+    },
+    {
+      "id": 168,
+      "level": "HSK1",
+      "hanzi": "家里",
+      "pinyin": "jiā lǐ",
+      "meaning": "Trong nhà",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "我家里有很多书。",
+        "pinyin": "Wǒ jiālǐ yǒu hěn duō shū",
+        "meaning": "Trong nhà tôi có rất nhiều sách."
+      }
+    },
+    {
+      "id": 169,
+      "level": "HSK1",
+      "hanzi": "家人",
+      "pinyin": "jiārén",
+      "meaning": "Người nhà",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "我家人都喜欢吃中国菜。",
+        "pinyin": "Wǒ jiārén dōu xǐhuan chī Zhōngguó cài",
+        "meaning": "Cả nhà tôi đều thích ăn đồ ăn Trung Quốc."
+      }
+    },
+    {
+      "id": 170,
+      "level": "HSK1",
+      "hanzi": "间",
+      "pinyin": "jiān",
+      "meaning": "Giữa, ở giữa; Gian, buồng, phòng",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "他们之间的感情很好。",
+        "pinyin": "Tāmen zhījiān de gǎnqíng hěn hǎo",
+        "meaning": "Tình cảm giữa họ rất tốt."
+      }
+    },
+    {
+      "id": 171,
+      "level": "HSK1",
+      "hanzi": "见",
+      "pinyin": "jiàn",
+      "meaning": "Gặp",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "我在公园见到朋友。",
+        "pinyin": "Wǒ zài gōngyuán jiàn dào péngyǒu",
+        "meaning": "Tôi gặp bạn ở công viên."
+      }
+    },
+    {
+      "id": 172,
+      "level": "HSK1",
+      "hanzi": "见面",
+      "pinyin": "jiànmiàn",
+      "meaning": "Gặp mặt",
+      "pos": "Động từ ly hợp",
+      "example": {
+        "hanzi": "我很高兴和你见面。",
+        "pinyin": "Wǒ hěn gāoxìng hé nǐ jiànmiàn",
+        "meaning": "Tôi rất vui khi gặp bạn."
+      }
+    },
+    {
+      "id": 173,
+      "level": "HSK1",
+      "hanzi": "教",
+      "pinyin": "jiāo",
+      "meaning": "Dạy, chỉ dạy",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "她教我们英语。",
+        "pinyin": "Tā jiāo wǒmen Yīngyǔ",
+        "meaning": "Cô ấy dạy chúng tôi tiếng Anh."
+      }
+    },
+    {
+      "id": 174,
+      "level": "HSK1",
+      "hanzi": "叫",
+      "pinyin": "jiào",
+      "meaning": "Gọi, kêu",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "妈妈叫我回家。",
+        "pinyin": "Māmā jiào wǒ huí jiā",
+        "meaning": "Mẹ gọi tôi về nhà."
+      }
+    },
+    {
+      "id": 175,
+      "level": "HSK1",
+      "hanzi": "教学楼",
+      "pinyin": "jiàoxuélóu",
+      "meaning": "Tòa nhà giảng đường",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "教学楼在图书馆东边。",
+        "pinyin": "Jiàoxué lóu zài túshū guǎn dōngbian",
+        "meaning": "Tòa nhà giảng dạy nằm ở phía đông của thư viện."
+      }
+    },
+    {
+      "id": 176,
+      "level": "HSK1",
+      "hanzi": "姐姐",
+      "pinyin": "jiějie",
+      "meaning": "Chị gái",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "她是我的姐姐。",
+        "pinyin": "Tā shì wǒ de jiějie",
+        "meaning": "Cô ấy là chị gái tôi."
+      }
+    },
+    {
+      "id": 177,
+      "level": "HSK1",
+      "hanzi": "介绍",
+      "pinyin": "jièshào",
+      "meaning": "Giới thiệu",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "我来介绍一下我的朋友。",
+        "pinyin": "Wǒ lái jièshào yīxià wǒ de péngyou",
+        "meaning": "Tôi giới thiệu chút về bạn của tôi."
+      }
+    },
+    {
+      "id": 178,
+      "level": "HSK1",
+      "hanzi": "今年",
+      "pinyin": "jīnnián",
+      "meaning": "Năm nay",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "今年是2025年。",
+        "pinyin": "Jīnnián shì 2025 nián",
+        "meaning": "Năm nay là năm 2025."
+      }
+    },
+    {
+      "id": 179,
+      "level": "HSK1",
+      "hanzi": "今天",
+      "pinyin": "jīntiān",
+      "meaning": "Hôm nay",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "今天的天气很好。",
+        "pinyin": "Jīntiān de tiānqì hěn hǎo",
+        "meaning": "Thời tiết hôm nay rất đẹp."
+      }
+    },
+    {
+      "id": 180,
+      "level": "HSK1",
+      "hanzi": "进",
+      "pinyin": "jìn",
+      "meaning": "Vào, tiến vào, đi vào",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "请进！",
+        "pinyin": "Qǐng jìn",
+        "meaning": "Xin mời vào!"
+      }
+    },
+    {
+      "id": 181,
+      "level": "HSK1",
+      "hanzi": "进来",
+      "pinyin": "jìn lái",
+      "meaning": "Đi vào (hướng về người nói)",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "他刚刚进来了。",
+        "pinyin": "Tā gānggāng jìn lái le",
+        "meaning": "Anh ấy vừa mới vào."
+      }
+    },
+    {
+      "id": 182,
+      "level": "HSK1",
+      "hanzi": "进去",
+      "pinyin": "jìn qù",
+      "meaning": "Đi vào (hướng xa người nói)",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "你先进去，我马上来。",
+        "pinyin": "Nǐ xiān jìn qù, wǒ mǎshàng lái",
+        "meaning": "Bạn vào trước đi, tôi đến ngay."
+      }
+    },
+    {
+      "id": 183,
+      "level": "HSK1",
+      "hanzi": "九",
+      "pinyin": "jiǔ",
+      "meaning": "Số chín",
+      "pos": "Số từ",
+      "example": {
+        "hanzi": "这个班有九个学生。",
+        "pinyin": "Zhège bān yǒu jiǔ gè xuéshēng",
+        "meaning": "Lớp này có chín học sinh."
+      }
+    },
+    {
+      "id": 184,
+      "level": "HSK1",
+      "hanzi": "就",
+      "pinyin": "jiù",
+      "meaning": "Thì, liền, ngay lập tức",
+      "pos": "Phó từ",
+      "example": {
+        "hanzi": "他下班后就回家了。",
+        "pinyin": "Tā xiàbān hòu jiù huíjiā le",
+        "meaning": "Anh ấy tan làm liền về nhà."
+      }
+    },
+    {
+      "id": 185,
+      "level": "HSK1",
+      "hanzi": "觉得",
+      "pinyin": "juéde",
+      "meaning": "Cảm thấy, cho rằng",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "我觉得这本书很好看。",
+        "pinyin": "Wǒ juéde zhè běn shū hěn hǎokàn",
+        "meaning": "Tôi cảm thấy cuốn sách này rất hay."
+      }
+    },
+    {
+      "id": 186,
+      "level": "HSK1",
+      "hanzi": "开",
+      "pinyin": "kāi",
+      "meaning": "Mở, bật, lái",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "他正在学开车。",
+        "pinyin": "Tā zhèngzài xué kāichē",
+        "meaning": "Anh ấy đang học lái xe."
+      }
+    },
+    {
+      "id": 187,
+      "level": "HSK1",
+      "hanzi": "开车",
+      "pinyin": "kāi chē",
+      "meaning": "Lái xe",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "他正在学开车。",
+        "pinyin": "Tā zhèngzài xué kāichē",
+        "meaning": "Anh ấy đang học lái xe."
+      }
+    },
+    {
+      "id": 188,
+      "level": "HSK1",
+      "hanzi": "开会",
+      "pinyin": "kāi huì",
+      "meaning": "Họp, tổ chức cuộc họp",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "我下午三点要开会。",
+        "pinyin": "Wǒ xiàwǔ sān diǎn yào kāi huì",
+        "meaning": "Tôi có cuộc họp lúc 3 giờ chiều."
+      }
+    },
+    {
+      "id": 189,
+      "level": "HSK1",
+      "hanzi": "开玩笑",
+      "pinyin": "kāi wánxiào",
+      "meaning": "Đùa, nói đùa",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "别生气，我只是开玩笑。",
+        "pinyin": "Bié shēngqì, wǒ zhǐshì kāi wánxiào",
+        "meaning": "Đừng giận mà, tôi chỉ đùa thôi."
+      }
+    },
+    {
+      "id": 190,
+      "level": "HSK1",
+      "hanzi": "看",
+      "pinyin": "kàn",
+      "meaning": "Nhìn, xem, đọc",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "这本书我看完了。",
+        "pinyin": "Zhè běn shū wǒ kànwán le",
+        "meaning": "Tôi đã đọc xong cuốn sách này."
+      }
+    },
+    {
+      "id": 191,
+      "level": "HSK1",
+      "hanzi": "看病",
+      "pinyin": "kàn bìng",
+      "meaning": "Khám bệnh",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "我今天去医院看病。",
+        "pinyin": "Wǒ jīntiān qù yīyuàn kàn bìng",
+        "meaning": "Hôm nay tôi đi bệnh viện khám bệnh."
+      }
+    },
+    {
+      "id": 192,
+      "level": "HSK1",
+      "hanzi": "看到",
+      "pinyin": "kàndào",
+      "meaning": "Nhìn thấy",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "我在街上看到一只小猫。",
+        "pinyin": "Wǒ zài jiē shàng kàndào yī zhī xiǎo māo",
+        "meaning": "Tôi nhìn thấy một con mèo nhỏ trên đường."
+      }
+    },
+    {
+      "id": 193,
+      "level": "HSK1",
+      "hanzi": "看见",
+      "pinyin": "kànjiàn",
+      "meaning": "Thấy, trông thấy",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "我看见一只小鸟在树上唱歌。",
+        "pinyin": "Wǒ kànjiàn yī zhī xiǎo niǎo zài shù shàng chànggē",
+        "meaning": "Tôi nhìn thấy một con chim đang hót trên cây."
+      }
+    },
+    {
+      "id": 194,
+      "level": "HSK1",
+      "hanzi": "考",
+      "pinyin": "kǎo",
+      "meaning": "Thi, kiểm tra",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "这次考试很难。",
+        "pinyin": "Zhè cì kǎoshì hěn nán",
+        "meaning": "Kỳ thi lần này rất khó."
+      }
+    },
+    {
+      "id": 195,
+      "level": "HSK1",
+      "hanzi": "考试",
+      "pinyin": "kǎoshì",
+      "meaning": "Kỳ thi, bài kiểm tra",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "这次考试很难。",
+        "pinyin": "Zhè cì kǎoshì hěn nán",
+        "meaning": "Kỳ thi lần này rất khó."
+      }
+    },
+    {
+      "id": 196,
+      "level": "HSK1",
+      "hanzi": "渴",
+      "pinyin": "kě",
+      "meaning": "Khát",
+      "pos": "Tính từ",
+      "example": {
+        "hanzi": "我口渴了，想喝水。",
+        "pinyin": "Wǒ kǒu kě le, xiǎng hē shuǐ",
+        "meaning": "Tôi khát nước rồi, muốn uống nước."
+      }
+    },
+    {
+      "id": 197,
+      "level": "HSK1",
+      "hanzi": "课",
+      "pinyin": "kè",
+      "meaning": "Tiết học, bài học",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "今天的汉语课很有意思。",
+        "pinyin": "Jīntiān de Hànyǔ kè hěn yǒuyìsi",
+        "meaning": "Bài học tiếng Trung hôm nay rất thú vị."
+      }
+    },
+    {
+      "id": 198,
+      "level": "HSK1",
+      "hanzi": "课本",
+      "pinyin": "kèběn",
+      "meaning": "Sách giáo khoa",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "你带课本了吗？",
+        "pinyin": "Nǐ dài kèběn le ma",
+        "meaning": "Bạn có mang sách giáo khoa không?"
+      }
+    },
+    {
+      "id": 199,
+      "level": "HSK1",
+      "hanzi": "课文",
+      "pinyin": "kèwén",
+      "meaning": "Bài khóa (trong sách)",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "请大家朗读课文。",
+        "pinyin": "Qǐng dàjiā lǎngdú kèwén",
+        "meaning": "Mọi người vui lòng đọc to bài khóa."
+      }
+    },
+    {
+      "id": 200,
+      "level": "HSK1",
+      "hanzi": "口",
+      "pinyin": "kǒu",
+      "meaning": "Miệng, mồm; cửa, cổng",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "我用盐水漱口。 出口在左边，不要走错了。",
+        "pinyin": "Wǒ yòng yánshuǐ shù kǒu/ /Chūkǒu zài zuǒbiān, bùyào zǒu cuò le",
+        "meaning": "Tôi dùng nước muối để súc miệng. Cửa ra ở bên trái, đừng đi sai nhé."
+      }
+    },
+    {
+      "id": 201,
+      "level": "HSK1",
+      "hanzi": "快",
+      "pinyin": "kuài",
+      "meaning": "Nhanh, mau",
+      "pos": "Tính từ",
+      "example": {
+        "hanzi": "火车快要来了。",
+        "pinyin": "Huǒchē kuài yào lái le",
+        "meaning": "Tàu hỏa sắp đến rồi."
+      }
+    },
+    {
+      "id": 202,
+      "level": "HSK1",
+      "hanzi": "块",
+      "pinyin": "kuài",
+      "meaning": "Viên, thỏi, miếng; Khối, miếng, chiếc; tờ, đồng (tiền)",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "我喜欢吃糖块儿。",
+        "pinyin": "Wǒ xǐhuan chī táng kuàir",
+        "meaning": "Tôi thích ăn kẹo viên."
+      }
+    },
+    {
+      "id": 203,
+      "level": "HSK1",
+      "hanzi": "来",
+      "pinyin": "lái",
+      "meaning": "Đến, tới",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "你什么时候来我家?",
+        "pinyin": "Nǐ shénme shíhòu lái wǒ jiā",
+        "meaning": "Khi nào bạn đến nhà tôi?"
+      }
+    },
+    {
+      "id": 204,
+      "level": "HSK1",
+      "hanzi": "来到",
+      "pinyin": "láidào",
+      "meaning": "Đến, đi đến",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "他来到公司了。",
+        "pinyin": "Tā láidào gōngsī le",
+        "meaning": "Anh ấy đến công ty rồi."
+      }
+    },
+    {
+      "id": 205,
+      "level": "HSK1",
+      "hanzi": "老",
+      "pinyin": "lǎo",
+      "meaning": "Già, cũ",
+      "pos": "Tính từ",
+      "example": {
+        "hanzi": "这辆车太老了。",
+        "pinyin": "Zhè liàng chē tài lǎo le",
+        "meaning": "Chiếc xe này quá cũ rồi."
+      }
+    },
+    {
+      "id": 206,
+      "level": "HSK1",
+      "hanzi": "老人",
+      "pinyin": "lǎorén",
+      "meaning": "Người già",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "老人喜欢在公园散步。",
+        "pinyin": "Lǎorén xǐhuan zài gōngyuán sànbù",
+        "meaning": "Các cụ già thích đi dạo trong công viên."
+      }
+    },
+    {
+      "id": 207,
+      "level": "HSK1",
+      "hanzi": "老师",
+      "pinyin": "lǎoshī",
+      "meaning": "Giáo viên, thầy cô",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "她是我们的汉语老师。",
+        "pinyin": "Tā shì wǒmen de Hànyǔ lǎoshī",
+        "meaning": "Cô ấy là giáo viên tiếng Trung của chúng tôi."
+      }
+    },
+    {
+      "id": 208,
+      "level": "HSK1",
+      "hanzi": "了",
+      "pinyin": "le",
+      "meaning": "Rồi (biểu thị hành động đã hoàn thành)",
+      "pos": "Trợ từ",
+      "example": {
+        "hanzi": "我吃了一个苹果。",
+        "pinyin": "Wǒ chī le yīgè píngguǒ",
+        "meaning": "Tôi đã ăn một quả táo."
+      }
+    },
+    {
+      "id": 209,
+      "level": "HSK1",
+      "hanzi": "累",
+      "pinyin": "lèi",
+      "meaning": "Mệt, mệt mỏi",
+      "pos": "Tính từ",
+      "example": {
+        "hanzi": "今天工作很累。",
+        "pinyin": "Jīntiān gōngzuò hěn lèi",
+        "meaning": "Hôm nay công việc rất mệt."
+      }
+    },
+    {
+      "id": 210,
+      "level": "HSK1",
+      "hanzi": "冷",
+      "pinyin": "lěng",
+      "meaning": "Lạnh",
+      "pos": "Tính từ",
+      "example": {
+        "hanzi": "外面很冷，多穿点衣服。",
+        "pinyin": "Wàimiàn hěn lěng, duō chuān diǎn yīfu",
+        "meaning": "Bên ngoài rất lạnh, mặc thêm áo vào."
+      }
+    },
+    {
+      "id": 211,
+      "level": "HSK1",
+      "hanzi": "里",
+      "pinyin": "lǐ",
+      "meaning": "Trong, bên trong",
+      "pos": "Giới từ",
+      "example": {
+        "hanzi": "房间里有很多书。",
+        "pinyin": "Fángjiān lǐ yǒu hěn duō shū",
+        "meaning": "Trong phòng có rất nhiều sách."
+      }
+    },
+    {
+      "id": 212,
+      "level": "HSK1",
+      "hanzi": "里边",
+      "pinyin": "lǐbian",
+      "meaning": "Bên trong",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "你在里边等我。",
+        "pinyin": "Nǐ zài lǐbiān děng wǒ",
+        "meaning": "Bạn đợi tôi ở bên trong nhé."
+      }
+    },
+    {
+      "id": 213,
+      "level": "HSK1",
+      "hanzi": "两",
+      "pinyin": "liǎng",
+      "meaning": "Hai (chỉ số lượng)",
+      "pos": "Số từ",
+      "example": {
+        "hanzi": "我有两个姐姐。",
+        "pinyin": "Wǒ yǒu liǎng gè jiějie",
+        "meaning": "Tôi có hai chị gái."
+      }
+    },
+    {
+      "id": 214,
+      "level": "HSK1",
+      "hanzi": "零",
+      "pinyin": "líng",
+      "meaning": "Số không",
+      "pos": "Số từ",
+      "example": {
+        "hanzi": "这个数字是零。",
+        "pinyin": "Zhège shùzì shì líng",
+        "meaning": "Số này là số không."
+      }
+    },
+    {
+      "id": 215,
+      "level": "HSK1",
+      "hanzi": "六",
+      "pinyin": "liù",
+      "meaning": "Số sáu",
+      "pos": "Số từ",
+      "example": {
+        "hanzi": "我家有六口人。",
+        "pinyin": "Wǒ jiā yǒu liù kǒu rén",
+        "meaning": "Nhà tôi có sáu người."
+      }
+    },
+    {
+      "id": 216,
+      "level": "HSK1",
+      "hanzi": "楼",
+      "pinyin": "lóu",
+      "meaning": "Tòa nhà, lầu",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "他们住在五楼。",
+        "pinyin": "Tāmen zhù zài wǔ lóu",
+        "meaning": "Họ sống ở tầng năm."
+      }
+    },
+    {
+      "id": 217,
+      "level": "HSK1",
+      "hanzi": "楼上",
+      "pinyin": "lóu shàng",
+      "meaning": "Tầng trên",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "我哥哥在楼上睡觉。",
+        "pinyin": "Wǒ gēge zài lóu shàng shuìjiào",
+        "meaning": "Anh trai tôi đang ngủ trên tầng."
+      }
+    },
+    {
+      "id": 218,
+      "level": "HSK1",
+      "hanzi": "楼下",
+      "pinyin": "lóu xià",
+      "meaning": "Tầng dưới",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "我在楼下等你。",
+        "pinyin": "Wǒ zài lóu xià děng nǐ",
+        "meaning": "Tôi đang đợi bạn ở tầng dưới."
+      }
+    },
+    {
+      "id": 219,
+      "level": "HSK1",
+      "hanzi": "路",
+      "pinyin": "lù",
+      "meaning": "Con đường, đường phố",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "这条路很长。",
+        "pinyin": "Zhè tiáo lù hěn cháng",
+        "meaning": "Con đường này rất dài."
+      }
+    },
+    {
+      "id": 220,
+      "level": "HSK1",
+      "hanzi": "路口",
+      "pinyin": "lùkǒu",
+      "meaning": "Giao lộ, ngã tư",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "这个路口有很多车。",
+        "pinyin": "Zhège lùkǒu yǒu hěn duō chē",
+        "meaning": "Ngã tư này có rất nhiều xe."
+      }
+    },
+    {
+      "id": 221,
+      "level": "HSK1",
+      "hanzi": "路上",
+      "pinyin": "lùshàng",
+      "meaning": "Trên đường",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "我在路上，看见了你。",
+        "pinyin": "Wǒ zài lùshàng, kànjiàn le nǐ",
+        "meaning": "Tôi trên đường, nhìn thấy bạn."
+      }
+    },
+    {
+      "id": 222,
+      "level": "HSK1",
+      "hanzi": "妈妈 | 妈",
+      "pinyin": "māma | mā",
+      "meaning": "Mẹ, má",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "我妈妈做饭很好吃。",
+        "pinyin": "Wǒ māma zuò fàn hěn hǎo chī",
+        "meaning": "Mẹ tôi nấu ăn rất ngon."
+      }
+    },
+    {
+      "id": 223,
+      "level": "HSK1",
+      "hanzi": "马路",
+      "pinyin": "mǎlù",
+      "meaning": "Đường cái, đường lớn",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "这个马路很长。",
+        "pinyin": "Zhège mǎlù hěn cháng",
+        "meaning": "Con đường này rất dài."
+      }
+    },
+    {
+      "id": 224,
+      "level": "HSK1",
+      "hanzi": "马上",
+      "pinyin": "mǎshàng",
+      "meaning": "Ngay lập tức",
+      "pos": "Trạng từ",
+      "example": {
+        "hanzi": "我马上回来。",
+        "pinyin": "Wǒ mǎshàng huílái",
+        "meaning": "Tôi sẽ quay lại ngay lập tức."
+      }
+    },
+    {
+      "id": 225,
+      "level": "HSK1",
+      "hanzi": "吗",
+      "pinyin": "ma",
+      "meaning": "Trợ từ nghi vấn",
+      "pos": "Trợ từ",
+      "example": {
+        "hanzi": "你喜欢中国菜吗？",
+        "pinyin": "Nǐ xǐhuan Zhōngguó cài ma",
+        "meaning": "Bạn có thích món ăn Trung Quốc không?"
+      }
+    },
+    {
+      "id": 226,
+      "level": "HSK1",
+      "hanzi": "买",
+      "pinyin": "mǎi",
+      "meaning": "Mua",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "我想买一件衣服。",
+        "pinyin": "Wǒ xiǎng mǎi yí jiàn yīfu",
+        "meaning": "Tôi muốn mua một cái áo."
+      }
+    },
+    {
+      "id": 227,
+      "level": "HSK1",
+      "hanzi": "慢",
+      "pinyin": "màn",
+      "meaning": "Chậm",
+      "pos": "Tính từ",
+      "example": {
+        "hanzi": "请说慢一点儿。",
+        "pinyin": "Qǐng shuō màn yìdiǎnr",
+        "meaning": "Xin hãy nói chậm một chút."
+      }
+    },
+    {
+      "id": 228,
+      "level": "HSK1",
+      "hanzi": "忙",
+      "pinyin": "máng",
+      "meaning": "Bận rộn",
+      "pos": "Tính từ",
+      "example": {
+        "hanzi": "他最近很忙。",
+        "pinyin": "Tā zuìjìn hěn máng",
+        "meaning": "Dạo này anh ấy rất bận."
+      }
+    },
+    {
+      "id": 229,
+      "level": "HSK1",
+      "hanzi": "毛",
+      "pinyin": "máo",
+      "meaning": "Lông, tóc; Hào (đơn vị tiền tệ trung quốc)",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "小狗的毛很软。",
+        "pinyin": "Xiǎogǒu de máo hěn ruǎn",
+        "meaning": "Lông của chú chó con rất mềm."
+      }
+    },
+    {
+      "id": 230,
+      "level": "HSK1",
+      "hanzi": "没",
+      "pinyin": "méi",
+      "meaning": "Không có, chưa",
+      "pos": "Phó từ",
+      "example": {
+        "hanzi": "我今天没时间。",
+        "pinyin": "Wǒ jīntiān méi shíjiān",
+        "meaning": "Hôm nay tôi không có thời gian (không rảnh)."
+      }
+    },
+    {
+      "id": 231,
+      "level": "HSK1",
+      "hanzi": "没关系",
+      "pinyin": "méi guānxi",
+      "meaning": "Không sao đâu",
+      "pos": "Cụm từ",
+      "example": {
+        "hanzi": "没关系，我没生气。",
+        "pinyin": "Méiguānxi, wǒ méi shēngqì",
+        "meaning": "Không sao, tôi không giận đâu."
+      }
+    },
+    {
+      "id": 232,
+      "level": "HSK1",
+      "hanzi": "没什么",
+      "pinyin": "méi shénme",
+      "meaning": "Không có gì",
+      "pos": "Cụm từ",
+      "example": {
+        "hanzi": "没什么好担心的。",
+        "pinyin": "Méi shénme hǎo dānxīn de",
+        "meaning": "Không có gì đáng lo lắng cả."
+      }
+    },
+    {
+      "id": 233,
+      "level": "HSK1",
+      "hanzi": "没事儿",
+      "pinyin": "méi shìr",
+      "meaning": "Không có chuyện gì, không sao đâu",
+      "pos": "Cụm từ",
+      "example": {
+        "hanzi": "没事儿，我帮你。",
+        "pinyin": "Méi shìr, wǒ bāng nǐ",
+        "meaning": "Không sao đâu, tôi giúp bạn."
+      }
+    },
+    {
+      "id": 234,
+      "level": "HSK1",
+      "hanzi": "没有",
+      "pinyin": "méi yǒu",
+      "meaning": "Không có",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "我没有钱。",
+        "pinyin": "Wǒ méiyǒu qián",
+        "meaning": "Tôi không có tiền."
+      }
+    },
+    {
+      "id": 235,
+      "level": "HSK1",
+      "hanzi": "妹妹 | 妹",
+      "pinyin": "mèimei | mèi",
+      "meaning": "Em gái",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "我有一个妹妹。",
+        "pinyin": "Wǒ yǒu yīgè mèimei",
+        "meaning": "Tôi có một người em gái."
+      }
+    },
+    {
+      "id": 236,
+      "level": "HSK1",
+      "hanzi": "门",
+      "pinyin": "mén",
+      "meaning": "Cửa",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "我把门关上了。",
+        "pinyin": "Wǒ bǎ mén guānshàng le",
+        "meaning": "Tôi đã đóng cửa lại."
+      }
+    },
+    {
+      "id": 237,
+      "level": "HSK1",
+      "hanzi": "门口",
+      "pinyin": "ménkǒu",
+      "meaning": "Cổng, cửa ra vào",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "我在门口等你。",
+        "pinyin": "Wǒ zài ménkǒu děng nǐ",
+        "meaning": "Tôi đang đợi bạn ở cửa ra vào."
+      }
+    },
+    {
+      "id": 238,
+      "level": "HSK1",
+      "hanzi": "门票",
+      "pinyin": "ménpiào",
+      "meaning": "Vé vào cửa",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "这张门票多少钱？",
+        "pinyin": "Zhè zhāng ménpiào duōshǎo qián",
+        "meaning": ""
+      }
+    },
+    {
+      "id": 239,
+      "level": "HSK1",
+      "hanzi": "们（朋友们）",
+      "pinyin": "men (péngyǒumen)",
+      "meaning": "Dùng để chỉ số nhiều (các bạn, các anh...)",
+      "pos": "Hậu tố",
+      "example": {
+        "hanzi": "我们是好朋友。",
+        "pinyin": "Wǒmen shì hǎo péngyǒu",
+        "meaning": "Chúng tôi là bạn tốt."
+      }
+    },
+    {
+      "id": 240,
+      "level": "HSK1",
+      "hanzi": "米饭",
+      "pinyin": "mǐfàn",
+      "meaning": "Cơm",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "我每天都吃米饭。",
+        "pinyin": "Wǒ měitiān dōu chī mǐfàn",
+        "meaning": "Ngày nào tôi cũng ăn cơm."
+      }
+    },
+    {
+      "id": 241,
+      "level": "HSK1",
+      "hanzi": "面包",
+      "pinyin": "miànbāo",
+      "meaning": "Bánh mì",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "你想吃面包吗？",
+        "pinyin": "Nǐ xiǎng chī miànbāo ma",
+        "meaning": "Bạn có muốn ăn bánh mì không?"
+      }
+    },
+    {
+      "id": 242,
+      "level": "HSK1",
+      "hanzi": "面条儿",
+      "pinyin": "miàntiáor",
+      "meaning": "Mì sợi",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "这碗面条儿很好吃。",
+        "pinyin": "Zhè wǎn miàntiáor hěn hǎochī",
+        "meaning": "Tô mì này rất ngon."
+      }
+    },
+    {
+      "id": 243,
+      "level": "HSK1",
+      "hanzi": "名字",
+      "pinyin": "míngzi",
+      "meaning": "Tên gọi",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "你的名字是什么？",
+        "pinyin": "Nǐ de míngzi shì shénme",
+        "meaning": "Tên của bạn là gì?"
+      }
+    },
+    {
+      "id": 244,
+      "level": "HSK1",
+      "hanzi": "明白",
+      "pinyin": "míngbai",
+      "meaning": "Hiểu rõ",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "我明白你的意思。",
+        "pinyin": "Wǒ míngbai nǐ de yìsi",
+        "meaning": "Tôi hiểu ý của bạn."
+      }
+    },
+    {
+      "id": 245,
+      "level": "HSK1",
+      "hanzi": "明年",
+      "pinyin": "míngnián",
+      "meaning": "Năm sau",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "明年我想去中国。",
+        "pinyin": "Míngnián wǒ xiǎng qù Zhōngguó",
+        "meaning": "Năm sau tôi muốn đi Trung Quốc."
+      }
+    },
+    {
+      "id": 246,
+      "level": "HSK1",
+      "hanzi": "明天",
+      "pinyin": "míngtiān",
+      "meaning": "Ngày mai",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "明天是星期几？",
+        "pinyin": "Míngtiān shì xīngqī jǐ",
+        "meaning": "Ngày mai là thứ mấy?"
+      }
+    },
+    {
+      "id": 247,
+      "level": "HSK1",
+      "hanzi": "拿",
+      "pinyin": "ná",
+      "meaning": "Cầm, nắm, lấy",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "请帮我拿一下。",
+        "pinyin": "Qǐng bāng wǒ ná yíxià",
+        "meaning": "Làm ơn giúp tôi cầm cái này một chút."
+      }
+    },
+    {
+      "id": 248,
+      "level": "HSK1",
+      "hanzi": "哪",
+      "pinyin": "nǎ",
+      "meaning": "Nào",
+      "pos": "Đại từ",
+      "example": {
+        "hanzi": "你喜欢哪本书？",
+        "pinyin": "Nǐ xǐhuān nǎ běn shū",
+        "meaning": "Bạn thích quyển sách nào?"
+      }
+    },
+    {
+      "id": 249,
+      "level": "HSK1",
+      "hanzi": "哪里",
+      "pinyin": "nǎ lǐ",
+      "meaning": "Ở đâu",
+      "pos": "Đại từ",
+      "example": {
+        "hanzi": "你住在哪里？",
+        "pinyin": "Nǐ zhù zài nǎlǐ",
+        "meaning": "Bạn sống ở đâu?"
+      }
+    },
+    {
+      "id": 250,
+      "level": "HSK1",
+      "hanzi": "哪儿",
+      "pinyin": "nǎr",
+      "meaning": "Đâu, chỗ nào (phương ngữ bắc kinh)",
+      "pos": "Đại từ",
+      "example": {
+        "hanzi": "那部电影是在哪儿拍的？",
+        "pinyin": "Nà bù diànyǐng shì zài nǎr pāi de",
+        "meaning": "Bộ phim đó được quay ở đâu vậy?"
+      }
+    },
+    {
+      "id": 251,
+      "level": "HSK1",
+      "hanzi": "哪些",
+      "pinyin": "nǎxiē",
+      "meaning": "Những cái nào, người nào",
+      "pos": "Đại từ",
+      "example": {
+        "hanzi": "你见过哪些名人？",
+        "pinyin": "Nǐ jiànguò nǎxiē míngrén",
+        "meaning": "Bạn đã gặp những người nổi tiếng nào?"
+      }
+    },
+    {
+      "id": 252,
+      "level": "HSK1",
+      "hanzi": "那",
+      "pinyin": "nà",
+      "meaning": "Đó, kia",
+      "pos": "Đại từ",
+      "example": {
+        "hanzi": "那是我的书。",
+        "pinyin": "Nà shì wǒ de shū",
+        "meaning": "Đó là sách của tôi."
+      }
+    },
+    {
+      "id": 253,
+      "level": "HSK1",
+      "hanzi": "那边",
+      "pinyin": "nàbiān",
+      "meaning": "Bên đó",
+      "pos": "Đại từ",
+      "example": {
+        "hanzi": "你看到那边的猫了吗？",
+        "pinyin": "Nǐ kàn dào nà bian de māo le ma",
+        "meaning": "Bạn có thấy con mèo bên đó không?"
+      }
+    },
+    {
+      "id": 254,
+      "level": "HSK1",
+      "hanzi": "那里",
+      "pinyin": "nà lǐ",
+      "meaning": "Ở đó, chỗ đó, nơi đó",
+      "pos": "Đại từ",
+      "example": {
+        "hanzi": "我刚从那里回来。",
+        "pinyin": "Wǒ gāng cóng nàlǐ húilái",
+        "meaning": "Tôi vừa từ chỗ đó trở về."
+      }
+    },
+    {
+      "id": 255,
+      "level": "HSK1",
+      "hanzi": "那儿",
+      "pinyin": "nàr",
+      "meaning": "Ở đó (phương ngữ bắc kinh)",
+      "pos": "Đại từ",
+      "example": {
+        "hanzi": "你要去那儿做什么？",
+        "pinyin": "Nǐ yào qù nàr zuò shénme",
+        "meaning": "Bạn muốn đến đó làm gì?"
+      }
+    },
+    {
+      "id": 256,
+      "level": "HSK1",
+      "hanzi": "那些",
+      "pinyin": "nàxiē",
+      "meaning": "Những cái đó",
+      "pos": "Đại từ",
+      "example": {
+        "hanzi": "那些书都送给你吧。",
+        "pinyin": "Nàxiē shū dōu sòng gěi nǐ ba",
+        "meaning": "Những cuốn sách này đều cho cậu."
+      }
+    },
+    {
+      "id": 257,
+      "level": "HSK1",
+      "hanzi": "奶奶 | 奶",
+      "pinyin": "nǎinai | nǎi",
+      "meaning": "Bà nội",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "我奶奶今年八十岁。",
+        "pinyin": "Wǒ nǎinai jīnnián bāshí suì",
+        "meaning": "Bà nội tôi năm nay 80 tuổi."
+      }
+    },
+    {
+      "id": 258,
+      "level": "HSK1",
+      "hanzi": "男",
+      "pinyin": "nán",
+      "meaning": "Nam, con trai",
+      "pos": "Tính từ",
+      "example": {
+        "hanzi": "我们班有很多男同学。",
+        "pinyin": "Wǒmen bān yǒu hěnduō nán tóngxué",
+        "meaning": "Lớp chúng tôi có rất nhiều bạn học sinh nam."
+      }
+    },
+    {
+      "id": 259,
+      "level": "HSK1",
+      "hanzi": "男孩儿",
+      "pinyin": "nánháir",
+      "meaning": "Bé trai",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "男孩儿在公园里踢足球。",
+        "pinyin": "Nánháir zài gōngyuán lǐ tī zúqiú",
+        "meaning": "Cậu bé đang đá bóng trong công viên."
+      }
+    },
+    {
+      "id": 260,
+      "level": "HSK1",
+      "hanzi": "男朋友",
+      "pinyin": "nánpéngyou",
+      "meaning": "Bạn trai",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "她的男朋友很帅。",
+        "pinyin": "Tā de nánpéngyou hěn shuài",
+        "meaning": "Bạn trai của cô ấy rất đẹp trai."
+      }
+    },
+    {
+      "id": 261,
+      "level": "HSK1",
+      "hanzi": "男人",
+      "pinyin": "nánrén",
+      "meaning": "Đàn ông",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "那个男人在看手机。",
+        "pinyin": "Nàgè nánrén zài kàn shǒujī",
+        "meaning": "Người đàn ông đó đang xem điện thoại."
+      }
+    },
+    {
+      "id": 262,
+      "level": "HSK1",
+      "hanzi": "男生",
+      "pinyin": "nánshēng",
+      "meaning": "Nam sinh, học sinh nam",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "这个班的男生比女生多。",
+        "pinyin": "Zhège bān de nánshēng bǐ nǚshēng duō",
+        "meaning": "Nam sinh trong lớp này nhiều hơn nữ sinh."
+      }
+    },
+    {
+      "id": 263,
+      "level": "HSK1",
+      "hanzi": "南",
+      "pinyin": "nán",
+      "meaning": "Phía nam",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "我喜欢南方的美食。",
+        "pinyin": "Wǒ xǐhuan nánfāng de měishí",
+        "meaning": "Tôi thích ẩm thực miền Nam."
+      }
+    },
+    {
+      "id": 264,
+      "level": "HSK1",
+      "hanzi": "南边",
+      "pinyin": "nánbiān",
+      "meaning": "Phía nam",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "我家在学校南边。",
+        "pinyin": "Wǒ jiā zài xuéxiào nánbiān",
+        "meaning": "Nhà tôi ở phía nam của trường."
+      }
+    },
+    {
+      "id": 265,
+      "level": "HSK1",
+      "hanzi": "难",
+      "pinyin": "nán",
+      "meaning": "Khó",
+      "pos": "Tính từ",
+      "example": {
+        "hanzi": "这个问题很难回答。",
+        "pinyin": "Zhège wèntí hěn nán huídá",
+        "meaning": "Câu hỏi này rất khó trả lời."
+      }
+    },
+    {
+      "id": 266,
+      "level": "HSK1",
+      "hanzi": "呢",
+      "pinyin": "ne",
+      "meaning": "Thế, nhỉ, ư",
+      "pos": "Trợ từ",
+      "example": {
+        "hanzi": "我是学生，你呢？",
+        "pinyin": "Wǒ shì xuéshēng, nǐ ne",
+        "meaning": "Tớ là học sinh, còn cậu thì sao?"
+      }
+    },
+    {
+      "id": 267,
+      "level": "HSK1",
+      "hanzi": "能",
+      "pinyin": "néng",
+      "meaning": "Có thể",
+      "pos": "Động từ năng nguyện",
+      "example": {
+        "hanzi": "咱们一定能完成任务。",
+        "pinyin": "Zánmen yídìng néng wánchéng rènwù",
+        "meaning": "Chúng ta nhất định có thể hoàn thành nhiệm vụ."
+      }
+    },
+    {
+      "id": 268,
+      "level": "HSK1",
+      "hanzi": "你",
+      "pinyin": "nǐ",
+      "meaning": "Bạn, anh, chị",
+      "pos": "Đại từ nhân xưng",
+      "example": {
+        "hanzi": "你喜欢吃什么？",
+        "pinyin": "Nǐ xǐhuan chī shénme",
+        "meaning": "Bạn thích ăn gì?"
+      }
+    },
+    {
+      "id": 269,
+      "level": "HSK1",
+      "hanzi": "你们",
+      "pinyin": "nǐmen",
+      "meaning": "Các bạn, các anh, các chị",
+      "pos": "Đại từ nhân xưng (số nhiều)",
+      "example": {
+        "hanzi": "你们要去哪儿？",
+        "pinyin": "Nǐmen yào qù nǎr",
+        "meaning": "Các bạn muốn đi đâu?"
+      }
+    },
+    {
+      "id": 270,
+      "level": "HSK1",
+      "hanzi": "年级",
+      "pinyin": "niánjí",
+      "meaning": "Niên khóa, cấp lớp",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "你是几年级的学生？",
+        "pinyin": "Nǐ shì jǐ niánjí de xuéshēng",
+        "meaning": "Bạn là học sinh lớp mấy?"
+      }
+    },
+    {
+      "id": 271,
+      "level": "HSK1",
+      "hanzi": "您",
+      "pinyin": "nín",
+      "meaning": "Ngài, ông, bà",
+      "pos": "Đại từ nhân xưng",
+      "example": {
+        "hanzi": "您喜欢喝茶还是喝咖啡？",
+        "pinyin": "Nín xǐhuan hē chá háishì hē kāfēi",
+        "meaning": "Ngài thích uống trà hay cà phê?"
+      }
+    },
+    {
+      "id": 272,
+      "level": "HSK1",
+      "hanzi": "牛奶",
+      "pinyin": "niúnǎi",
+      "meaning": "Sữa bò",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "我喜欢喝牛奶。",
+        "pinyin": "Wǒ xǐhuan hē niúnǎi",
+        "meaning": "Tôi thích uống sữa."
+      }
+    },
+    {
+      "id": 273,
+      "level": "HSK1",
+      "hanzi": "女",
+      "pinyin": "nǚ",
+      "meaning": "Nữ, con gái",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "我的女儿非常可爱。",
+        "pinyin": "Wǒ de nǚ ér fēicháng kě ài",
+        "meaning": "Con gái tôi rất dễ thương."
+      }
+    },
+    {
+      "id": 274,
+      "level": "HSK1",
+      "hanzi": "女儿",
+      "pinyin": "nǚ’ér",
+      "meaning": "Con gái",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "我的女儿非常可爱。",
+        "pinyin": "Wǒ de nǚ'ér fēicháng kě'ài",
+        "meaning": "Con gái tôi rất dễ thương."
+      }
+    },
+    {
+      "id": 275,
+      "level": "HSK1",
+      "hanzi": "女孩儿",
+      "pinyin": "nǚháir",
+      "meaning": "Bé gái",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "你家女孩儿几岁了？",
+        "pinyin": "Nǐ jiā nǚháir jǐ suì le",
+        "meaning": "Con gái nhà bạn mấy tuổi rồi?"
+      }
+    },
+    {
+      "id": 276,
+      "level": "HSK1",
+      "hanzi": "女朋友",
+      "pinyin": "nǚpéngyou",
+      "meaning": "Bạn gái",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "你有女朋友吗？",
+        "pinyin": "Nǐ yǒu nǚ péngyǒu ma",
+        "meaning": "Cậu có bạn gái chưa?"
+      }
+    },
+    {
+      "id": 277,
+      "level": "HSK1",
+      "hanzi": "女人",
+      "pinyin": "nǚrén",
+      "meaning": "Phụ nữ",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "女人都喜欢买漂亮的衣服。",
+        "pinyin": "Nǚrén dōu xǐhuān mǎi piàoliang de yīfu",
+        "meaning": "Phụ nữ đều thích mua quần áo đẹp."
+      }
+    },
+    {
+      "id": 278,
+      "level": "HSK1",
+      "hanzi": "女生",
+      "pinyin": "nǚshēng",
+      "meaning": "Nữ sinh",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "这些女生喜欢画画。",
+        "pinyin": "Zhèxiē nǚshēng xǐhuān huà huà",
+        "meaning": "Những nữ sinh này thích vẽ."
+      }
+    },
+    {
+      "id": 279,
+      "level": "HSK1",
+      "hanzi": "旁边",
+      "pinyin": "pángbiān",
+      "meaning": "Cạnh, bên cạnh",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "厨房在客厅的旁边。",
+        "pinyin": "Chúfáng zài kètīng de pángbiān",
+        "meaning": "Nhà bếp ở bên cạnh phòng khách."
+      }
+    },
+    {
+      "id": 280,
+      "level": "HSK1",
+      "hanzi": "跑",
+      "pinyin": "pǎo",
+      "meaning": "Chạy",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "他每天早上都跑步。",
+        "pinyin": "Tā měitiān zǎoshang dōu pǎobù",
+        "meaning": "Anh ấy chạy bộ mỗi sáng."
+      }
+    },
+    {
+      "id": 281,
+      "level": "HSK1",
+      "hanzi": "朋友",
+      "pinyin": "péngyou",
+      "meaning": "Bạn bè",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "我有很多朋友。",
+        "pinyin": "Wǒ yǒu hěn duō péngyou",
+        "meaning": "Tôi có rất nhiều bạn."
+      }
+    },
+    {
+      "id": 282,
+      "level": "HSK1",
+      "hanzi": "漂亮",
+      "pinyin": "piàoliang",
+      "meaning": "Đẹp, xinh đẹp",
+      "pos": "Tính từ",
+      "example": {
+        "hanzi": "这件衣服很漂亮。",
+        "pinyin": "Zhè jiàn yīfu hěn piàoliang",
+        "meaning": "Bộ quần áo này rất đẹp."
+      }
+    },
+    {
+      "id": 283,
+      "level": "HSK1",
+      "hanzi": "七",
+      "pinyin": "qī",
+      "meaning": "Số bảy",
+      "pos": "Số từ",
+      "example": {
+        "hanzi": "我有七本书。",
+        "pinyin": "Wǒ yǒu qī běn shū",
+        "meaning": "Tôi có bảy quyển sách."
+      }
+    },
+    {
+      "id": 284,
+      "level": "HSK1",
+      "hanzi": "起",
+      "pinyin": "qǐ",
+      "meaning": "Dậy, thức dậy, đứng dậy",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "今天睡到上午10点才起。",
+        "pinyin": "Jīntiān shuì dào shàngwǔ 10 diǎn cái qǐ",
+        "meaning": "Nay ngủ đến 10 giờ mới dậy."
+      }
+    },
+    {
+      "id": 285,
+      "level": "HSK1",
+      "hanzi": "起床",
+      "pinyin": "qǐchuáng",
+      "meaning": "Thức dậy (ra khỏi giường)",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "我每天六点起床。",
+        "pinyin": "Wǒ měitiān liù diǎn qǐchuáng",
+        "meaning": "Mỗi ngày tôi thức dậy lúc 6 giờ."
+      }
+    },
+    {
+      "id": 286,
+      "level": "HSK1",
+      "hanzi": "起来",
+      "pinyin": "qǐlái",
+      "meaning": "Đứng dậy, ngồi dậy, thức dậy",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "他站起来了。",
+        "pinyin": "Tā zhàn qǐlái le",
+        "meaning": "Anh ấy đứng dậy rồi."
+      }
+    },
+    {
+      "id": 287,
+      "level": "HSK1",
+      "hanzi": "汽车",
+      "pinyin": "qìchē",
+      "meaning": "Xe hơi, ô tô",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "这辆汽车是我爸爸的。",
+        "pinyin": "Zhè liàng qìchē shì wǒ bàba de",
+        "meaning": "Hai chiếc ô tô này là của bố tôi."
+      }
+    },
+    {
+      "id": 288,
+      "level": "HSK1",
+      "hanzi": "前",
+      "pinyin": "qián",
+      "meaning": "Trước",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "他12号前会回来。",
+        "pinyin": "Tā 12 hào qián huì huílái",
+        "meaning": "Anh ấy sẽ trở lại trước ngày 12."
+      }
+    },
+    {
+      "id": 289,
+      "level": "HSK1",
+      "hanzi": "前边",
+      "pinyin": "qiánbiān",
+      "meaning": "Phía trước",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "学校就在前边。",
+        "pinyin": "Xuéxiào jiù zài qiánbiān",
+        "meaning": "Trường học ở ngay phía trước."
+      }
+    },
+    {
+      "id": 290,
+      "level": "HSK1",
+      "hanzi": "前天",
+      "pinyin": "qiántiān",
+      "meaning": "Hôm kia",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "我前天去了上海。",
+        "pinyin": "Wǒ qiántiān qù le Shànghǎi",
+        "meaning": "Hôm kia tôi đã đi Thượng Hải."
+      }
+    },
+    {
+      "id": 291,
+      "level": "HSK1",
+      "hanzi": "钱",
+      "pinyin": "qián",
+      "meaning": "Tiền",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "我没钱。",
+        "pinyin": "Wǒ méi qián",
+        "meaning": "Tôi không có tiền."
+      }
+    },
+    {
+      "id": 292,
+      "level": "HSK1",
+      "hanzi": "钱包",
+      "pinyin": "qiánbāo",
+      "meaning": "Ví tiền, bóp tiền",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "我的钱包不见了。",
+        "pinyin": "Wǒ de qiánbāo bú jiàn le",
+        "meaning": "Ví tiền của tôi bị mất rồi."
+      }
+    },
+    {
+      "id": 293,
+      "level": "HSK1",
+      "hanzi": "请",
+      "pinyin": "qǐng",
+      "meaning": "Mời, xin vui lòng",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "请给我一杯水。",
+        "pinyin": "Qǐng gěi wǒ yì bēi shuǐ",
+        "meaning": "Xin hãy cho tôi một cốc nước."
+      }
+    },
+    {
+      "id": 294,
+      "level": "HSK1",
+      "hanzi": "请假",
+      "pinyin": "qǐngjià",
+      "meaning": "Xin nghỉ phép",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "老师，今天我想请假。",
+        "pinyin": "Lǎoshī, jīntiān wǒ xiǎng qǐngjià",
+        "meaning": "Thầy ơi, hôm nay em muốn xin nghỉ."
+      }
+    },
+    {
+      "id": 295,
+      "level": "HSK1",
+      "hanzi": "请进",
+      "pinyin": "qǐng jìn",
+      "meaning": "Mời vào",
+      "pos": "Cụm từ",
+      "example": {
+        "hanzi": "请进，大家都在等你。",
+        "pinyin": "Qǐng jìn, dàjiā dōu zài děng nǐ",
+        "meaning": "Mời vào, mọi người đang chờ bạn."
+      }
+    },
+    {
+      "id": 296,
+      "level": "HSK1",
+      "hanzi": "请问",
+      "pinyin": "qǐngwèn",
+      "meaning": "Xin hỏi",
+      "pos": "Cụm từ",
+      "example": {
+        "hanzi": "请问您有空吗？",
+        "pinyin": "Qǐngwèn nín yǒu kòng ma",
+        "meaning": "Xin hỏi anh có rảnh không ạ?"
+      }
+    },
+    {
+      "id": 297,
+      "level": "HSK1",
+      "hanzi": "请坐",
+      "pinyin": "qǐng zuò",
+      "meaning": "Mời ngồi",
+      "pos": "Cụm từ",
+      "example": {
+        "hanzi": "欢迎光临，请坐。",
+        "pinyin": "Huānyíng guānglín, qǐng zuò",
+        "meaning": "Chào mừng quý khách, mời ngồi."
+      }
+    },
+    {
+      "id": 298,
+      "level": "HSK1",
+      "hanzi": "球",
+      "pinyin": "qiú",
+      "meaning": "Quả bóng",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "他喜欢踢足球。",
+        "pinyin": "Tā xǐhuan tī zúqiú",
+        "meaning": "Anh ấy thích đá bóng."
+      }
+    },
+    {
+      "id": 299,
+      "level": "HSK1",
+      "hanzi": "去",
+      "pinyin": "qù",
+      "meaning": "Đi, rời đi, rời khỏi",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "他吃完饭就去了。",
+        "pinyin": "Tā chī wán fàn jiù qù le",
+        "meaning": "Anh ấy ăn xong rồi đi ngay."
+      }
+    },
+    {
+      "id": 300,
+      "level": "HSK1",
+      "hanzi": "去年",
+      "pinyin": "qùnián",
+      "meaning": "Năm ngoái",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "去年我买了一辆新车。",
+        "pinyin": "Qùnián wǒ mǎi le yī liàng xīnchē",
+        "meaning": "Năm ngoái tôi đã mua một chiếc xe mới."
+      }
+    },
+    {
+      "id": 301,
+      "level": "HSK1",
+      "hanzi": "热",
+      "pinyin": "rè",
+      "meaning": "Nóng",
+      "pos": "Tính từ",
+      "example": {
+        "hanzi": "今天的天气很热。",
+        "pinyin": "Jīntiān de tiānqì hěn rè",
+        "meaning": "Thời tiết của hôm nay rất nóng."
+      }
+    },
+    {
+      "id": 302,
+      "level": "HSK1",
+      "hanzi": "人",
+      "pinyin": "rén",
+      "meaning": "Người",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "这个世界上有很多好人。",
+        "pinyin": "Zhège shìjiè shàng yǒu hěn duō hǎorén",
+        "meaning": "Trên thế giới này có rất nhiều người tốt."
+      }
+    },
+    {
+      "id": 303,
+      "level": "HSK1",
+      "hanzi": "认识",
+      "pinyin": "rènshi",
+      "meaning": "Quen biết",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "我认识他。",
+        "pinyin": "Wǒ rènshi tā",
+        "meaning": "Tôi quen biết anh ấy."
+      }
+    },
+    {
+      "id": 304,
+      "level": "HSK1",
+      "hanzi": "认真",
+      "pinyin": "rènzhēn",
+      "meaning": "Chăm chỉ, nghiêm túc",
+      "pos": "Tính từ",
+      "example": {
+        "hanzi": "他学习很认真。",
+        "pinyin": "Tā xuéxí hěn rènzhēn",
+        "meaning": "Anh ấy học rất chăm chỉ."
+      }
+    },
+    {
+      "id": 305,
+      "level": "HSK1",
+      "hanzi": "日",
+      "pinyin": "rì",
+      "meaning": "Ngày, mỗi ngày; mặt trời",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "他的生日在六月。 日出的时候很美。",
+        "pinyin": "Tā de shēngrì zài liù yuè/ /Rì chū de shíhòu hěn měi",
+        "meaning": "Ngày sinh nhật của anh ấy vào tháng sáu. Lúc mặt trời mọc rất đẹp."
+      }
+    },
+    {
+      "id": 306,
+      "level": "HSK1",
+      "hanzi": "日期",
+      "pinyin": "rìqī",
+      "meaning": "Ngày tháng, thời gian",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "文件的日期写错了。",
+        "pinyin": "Wénjiàn de rìqí xiě cuò le",
+        "meaning": "Ngày tháng trên tài liệu bị sai rồi."
+      }
+    },
+    {
+      "id": 307,
+      "level": "HSK1",
+      "hanzi": "肉",
+      "pinyin": "ròu",
+      "meaning": "Thịt",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "我喜欢吃鸡肉。",
+        "pinyin": "Wǒ xǐhuan chī jīròu",
+        "meaning": "Tôi thích ăn thịt gà."
+      }
+    },
+    {
+      "id": 308,
+      "level": "HSK1",
+      "hanzi": "三",
+      "pinyin": "sān",
+      "meaning": "Số ba",
+      "pos": "Số từ",
+      "example": {
+        "hanzi": "我有三个好朋友。",
+        "pinyin": "Wǒ yǒu sān gè hǎo péngyǒu",
+        "meaning": "Tôi có ba người bạn tốt."
+      }
+    },
+    {
+      "id": 309,
+      "level": "HSK1",
+      "hanzi": "山",
+      "pinyin": "shān",
+      "meaning": "Núi",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "那座山很高。",
+        "pinyin": "Nà zuò shān hěn gāo",
+        "meaning": "Ngọn núi đó rất cao."
+      }
+    },
+    {
+      "id": 310,
+      "level": "HSK1",
+      "hanzi": "商场",
+      "pinyin": "shāngchǎng",
+      "meaning": "Trung tâm thương mại",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "我们去商场买衣服吧。",
+        "pinyin": "Wǒmen qù shāngchǎng mǎi yīfú ba",
+        "meaning": "Chúng ta đi trung tâm thương mại mua quần áo đi."
+      }
+    },
+    {
+      "id": 311,
+      "level": "HSK1",
+      "hanzi": "商店",
+      "pinyin": "shāngdiàn",
+      "meaning": "Cửa hàng",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "这个商店很大。",
+        "pinyin": "Zhège shāngdiàn hěn dà",
+        "meaning": "Cửa hàng này rất lớn."
+      }
+    },
+    {
+      "id": 312,
+      "level": "HSK1",
+      "hanzi": "上",
+      "pinyin": "shàng",
+      "meaning": "Trên, lên",
+      "pos": "Giới từ",
+      "example": {
+        "hanzi": "书在桌子上。",
+        "pinyin": "Shū zài zhuōzi shàng",
+        "meaning": "Quyển sách ở trên bàn."
+      }
+    },
+    {
+      "id": 313,
+      "level": "HSK1",
+      "hanzi": "上班",
+      "pinyin": "shàngbān",
+      "meaning": "Đi làm",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "他每天八点上班。",
+        "pinyin": "Tā měitiān bā diǎn shàngbān",
+        "meaning": "Mỗi ngày anh ấy đi làm lúc 8 giờ."
+      }
+    },
+    {
+      "id": 314,
+      "level": "HSK1",
+      "hanzi": "上边",
+      "pinyin": "shàngbiān",
+      "meaning": "Phía trên",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "笔在书的上边。",
+        "pinyin": "Bǐ zài shū de shàngbiān",
+        "meaning": "Cây bút ở phía trên quyển sách."
+      }
+    },
+    {
+      "id": 315,
+      "level": "HSK1",
+      "hanzi": "上车",
+      "pinyin": "shàng chē",
+      "meaning": "Lên xe",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "我们快上车吧。",
+        "pinyin": "Wǒmen kuài shàng chē ba",
+        "meaning": "Chúng ta mau lên xe đi."
+      }
+    },
+    {
+      "id": 316,
+      "level": "HSK1",
+      "hanzi": "上次",
+      "pinyin": "shàng cì",
+      "meaning": "Lần trước",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "上次我们去上海了。",
+        "pinyin": "Shàng cì wǒmen qù Shànghǎi le",
+        "meaning": "Lần trước chúng tôi đã đi Thượng Hải."
+      }
+    },
+    {
+      "id": 317,
+      "level": "HSK1",
+      "hanzi": "上课",
+      "pinyin": "shàng kè",
+      "meaning": "Lên lớp, đi học",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "现在是上课时间。",
+        "pinyin": "Xiànzài shì shàngkè shíjiān",
+        "meaning": "Bây giờ là thời gian lên lớp."
+      }
+    },
+    {
+      "id": 318,
+      "level": "HSK1",
+      "hanzi": "上网",
+      "pinyin": "shàng wǎng",
+      "meaning": "Lên mạng",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "他喜欢上网买东西。",
+        "pinyin": "Tā xǐhuan shàng wǎng mǎi dōngxi",
+        "meaning": "Anh ấy thích mua hàng online."
+      }
+    },
+    {
+      "id": 319,
+      "level": "HSK1",
+      "hanzi": "上午",
+      "pinyin": "shàngwǔ",
+      "meaning": "Buổi sáng",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "我上午有一个会议。",
+        "pinyin": "Wǒ shàngwǔ yǒu yī gè huìyì",
+        "meaning": "Tôi có một cuộc họp vào buổi sáng."
+      }
+    },
+    {
+      "id": 320,
+      "level": "HSK1",
+      "hanzi": "上学",
+      "pinyin": "shàng xué",
+      "meaning": "Đi học",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "孩子们七点上学。",
+        "pinyin": "Háizimen qī diǎn shàng xué",
+        "meaning": "Bọn trẻ đi học lúc 7 giờ."
+      }
+    },
+    {
+      "id": 321,
+      "level": "HSK1",
+      "hanzi": "少",
+      "pinyin": "shǎo",
+      "meaning": "Ít",
+      "pos": "Tính từ",
+      "example": {
+        "hanzi": "这里的人很少。",
+        "pinyin": "Zhèlǐ de rén hěn shǎo",
+        "meaning": "Ở đây rất ít người."
+      }
+    },
+    {
+      "id": 322,
+      "level": "HSK1",
+      "hanzi": "谁",
+      "pinyin": "shéi",
+      "meaning": "Ai",
+      "pos": "Đại từ",
+      "example": {
+        "hanzi": "这是谁的书？",
+        "pinyin": "Zhè shì shéi de shū",
+        "meaning": "Đây là sách của ai?"
+      }
+    },
+    {
+      "id": 323,
+      "level": "HSK1",
+      "hanzi": "身上",
+      "pinyin": "shēnshang",
+      "meaning": "Trên người",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "你身上有钱吗？",
+        "pinyin": "Nǐ shēnshang yǒu qián ma",
+        "meaning": "Bạn có tiền trong người không?"
+      }
+    },
+    {
+      "id": 324,
+      "level": "HSK1",
+      "hanzi": "身体",
+      "pinyin": "shēntǐ",
+      "meaning": "Cơ thể, sức khỏe",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "你身体好吗？",
+        "pinyin": "Nǐ shēntǐ hǎo ma",
+        "meaning": "Sức khỏe của bạn có tốt không?"
+      }
+    },
+    {
+      "id": 325,
+      "level": "HSK1",
+      "hanzi": "什么",
+      "pinyin": "shénme",
+      "meaning": "Gì, cái gì",
+      "pos": "Đại từ",
+      "example": {
+        "hanzi": "你想吃什么？",
+        "pinyin": "Nǐ xiǎng chī shénme",
+        "meaning": "Bạn muốn ăn gì?"
+      }
+    },
+    {
+      "id": 326,
+      "level": "HSK1",
+      "hanzi": "生病",
+      "pinyin": "shēng bìng",
+      "meaning": "Bị bệnh",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "他昨天生病了。",
+        "pinyin": "Tā zuótiān shēng bìng le",
+        "meaning": "Hôm qua anh ấy bị bệnh."
+      }
+    },
+    {
+      "id": 327,
+      "level": "HSK1",
+      "hanzi": "生气",
+      "pinyin": "shēng qì",
+      "meaning": "Giận, tức giận",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "妈妈生气了。",
+        "pinyin": "Māmā shēngqì le",
+        "meaning": "Mẹ giận rồi."
+      }
+    },
+    {
+      "id": 328,
+      "level": "HSK1",
+      "hanzi": "生日",
+      "pinyin": "shēngrì",
+      "meaning": "Sinh nhật",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "你的生日是几月几号？",
+        "pinyin": "Nǐ de shēngrì shì jǐ yuè jǐ hào",
+        "meaning": "Sinh nhật của bạn là ngày mấy tháng mấy?"
+      }
+    },
+    {
+      "id": 329,
+      "level": "HSK1",
+      "hanzi": "十",
+      "pinyin": "shí",
+      "meaning": "Số mười",
+      "pos": "Số từ",
+      "example": {
+        "hanzi": "他十岁就会游泳。",
+        "pinyin": "Tā shí suì jiù huì yóuyǒng",
+        "meaning": "Anh ấy mười tuổi đã biết bơi."
+      }
+    },
+    {
+      "id": 330,
+      "level": "HSK1",
+      "hanzi": "时候",
+      "pinyin": "shíhou",
+      "meaning": "Thời gian, lúc",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "你什么时候去北京？",
+        "pinyin": "Nǐ shénme shíhòu qù Běijīng",
+        "meaning": "Khi nào bạn đi Bắc Kinh?"
+      }
+    },
+    {
+      "id": 331,
+      "level": "HSK1",
+      "hanzi": "时间",
+      "pinyin": "shíjiān",
+      "meaning": "Thời gian",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "时间过得真快。",
+        "pinyin": "Shíjiān guò dé zhēn kuài",
+        "meaning": "Thời gian trôi qua thật nhanh."
+      }
+    },
+    {
+      "id": 332,
+      "level": "HSK1",
+      "hanzi": "事",
+      "pinyin": "shì",
+      "meaning": "Việc, sự việc",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "这是一件重要的事。",
+        "pinyin": "Zhè shì yī jiàn zhòngyào de shì",
+        "meaning": "Đây là một việc quan trọng."
+      }
+    },
+    {
+      "id": 333,
+      "level": "HSK1",
+      "hanzi": "试",
+      "pinyin": "shì",
+      "meaning": "Thử, thử nghiệm",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "我可以试一试吗？",
+        "pinyin": "Wǒ kěyǐ shì yī shì ma?",
+        "meaning": "Tôi có thể thử một chút không?"
+      }
+    },
+    {
+      "id": 334,
+      "level": "HSK1",
+      "hanzi": "是",
+      "pinyin": "shì",
+      "meaning": "Là",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "他是我的好朋友。",
+        "pinyin": "Tā shì wǒ de hǎo péngyǒu",
+        "meaning": "Anh ấy là bạn tốt của tôi."
+      }
+    },
+    {
+      "id": 335,
+      "level": "HSK1",
+      "hanzi": "是不是",
+      "pinyin": "shì bùshì",
+      "meaning": "Có phải không?",
+      "pos": "Câu hỏi",
+      "example": {
+        "hanzi": "这件事是不是你做的？",
+        "pinyin": "Zhè jiàn shì shì bùshì nǐ zuò de",
+        "meaning": "Việc này có phải cậu làm không?"
+      }
+    },
+    {
+      "id": 336,
+      "level": "HSK1",
+      "hanzi": "手",
+      "pinyin": "shǒu",
+      "meaning": "Tay",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "请把手洗干净。",
+        "pinyin": "Qǐng bǎ shǒu xǐ gānjìng",
+        "meaning": "Hãy rửa tay sạch sẽ."
+      }
+    },
+    {
+      "id": 337,
+      "level": "HSK1",
+      "hanzi": "手机",
+      "pinyin": "shǒujī",
+      "meaning": "Điện thoại di động",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "我的手机在那里。",
+        "pinyin": "Wǒ de shǒujī zài nàlǐ",
+        "meaning": "Điện thoại của tôi ở đằng kia."
+      }
+    },
+    {
+      "id": 338,
+      "level": "HSK1",
+      "hanzi": "书",
+      "pinyin": "shū",
+      "meaning": "Sách",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "我喜欢看书。",
+        "pinyin": "Wǒ xǐhuan kàn shū",
+        "meaning": "Tôi thích đọc sách."
+      }
+    },
+    {
+      "id": 339,
+      "level": "HSK1",
+      "hanzi": "书包",
+      "pinyin": "shūbāo",
+      "meaning": "Cặp sách",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "我的书包里有苹果。",
+        "pinyin": "Wǒ de shūbāo lǐ yǒu píngguǒ",
+        "meaning": "Trong cặp sách của tôi có một quả táo."
+      }
+    },
+    {
+      "id": 340,
+      "level": "HSK1",
+      "hanzi": "书店",
+      "pinyin": "shūdiàn",
+      "meaning": "Hiệu sách",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "我喜欢去书店。",
+        "pinyin": "Wǒ xǐhuan qù shūdiàn",
+        "meaning": "Tôi thích đi nhà sách."
+      }
+    },
+    {
+      "id": 341,
+      "level": "HSK1",
+      "hanzi": "树",
+      "pinyin": "shù",
+      "meaning": "Cây, cây cối",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "这里有一棵大树。",
+        "pinyin": "Zhè lǐ yǒu yī kē dà shù",
+        "meaning": "Ở đây có một cái cây lớn."
+      }
+    },
+    {
+      "id": 342,
+      "level": "HSK1",
+      "hanzi": "水",
+      "pinyin": "shuǐ",
+      "meaning": "Nước",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "我想喝水。",
+        "pinyin": "Wǒ xiǎng hē shuǐ",
+        "meaning": "Tôi muốn uống nước."
+      }
+    },
+    {
+      "id": 343,
+      "level": "HSK1",
+      "hanzi": "水果",
+      "pinyin": "shuǐguǒ",
+      "meaning": "Trái cây",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "我每天都吃水果。",
+        "pinyin": "Wǒ měitiān dōu chī shuǐguǒ",
+        "meaning": "Tôi ăn trái cây mỗi ngày."
+      }
+    },
+    {
+      "id": 344,
+      "level": "HSK1",
+      "hanzi": "睡",
+      "pinyin": "shuì",
+      "meaning": "Ngủ",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "他昨天晚上睡得很早。",
+        "pinyin": "Tā zuótiān wǎnshàng shuì de hěn zǎo",
+        "meaning": "Tối qua anh ấy ngủ rất sớm."
+      }
+    },
+    {
+      "id": 345,
+      "level": "HSK1",
+      "hanzi": "睡觉",
+      "pinyin": "shuìjiào",
+      "meaning": "Ngủ",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "孩子们都去睡觉了。",
+        "pinyin": "Háizǐmen dōu qù shuìjiào le",
+        "meaning": "Bọn trẻ đều đi ngủ rồi."
+      }
+    },
+    {
+      "id": 346,
+      "level": "HSK1",
+      "hanzi": "说",
+      "pinyin": "shuō",
+      "meaning": "Nói",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "我会说汉语。",
+        "pinyin": "Wǒ huì shuō Hànyǔ",
+        "meaning": "Tôi biết nói tiếng Trung."
+      }
+    },
+    {
+      "id": 347,
+      "level": "HSK1",
+      "hanzi": "说话",
+      "pinyin": "shuōhuà",
+      "meaning": "Nói chuyện",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "请不要大声说话。",
+        "pinyin": "Qǐng bùyào dàshēng shuōhuà",
+        "meaning": "Vui lòng đừng nói chuyện lớn tiếng."
+      }
+    },
+    {
+      "id": 348,
+      "level": "HSK1",
+      "hanzi": "四",
+      "pinyin": "sì",
+      "meaning": "Số bốn",
+      "pos": "Số từ",
+      "example": {
+        "hanzi": "他家有四口人。",
+        "pinyin": "Tā jiā yǒu sì kǒu rén",
+        "meaning": "Gia đình anh ấy có bốn người."
+      }
+    },
+    {
+      "id": 349,
+      "level": "HSK1",
+      "hanzi": "送",
+      "pinyin": "sòng",
+      "meaning": "Tặng, đưa",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "我送你一本书。",
+        "pinyin": "Wǒ sòng nǐ yī běn shū",
+        "meaning": "Tôi tặng bạn một quyển sách."
+      }
+    },
+    {
+      "id": 350,
+      "level": "HSK1",
+      "hanzi": "岁",
+      "pinyin": "suì",
+      "meaning": "Tuổi",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "她今年二十岁了。",
+        "pinyin": "Tā jīnnián èrshí suì le",
+        "meaning": "Cô ấy năm nay 20 tuổi rồi."
+      }
+    },
+    {
+      "id": 351,
+      "level": "HSK1",
+      "hanzi": "他",
+      "pinyin": "tā",
+      "meaning": "Anh ấy, ông ấy",
+      "pos": "Đại từ",
+      "example": {
+        "hanzi": "他是我的朋友。",
+        "pinyin": "Tā shì wǒ de péngyǒu",
+        "meaning": "Anh ấy là bạn của tôi."
+      }
+    },
+    {
+      "id": 352,
+      "level": "HSK1",
+      "hanzi": "他们",
+      "pinyin": "tāmen",
+      "meaning": "Họ, bọn họ (nam)",
+      "pos": "Đại từ",
+      "example": {
+        "hanzi": "他们在学校学习。",
+        "pinyin": "Tāmen zài xuéxiào xuéxí",
+        "meaning": "Họ đang học ở trường."
+      }
+    },
+    {
+      "id": 353,
+      "level": "HSK1",
+      "hanzi": "她",
+      "pinyin": "tā",
+      "meaning": "Cô ấy, bà ấy",
+      "pos": "Đại từ",
+      "example": {
+        "hanzi": "她喜欢听音乐。",
+        "pinyin": "Tā xǐhuan tīng yīnyuè",
+        "meaning": "Cô ấy thích nghe nhạc."
+      }
+    },
+    {
+      "id": 354,
+      "level": "HSK1",
+      "hanzi": "她们",
+      "pinyin": "tāmen",
+      "meaning": "Họ, bọn họ (nữ)",
+      "pos": "Đại từ",
+      "example": {
+        "hanzi": "她们正在看书。",
+        "pinyin": "Tāmen zhèngzài kàn shū",
+        "meaning": "Họ đang đọc sách."
+      }
+    },
+    {
+      "id": 355,
+      "level": "HSK1",
+      "hanzi": "太",
+      "pinyin": "tài",
+      "meaning": "Quá, rất",
+      "pos": "Phó từ",
+      "example": {
+        "hanzi": "这个菜太好吃了。",
+        "pinyin": "Zhège cài tài hǎochī le",
+        "meaning": "Món ăn này quá ngon."
+      }
+    },
+    {
+      "id": 356,
+      "level": "HSK1",
+      "hanzi": "天",
+      "pinyin": "tiān",
+      "meaning": "Ngày; trời, bầu trời",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "今天是星期天。 我喜欢看天上的星星。",
+        "pinyin": "Jīntiān shì xīngqītiān/ /Wǒ xǐhuān kàn tiānshàng de xīngxīng",
+        "meaning": "Hôm nay là Chủ nhật. Tôi thích ngắm sao trên trời."
+      }
+    },
+    {
+      "id": 357,
+      "level": "HSK1",
+      "hanzi": "天气",
+      "pinyin": "tiānqì",
+      "meaning": "Thời tiết",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "今天天气很好。",
+        "pinyin": "Jīntiān tiānqì hěn hǎo",
+        "meaning": "Hôm nay thời tiết rất đẹp."
+      }
+    },
+    {
+      "id": 358,
+      "level": "HSK1",
+      "hanzi": "听",
+      "pinyin": "tīng",
+      "meaning": "Nghe",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "他在听歌。",
+        "pinyin": "Tā zài tīng gē",
+        "meaning": "Anh ấy đang nghe nhạc."
+      }
+    },
+    {
+      "id": 359,
+      "level": "HSK1",
+      "hanzi": "听到",
+      "pinyin": "tīngdào",
+      "meaning": "Nghe thấy",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "我听到了你的声音。",
+        "pinyin": "Wǒ tīngdào le nǐ de shēngyīn",
+        "meaning": "Tôi đã nghe thấy giọng của bạn."
+      }
+    },
+    {
+      "id": 360,
+      "level": "HSK1",
+      "hanzi": "听见",
+      "pinyin": "tīngjiàn",
+      "meaning": "Nghe được",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "你听见了吗？",
+        "pinyin": "Nǐ tīngjiàn le ma",
+        "meaning": "Bạn có nghe thấy không?"
+      }
+    },
+    {
+      "id": 361,
+      "level": "HSK1",
+      "hanzi": "听写",
+      "pinyin": "tīngxiě",
+      "meaning": "Nghe viết (chính tả)",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "我们今天有听写考试。",
+        "pinyin": "Wǒmen jīntiān yǒu tīngxiě kǎoshì",
+        "meaning": "Hôm nay chúng tôi có bài kiểm tra chính tả."
+      }
+    },
+    {
+      "id": 362,
+      "level": "HSK1",
+      "hanzi": "同学",
+      "pinyin": "tóngxué",
+      "meaning": "Bạn học",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "这是我的同学。",
+        "pinyin": "Zhè shì wǒ de tóngxué",
+        "meaning": "Đây là bạn học của tôi."
+      }
+    },
+    {
+      "id": 363,
+      "level": "HSK1",
+      "hanzi": "图书馆",
+      "pinyin": "túshūguǎn",
+      "meaning": "Thư viện",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "学校里有三个图书馆。",
+        "pinyin": "Xuéxiào li yǒu sān gè túshū guǎn",
+        "meaning": "Trường có ba thư viện."
+      }
+    },
+    {
+      "id": 364,
+      "level": "HSK1",
+      "hanzi": "外",
+      "pinyin": "wài",
+      "meaning": "Bên ngoài",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "我们去外面吃饭吧。",
+        "pinyin": "Wǒmen qù wàimiàn chīfàn ba",
+        "meaning": "Chúng ta ra ngoài ăn đi."
+      }
+    },
+    {
+      "id": 365,
+      "level": "HSK1",
+      "hanzi": "外边",
+      "pinyin": "wàibian",
+      "meaning": "Bên ngoài",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "外边有很多漂亮的花。",
+        "pinyin": "Wàibian yǒu hěnduō piàoliang de huā",
+        "meaning": "Bên ngoài có rất nhiều hoa đẹp."
+      }
+    },
+    {
+      "id": 366,
+      "level": "HSK1",
+      "hanzi": "外国",
+      "pinyin": "wàiguó",
+      "meaning": "Nước ngoài",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "他是外国人。",
+        "pinyin": "Tā shì wàiguó rén",
+        "meaning": "Anh ấy là người nước ngoài."
+      }
+    },
+    {
+      "id": 367,
+      "level": "HSK1",
+      "hanzi": "外语",
+      "pinyin": "wàiyǔ",
+      "meaning": "Ngoại ngữ",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "你会说几种外语？",
+        "pinyin": "Nǐ huì shuō jǐ zhǒng wàiyǔ",
+        "meaning": "Bạn biết nói mấy thứ tiếng nước ngoài?"
+      }
+    },
+    {
+      "id": 368,
+      "level": "HSK1",
+      "hanzi": "玩儿",
+      "pinyin": "wánr",
+      "meaning": "Chơi",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "孩子们喜欢玩儿游戏。",
+        "pinyin": "Háizimen xǐhuān wánr yóuxì",
+        "meaning": "Bọn trẻ thích chơi trò chơi."
+      }
+    },
+    {
+      "id": 369,
+      "level": "HSK1",
+      "hanzi": "晚",
+      "pinyin": "wǎn",
+      "meaning": "Muộn, trễ",
+      "pos": "Tính từ",
+      "example": {
+        "hanzi": "现在太晚了，快睡吧。",
+        "pinyin": "Xiànzài tài wǎn le, kuài shuì ba",
+        "meaning": "Bây giờ quá muộn rồi, mau ngủ đi."
+      }
+    },
+    {
+      "id": 370,
+      "level": "HSK1",
+      "hanzi": "晚饭",
+      "pinyin": "wǎnfàn",
+      "meaning": "Bữa tối",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "我们一起吃晚饭吧。",
+        "pinyin": "Wǒmen yìqǐ chī wǎnfàn ba",
+        "meaning": "Chúng ta cùng đi ăn tối nhé."
+      }
+    },
+    {
+      "id": 371,
+      "level": "HSK1",
+      "hanzi": "晚上",
+      "pinyin": "wǎnshàng",
+      "meaning": "Buổi tối",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "晚上我们一起去看电影吧。",
+        "pinyin": "Wǎnshàng wǒmen yìqǐ qù kàn diànyǐng ba",
+        "meaning": "Buổi tối chúng ta cùng đi xem phim nhé."
+      }
+    },
+    {
+      "id": 372,
+      "level": "HSK1",
+      "hanzi": "网上",
+      "pinyin": "wǎngshàng",
+      "meaning": "Trên mạng",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "现在很多人喜欢在网上买东西。",
+        "pinyin": "Xiànzài hěnduō rén xǐhuān zài wǎngshàng mǎi dōngxī",
+        "meaning": "Hiện nay nhiều người thích mua đồ trên mạng."
+      }
+    },
+    {
+      "id": 373,
+      "level": "HSK1",
+      "hanzi": "网友",
+      "pinyin": "wǎngyǒu",
+      "meaning": "Bạn trên mạng",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "我有很多网友。",
+        "pinyin": "Wǒ yǒu hěnduō wǎngyǒu",
+        "meaning": "Tôi có nhiều bạn trên mạng."
+      }
+    },
+    {
+      "id": 374,
+      "level": "HSK1",
+      "hanzi": "忘",
+      "pinyin": "wàng",
+      "meaning": "Quên",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "我忘了带钱包。",
+        "pinyin": "Wǒ wàng le dài qiánbāo",
+        "meaning": "Tôi quên mang ví tiền rồi."
+      }
+    },
+    {
+      "id": 375,
+      "level": "HSK1",
+      "hanzi": "忘记",
+      "pinyin": "wàngjì",
+      "meaning": "Quên",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "请不要忘记明天的会议。",
+        "pinyin": "Qǐng bú yào wàngjì míngtiān de huìyì",
+        "meaning": "Xin đừng quên cuộc họp ngày mai."
+      }
+    },
+    {
+      "id": 376,
+      "level": "HSK1",
+      "hanzi": "问",
+      "pinyin": "wèn",
+      "meaning": "Hỏi",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "你可以问问老师这个问题。",
+        "pinyin": "Nǐ kěyǐ wèn wèn lǎoshī zhège wèntí",
+        "meaning": "Bạn có thể hỏi giáo viên câu hỏi này."
+      }
+    },
+    {
+      "id": 377,
+      "level": "HSK1",
+      "hanzi": "我",
+      "pinyin": "wǒ",
+      "meaning": "Tôi, mình",
+      "pos": "Đại từ",
+      "example": {
+        "hanzi": "我是学生。",
+        "pinyin": "Wǒ shì xuéshēng",
+        "meaning": "Tôi là học sinh."
+      }
+    },
+    {
+      "id": 378,
+      "level": "HSK1",
+      "hanzi": "我们",
+      "pinyin": "wǒmen",
+      "meaning": "Chúng tôi, chúng ta",
+      "pos": "Đại từ",
+      "example": {
+        "hanzi": "我们是好朋友。",
+        "pinyin": "Wǒmen shì hǎo péngyǒu",
+        "meaning": "Chúng tôi là bạn tốt của nhau."
+      }
+    },
+    {
+      "id": 379,
+      "level": "HSK1",
+      "hanzi": "五",
+      "pinyin": "wǔ",
+      "meaning": "Số năm",
+      "pos": "Số từ",
+      "example": {
+        "hanzi": "她今天买了五个苹果。",
+        "pinyin": "Tā jīntiān mǎi le wǔ gè píngguǒ",
+        "meaning": "Hôm nay cô ấy đã mua năm quả táo."
+      }
+    },
+    {
+      "id": 380,
+      "level": "HSK1",
+      "hanzi": "午饭",
+      "pinyin": "wǔfàn",
+      "meaning": "Bữa trưa",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "我们一起去吃午饭吧。",
+        "pinyin": "Wǒmen yīqǐ qù chī wǔfàn ba",
+        "meaning": "Chúng ta cùng đi ăn trưa nhé."
+      }
+    },
+    {
+      "id": 381,
+      "level": "HSK1",
+      "hanzi": "西",
+      "pinyin": "xī",
+      "meaning": "Phía tây",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "我家在学校西边。",
+        "pinyin": "Wǒ jiā zài xuéxiào xībiān",
+        "meaning": "Nhà tôi ở phía tây của trường."
+      }
+    },
+    {
+      "id": 382,
+      "level": "HSK1",
+      "hanzi": "西边",
+      "pinyin": "xībiān",
+      "meaning": "Phía tây, hướng tây",
+      "pos": "",
+      "example": {
+        "hanzi": "我家在学校西边。",
+        "pinyin": "Wǒ jiā zài xuéxiào xībiān",
+        "meaning": "Nhà tôi ở phía tây của trường."
+      }
+    },
+    {
+      "id": 383,
+      "level": "HSK1",
+      "hanzi": "洗",
+      "pinyin": "xǐ",
+      "meaning": "Giặt, rửa, tắm",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "现在我要洗衣服。",
+        "pinyin": "Xiànzài wǒ yào xǐ yīfu",
+        "meaning": "Bây giờ tôi phải giặt quần áo."
+      }
+    },
+    {
+      "id": 384,
+      "level": "HSK1",
+      "hanzi": "洗手间",
+      "pinyin": "xǐshǒujiān",
+      "meaning": "Nhà vệ sinh",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "请问，洗手间在哪里？",
+        "pinyin": "Qǐngwèn, xǐshǒujiān zài nǎlǐ",
+        "meaning": "Xin hỏi, nhà vệ sinh ở đâu?"
+      }
+    },
+    {
+      "id": 385,
+      "level": "HSK1",
+      "hanzi": "喜欢",
+      "pinyin": "xǐhuan",
+      "meaning": "Thích",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "我很喜欢吃中国菜。",
+        "pinyin": "Wǒ hěn xǐhuan chī Zhōngguó cài",
+        "meaning": "Tôi rất thích ăn món Trung Quốc."
+      }
+    },
+    {
+      "id": 386,
+      "level": "HSK1",
+      "hanzi": "下",
+      "pinyin": "xià",
+      "meaning": "Dưới, phía dưới, bên dưới; Xuống",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "上有父母，下有儿女。",
+        "pinyin": "Shàng yǒu fùmǔ, xià yǒu érnǚ",
+        "meaning": "Trên có cha mẹ, dưới có con cái."
+      }
+    },
+    {
+      "id": 387,
+      "level": "HSK1",
+      "hanzi": "下班",
+      "pinyin": "xiàbān",
+      "meaning": "Tan làm",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "我今晚八点下班。",
+        "pinyin": "Wǒ jīn wǎn bā diǎn xiàbān",
+        "meaning": "Tối nay tôi tan làm lúc 8 giờ."
+      }
+    },
+    {
+      "id": 388,
+      "level": "HSK1",
+      "hanzi": "下边",
+      "pinyin": "xiàbian",
+      "meaning": "Bên dưới",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "桌子下边有一只猫。",
+        "pinyin": "Zhuōzi xiàbian yǒu yī zhī māo",
+        "meaning": "Dưới bàn có một con mèo."
+      }
+    },
+    {
+      "id": 389,
+      "level": "HSK1",
+      "hanzi": "下车",
+      "pinyin": "xià chē",
+      "meaning": "Xuống xe",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "我要在这一站下车。",
+        "pinyin": "Wǒ yào zài zhè yí zhàn xià chē",
+        "meaning": "Tôi muốn xuống xe ở trạm này."
+      }
+    },
+    {
+      "id": 390,
+      "level": "HSK1",
+      "hanzi": "下次",
+      "pinyin": "xià cì",
+      "meaning": "Lần sau",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "下次我们一起去看电影吧。",
+        "pinyin": "Xià cì wǒmen yīqǐ qù kàn diànyǐng ba",
+        "meaning": "Lần sau chúng ta cùng đi xem phim nhé."
+      }
+    },
+    {
+      "id": 391,
+      "level": "HSK1",
+      "hanzi": "下课",
+      "pinyin": "xiàkè",
+      "meaning": "Tan học",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "下课后，我们去喝奶茶吧。",
+        "pinyin": "Xiàkè hòu, wǒmen qù hē nǎichá ba",
+        "meaning": "Tan học xong, chúng ta đi uống trà sữa nhé."
+      }
+    },
+    {
+      "id": 392,
+      "level": "HSK1",
+      "hanzi": "下午",
+      "pinyin": "xiàwǔ",
+      "meaning": "Buổi chiều",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "我下午三点有个会议。",
+        "pinyin": "Wǒ xiàwǔ sān diǎn yǒu gè huìyì",
+        "meaning": "Tôi có một cuộc họp vào lúc 3 giờ chiều."
+      }
+    },
+    {
+      "id": 393,
+      "level": "HSK1",
+      "hanzi": "下雨",
+      "pinyin": "xià yǔ",
+      "meaning": "Mưa rơi",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "今天会下雨，你带伞了吗？",
+        "pinyin": "Jīntiān huì xiàyǔ, nǐ dài sǎn le ma",
+        "meaning": "Hôm nay trời sẽ mưa, bạn đã mang ô chưa?"
+      }
+    },
+    {
+      "id": 394,
+      "level": "HSK1",
+      "hanzi": "先",
+      "pinyin": "xiān",
+      "meaning": "Trước tiên",
+      "pos": "Phó từ",
+      "example": {
+        "hanzi": "你先去，我等一下再去。",
+        "pinyin": "Nǐ xiān qù, wǒ děng yīxià zài qù",
+        "meaning": "Bạn đi trước đi, tôi sẽ đi sau."
+      }
+    },
+    {
+      "id": 395,
+      "level": "HSK1",
+      "hanzi": "先生",
+      "pinyin": "xiānsheng",
+      "meaning": "Ông, thầy, tiên sinh",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "这位是李先生。",
+        "pinyin": "Zhè wèi shì Lǐ xiānsheng",
+        "meaning": "Đây là ông Lý."
+      }
+    },
+    {
+      "id": 396,
+      "level": "HSK1",
+      "hanzi": "现在",
+      "pinyin": "xiànzài",
+      "meaning": "Bây giờ",
+      "pos": "Phó từ",
+      "example": {
+        "hanzi": "我现在就去做。",
+        "pinyin": "Wǒ xiànzài jiù qù zuò",
+        "meaning": "Tôi đi làm bây giờ đây."
+      }
+    },
+    {
+      "id": 397,
+      "level": "HSK1",
+      "hanzi": "想",
+      "pinyin": "xiǎng",
+      "meaning": "Nghĩ, muốn",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "我想去日本旅游。",
+        "pinyin": "Wǒ xiǎng qù Rìběn lǚyóu",
+        "meaning": "Tôi muốn đi du lịch Nhật Bản."
+      }
+    },
+    {
+      "id": 398,
+      "level": "HSK1",
+      "hanzi": "小",
+      "pinyin": "xiǎo",
+      "meaning": "Nhỏ, bé",
+      "pos": "Tính từ",
+      "example": {
+        "hanzi": "这只狗很小，很可爱。",
+        "pinyin": "Zhè zhī gǒu hěn xiǎo, hěn kě'ài",
+        "meaning": "Con chó này rất nhỏ, rất đáng yêu."
+      }
+    },
+    {
+      "id": 399,
+      "level": "HSK1",
+      "hanzi": "小孩儿",
+      "pinyin": "xiǎoháir",
+      "meaning": "Đứa trẻ",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "小孩儿喜欢玩游戏。",
+        "pinyin": "Xiǎoháir xǐhuan wán yóuxì",
+        "meaning": "Trẻ con thích chơi trò chơi."
+      }
+    },
+    {
+      "id": 400,
+      "level": "HSK1",
+      "hanzi": "小姐",
+      "pinyin": "xiǎojiě",
+      "meaning": "Tiểu thư, cô gái",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "王小姐是我的同事。",
+        "pinyin": "Wáng xiǎojiě shì wǒ de tóngshì",
+        "meaning": "Cô Vương là đồng nghiệp của tôi."
+      }
+    },
+    {
+      "id": 401,
+      "level": "HSK1",
+      "hanzi": "小朋友",
+      "pinyin": "xiǎopéngyǒu",
+      "meaning": "Bạn nhỏ, trẻ em",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "小朋友们都喜欢听故事。",
+        "pinyin": "Xiǎopéngyǒu men dōu xǐhuan tīng gùshì",
+        "meaning": "Các bạn nhỏ đều thích nghe kể chuyện."
+      }
+    },
+    {
+      "id": 402,
+      "level": "HSK1",
+      "hanzi": "小时",
+      "pinyin": "xiǎoshí",
+      "meaning": "Giờ (đơn vị thời gian)",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "我等了一个小时。",
+        "pinyin": "Wǒ děng le yí gè xiǎoshí",
+        "meaning": "Tôi đã đợi 1 tiếng."
+      }
+    },
+    {
+      "id": 403,
+      "level": "HSK1",
+      "hanzi": "小学",
+      "pinyin": "xiǎoxué",
+      "meaning": "Trường tiểu học",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "我弟弟上小学二年级。",
+        "pinyin": "Wǒ dìdi shàng xiǎoxué èr niánjí",
+        "meaning": "Em trai tôi học lớp 2 tiểu học."
+      }
+    },
+    {
+      "id": 404,
+      "level": "HSK1",
+      "hanzi": "小学生",
+      "pinyin": "xiǎoxuéshēng",
+      "meaning": "Học sinh tiểu học",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "她是个聪明的小学生。",
+        "pinyin": "Tā shì gè cōngmíng de xiǎoxuéshēng",
+        "meaning": "Cô bé ấy là một học sinh tiểu học thông minh."
+      }
+    },
+    {
+      "id": 405,
+      "level": "HSK1",
+      "hanzi": "笑",
+      "pinyin": "xiào",
+      "meaning": "Cười",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "她的笑容很美。",
+        "pinyin": "Tā de xiàoróng hěn měi",
+        "meaning": "Nụ cười của cô ấy rất đẹp."
+      }
+    },
+    {
+      "id": 406,
+      "level": "HSK1",
+      "hanzi": "写",
+      "pinyin": "xiě",
+      "meaning": "Viết",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "请写下你的名字。",
+        "pinyin": "Qǐng xiě xià nǐ de míngzi",
+        "meaning": "Vui lòng viết tên của bạn xuống."
+      }
+    },
+    {
+      "id": 407,
+      "level": "HSK1",
+      "hanzi": "谢谢",
+      "pinyin": "xièxie",
+      "meaning": "Cảm ơn",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "谢谢你的帮助。",
+        "pinyin": "Xièxie nǐ de bāngzhù",
+        "meaning": "Cảm ơn sự giúp đỡ của bạn."
+      }
+    },
+    {
+      "id": 408,
+      "level": "HSK1",
+      "hanzi": "新",
+      "pinyin": "xīn",
+      "meaning": "Mới",
+      "pos": "Tính từ",
+      "example": {
+        "hanzi": "我买了一件新衣服。",
+        "pinyin": "Wǒ mǎi le yí jiàn xīn yīfú",
+        "meaning": "Tôi đã mua một bộ quần áo mới."
+      }
+    },
+    {
+      "id": 409,
+      "level": "HSK1",
+      "hanzi": "新年",
+      "pinyin": "xīnnián",
+      "meaning": "Năm mới",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "新年快乐！",
+        "pinyin": "Xīnnián kuài lè",
+        "meaning": "Năm mới vui vẻ!"
+      }
+    },
+    {
+      "id": 410,
+      "level": "HSK1",
+      "hanzi": "星期",
+      "pinyin": "xīngqī",
+      "meaning": "Tuần",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "这个星期很忙。",
+        "pinyin": "Zhège xīngqī hěn máng",
+        "meaning": "Tuần này rất bận."
+      }
+    },
+    {
+      "id": 411,
+      "level": "HSK1",
+      "hanzi": "星期日",
+      "pinyin": "xīngqīrì",
+      "meaning": "Chủ nhật",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "星期日我们去公园吧。",
+        "pinyin": "Xīngqīrì wǒmen qù gōngyuán ba",
+        "meaning": "Chủ nhật chúng ta đi công viên nhé."
+      }
+    },
+    {
+      "id": 412,
+      "level": "HSK1",
+      "hanzi": "星期天",
+      "pinyin": "xīngqītiān",
+      "meaning": "Chủ nhật",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "星期天我喜欢睡懒觉。",
+        "pinyin": "Xīngqītiān wǒ xǐhuan shuì lǎnjiào",
+        "meaning": "Chủ nhật tôi thích ngủ nướng."
+      }
+    },
+    {
+      "id": 413,
+      "level": "HSK1",
+      "hanzi": "行",
+      "pinyin": "xíng",
+      "meaning": "Được, ổn",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "这样做行不行？",
+        "pinyin": "Zhèyàng zuò xíng bù xíng",
+        "meaning": "Làm như thế này được không?"
+      }
+    },
+    {
+      "id": 414,
+      "level": "HSK1",
+      "hanzi": "休息",
+      "pinyin": "xiūxi",
+      "meaning": "Nghỉ ngơi",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "我每天都要休息一小时。",
+        "pinyin": "Wǒ měitiān dōu yào xiūxi yī xiǎoshí",
+        "meaning": "Tôi phải nghỉ ngơi một giờ mỗi ngày."
+      }
+    },
+    {
+      "id": 415,
+      "level": "HSK1",
+      "hanzi": "学",
+      "pinyin": "xué",
+      "meaning": "Học",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "我在学汉语。",
+        "pinyin": "Wǒ zài xué Hànyǔ",
+        "meaning": "Tôi đang học tiếng Trung."
+      }
+    },
+    {
+      "id": 416,
+      "level": "HSK1",
+      "hanzi": "学生",
+      "pinyin": "xuéshēng",
+      "meaning": "Học sinh",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "她是我的学生。",
+        "pinyin": "Tā shì wǒ de xuéshēng",
+        "meaning": "Cô ấy là học sinh của tôi."
+      }
+    },
+    {
+      "id": 417,
+      "level": "HSK1",
+      "hanzi": "学习",
+      "pinyin": "xuéxí",
+      "meaning": "Học tập",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "我们应该认真学习。",
+        "pinyin": "Wǒmen yīnggāi rènzhēn xuéxí",
+        "meaning": "Chúng ta nên học tập chăm chỉ."
+      }
+    },
+    {
+      "id": 418,
+      "level": "HSK1",
+      "hanzi": "学校",
+      "pinyin": "xuéxiào",
+      "meaning": "Trường học",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "我们学校很大。",
+        "pinyin": "Wǒmen xuéxiào hěn dà",
+        "meaning": "Trường của chúng tôi rất lớn."
+      }
+    },
+    {
+      "id": 419,
+      "level": "HSK1",
+      "hanzi": "学院",
+      "pinyin": "xuéyuàn",
+      "meaning": "Học viện",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "这个学院很大很漂亮。",
+        "pinyin": "Zhège xuéyuàn hěn dà hěn piàoliang",
+        "meaning": "Học viện này rất lớn và đẹp."
+      }
+    },
+    {
+      "id": 420,
+      "level": "HSK1",
+      "hanzi": "要（动）",
+      "pinyin": "yào",
+      "meaning": "Muốn, cần",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "我想要一杯咖啡。",
+        "pinyin": "Wǒ xiǎng yào yī bēi kāfēi",
+        "meaning": "Tôi muốn một ly cà phê."
+      }
+    },
+    {
+      "id": 421,
+      "level": "HSK1",
+      "hanzi": "爷爷",
+      "pinyin": "yéye",
+      "meaning": "Ông nội",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "我爷爷每天去公园散步。",
+        "pinyin": "Wǒ yéye měitiān qù gōngyuán sànbù",
+        "meaning": "Mỗi ngày ông nội tôi đi dạo trong công viên."
+      }
+    },
+    {
+      "id": 422,
+      "level": "HSK1",
+      "hanzi": "也",
+      "pinyin": "yě",
+      "meaning": "Cũng",
+      "pos": "Phó từ",
+      "example": {
+        "hanzi": "我也喜欢吃苹果。",
+        "pinyin": "Wǒ yě xǐhuan chī píngguǒ",
+        "meaning": "Tôi cũng thích ăn táo."
+      }
+    },
+    {
+      "id": 423,
+      "level": "HSK1",
+      "hanzi": "页",
+      "pinyin": "yè",
+      "meaning": "Trang (sách, giấy)",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "请翻到第五页。",
+        "pinyin": "Qǐng fān dào dì wǔ yè",
+        "meaning": "Vui lòng lật đến trang 5."
+      }
+    },
+    {
+      "id": 424,
+      "level": "HSK1",
+      "hanzi": "一",
+      "pinyin": "yī",
+      "meaning": "Một",
+      "pos": "Số từ",
+      "example": {
+        "hanzi": "我只有一个妹妹。",
+        "pinyin": "Wǒ zhǐ yǒu yī gè mèimei",
+        "meaning": "Tôi chỉ có một em gái."
+      }
+    },
+    {
+      "id": 425,
+      "level": "HSK1",
+      "hanzi": "衣服",
+      "pinyin": "yīfu",
+      "meaning": "Quần áo",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "这件衣服很漂亮。",
+        "pinyin": "Zhè jiàn yīfu hěn piàoliang",
+        "meaning": "Bộ quần áo này rất đẹp."
+      }
+    },
+    {
+      "id": 426,
+      "level": "HSK1",
+      "hanzi": "医生",
+      "pinyin": "yīshēng",
+      "meaning": "Bác sĩ",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "我爸爸是一名医生。",
+        "pinyin": "Wǒ bàba shì yī míng yīshēng",
+        "meaning": "Bố tôi là một bác sĩ."
+      }
+    },
+    {
+      "id": 427,
+      "level": "HSK1",
+      "hanzi": "医院",
+      "pinyin": "yīyuàn",
+      "meaning": "Bệnh viện",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "他生病了，要去医院。",
+        "pinyin": "Tā shēngbìng le, yào qù yīyuàn",
+        "meaning": "Anh ấy bị ốm, cần đến bệnh viện."
+      }
+    },
+    {
+      "id": 428,
+      "level": "HSK1",
+      "hanzi": "一半",
+      "pinyin": "yíbàn",
+      "meaning": "Một nửa",
+      "pos": "Số từ",
+      "example": {
+        "hanzi": "我们班一半是男生。",
+        "pinyin": "Wǒmen bān yíbàn shì nánshēng",
+        "meaning": "Một nửa lớp chúng tôi là nam sinh."
+      }
+    },
+    {
+      "id": 429,
+      "level": "HSK1",
+      "hanzi": "一会儿",
+      "pinyin": "yíhuìr",
+      "meaning": "Một lát, một chút",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "请等我一会儿。",
+        "pinyin": "Qǐng děng wǒ yíhuìr",
+        "meaning": "Vui lòng đợi tôi một lát."
+      }
+    },
+    {
+      "id": 430,
+      "level": "HSK1",
+      "hanzi": "一块儿",
+      "pinyin": "yíkuàir",
+      "meaning": "Cùng nhau",
+      "pos": "Phó từ",
+      "example": {
+        "hanzi": "我们一块儿去公园吧。",
+        "pinyin": "Wǒmen yíkuàir qù gōngyuán ba",
+        "meaning": "Chúng ta cùng đi công viên nhé."
+      }
+    },
+    {
+      "id": 431,
+      "level": "HSK1",
+      "hanzi": "一下儿",
+      "pinyin": "yíxiàr",
+      "meaning": "Một chút, một lát",
+      "pos": "Cụm từ",
+      "example": {
+        "hanzi": "你等我一下儿。",
+        "pinyin": "Nǐ děng wǒ yíxiàr",
+        "meaning": "Đợi tôi một chút."
+      }
+    },
+    {
+      "id": 432,
+      "level": "HSK1",
+      "hanzi": "一样",
+      "pinyin": "yíyàng",
+      "meaning": "Giống nhau",
+      "pos": "Tính từ",
+      "example": {
+        "hanzi": "这两件衣服一样。",
+        "pinyin": "Zhè liǎng jiàn yīfu yíyàng",
+        "meaning": "Hai bộ quần áo này giống nhau."
+      }
+    },
+    {
+      "id": 433,
+      "level": "HSK1",
+      "hanzi": "一边",
+      "pinyin": "yìbiān",
+      "meaning": "Một phía, một bên",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "她一边吃饭，一边看书。",
+        "pinyin": "Tā yìbiān chīfàn, yìbiān kànshū",
+        "meaning": "Cô ấy vừa ăn vừa đọc sách."
+      }
+    },
+    {
+      "id": 434,
+      "level": "HSK1",
+      "hanzi": "一点儿",
+      "pinyin": "yìdiǎnr",
+      "meaning": "Một chút, một ít",
+      "pos": "Cụm từ",
+      "example": {
+        "hanzi": "我想喝一点儿水。",
+        "pinyin": "Wǒ xiǎng hē yìdiǎnr shuǐ",
+        "meaning": "Tôi muốn uống một chút nước."
+      }
+    },
+    {
+      "id": 435,
+      "level": "HSK1",
+      "hanzi": "一起",
+      "pinyin": "yìqǐ",
+      "meaning": "Cùng nhau",
+      "pos": "Trạng từ",
+      "example": {
+        "hanzi": "我们一起去看电影吧。",
+        "pinyin": "Wǒmen yìqǐ qù kàn diànyǐng ba",
+        "meaning": "Chúng ta cùng đi xem phim nhé."
+      }
+    },
+    {
+      "id": 436,
+      "level": "HSK1",
+      "hanzi": "一些",
+      "pinyin": "yìxiē",
+      "meaning": "Một số, một ít",
+      "pos": "Lượng từ",
+      "example": {
+        "hanzi": "这里有一些苹果。",
+        "pinyin": "Zhèlǐ yǒu yìxiē píngguǒ",
+        "meaning": "Ở đây có một vài quả táo."
+      }
+    },
+    {
+      "id": 437,
+      "level": "HSK1",
+      "hanzi": "用",
+      "pinyin": "yòng",
+      "meaning": "Dùng, sử dụng",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "你可以用我的手机。",
+        "pinyin": "Nǐ kěyǐ yòng wǒ de shǒujī",
+        "meaning": "Bạn có thể dùng điện thoại của tôi."
+      }
+    },
+    {
+      "id": 438,
+      "level": "HSK1",
+      "hanzi": "有",
+      "pinyin": "yǒu",
+      "meaning": "Có, tồn tại",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "我有一个好朋友。",
+        "pinyin": "Wǒ yǒu yī gè hǎo péngyǒu",
+        "meaning": "Tôi có một người bạn tốt."
+      }
+    },
+    {
+      "id": 439,
+      "level": "HSK1",
+      "hanzi": "有的",
+      "pinyin": "yǒude",
+      "meaning": "Một số, có cái thì…",
+      "pos": "Đại từ",
+      "example": {
+        "hanzi": "有的人喜欢喝咖啡,有的人喜欢喝茶。",
+        "pinyin": "Yǒude rén xǐhuan hē kāfēi，yǒude rén xǐhuan hē chá",
+        "meaning": "Có người thích uống cà phê, có người thích uống trà."
+      }
+    },
+    {
+      "id": 440,
+      "level": "HSK1",
+      "hanzi": "有名",
+      "pinyin": "yǒumíng",
+      "meaning": "Nổi tiếng",
+      "pos": "Tính từ",
+      "example": {
+        "hanzi": "这家餐厅很有名。",
+        "pinyin": "Zhè jiā cāntīng hěn yǒumíng",
+        "meaning": "Nhà hàng này rất nổi tiếng."
+      }
+    },
+    {
+      "id": 441,
+      "level": "HSK1",
+      "hanzi": "有时候 | 有时",
+      "pinyin": "yǒu shíhòu |yǒu shí",
+      "meaning": "Đôi khi, có lúc",
+      "pos": "Trạng từ",
+      "example": {
+        "hanzi": "我有时候去图书馆学习。",
+        "pinyin": "Wǒ yǒu shíhòu qù túshūguǎn xuéxí",
+        "meaning": "Đôi khi tôi đến thư viện học."
+      }
+    },
+    {
+      "id": 442,
+      "level": "HSK1",
+      "hanzi": "有（一）些",
+      "pinyin": "yǒu (yì) xiē",
+      "meaning": "Một vài, một số",
+      "pos": "Lượng từ",
+      "example": {
+        "hanzi": "这里有一些书。",
+        "pinyin": "Zhèlǐ yǒu yìxiē shū",
+        "meaning": "Ở đây có một vài cuốn sách."
+      }
+    },
+    {
+      "id": 443,
+      "level": "HSK1",
+      "hanzi": "有用",
+      "pinyin": "yǒuyòng",
+      "meaning": "Hữu ích, có ích",
+      "pos": "Tính từ",
+      "example": {
+        "hanzi": "这本书很有用。",
+        "pinyin": "Zhè běn shū hěn yǒuyòng",
+        "meaning": "Cuốn sách này rất hữu ích."
+      }
+    },
+    {
+      "id": 444,
+      "level": "HSK1",
+      "hanzi": "右",
+      "pinyin": "yòu",
+      "meaning": "Bên phải",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "商店在银行的右边。",
+        "pinyin": "Shāngdiàn zài yínháng de yòubian",
+        "meaning": "Cửa hàng ở bên phải ngân hàng."
+      }
+    },
+    {
+      "id": 445,
+      "level": "HSK1",
+      "hanzi": "右边",
+      "pinyin": "yòubian",
+      "meaning": "Phía bên phải",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "商店在银行的右边。",
+        "pinyin": "Shāngdiàn zài yínháng de yòubian",
+        "meaning": "Cửa hàng ở bên phải ngân hàng."
+      }
+    },
+    {
+      "id": 446,
+      "level": "HSK1",
+      "hanzi": "雨",
+      "pinyin": "yǔ",
+      "meaning": "Mưa",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "今天下雨了。",
+        "pinyin": "Jīntiān xià yǔ le",
+        "meaning": "Hôm nay trời mưa rồi."
+      }
+    },
+    {
+      "id": 447,
+      "level": "HSK1",
+      "hanzi": "元",
+      "pinyin": "yuán",
+      "meaning": "Đồng (đơn vị tiền tệ)",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "这本书五十元。",
+        "pinyin": "Zhè běn shū wǔshí yuán",
+        "meaning": "Cuốn sách này giá 50 tệ."
+      }
+    },
+    {
+      "id": 448,
+      "level": "HSK1",
+      "hanzi": "远",
+      "pinyin": "yuǎn",
+      "meaning": "Xa",
+      "pos": "Tính từ",
+      "example": {
+        "hanzi": "我家离学校很远。",
+        "pinyin": "Wǒ jiā lí xuéxiào hěn yuǎn",
+        "meaning": "Nhà tôi cách trường học rất xa."
+      }
+    },
+    {
+      "id": 449,
+      "level": "HSK1",
+      "hanzi": "月",
+      "pinyin": "yuè",
+      "meaning": "Tháng; mặt trăng",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "今年的二月有二十九天。 今天的月亮很漂亮。",
+        "pinyin": "Jīnnián de èryuè yǒu èrshíjiǔ tiān/ /Jīntiān de yuèliàng hěn piàoliang",
+        "meaning": "Tháng Hai năm nay có 29 ngày. Mặt trăng hôm nay rất đẹp."
+      }
+    },
+    {
+      "id": 450,
+      "level": "HSK1",
+      "hanzi": "再",
+      "pinyin": "zài",
+      "meaning": "Lại, lần nữa",
+      "pos": "Trạng từ",
+      "example": {
+        "hanzi": "请再说一遍。",
+        "pinyin": "Qǐng zài shuō yí biàn",
+        "meaning": "Xin hãy nói lại một lần nữa."
+      }
+    },
+    {
+      "id": 451,
+      "level": "HSK1",
+      "hanzi": "再见",
+      "pinyin": "zàijiàn",
+      "meaning": "Tạm biệt",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "A: 明天见！ B: 再见！",
+        "pinyin": "A:/Míngtiān jiàn!/ B: /Zàijiàn!/",
+        "meaning": "A: Hẹn gặp lại ngày mai! B: Tạm biệt!"
+      }
+    },
+    {
+      "id": 452,
+      "level": "HSK1",
+      "hanzi": "在",
+      "pinyin": "zài",
+      "meaning": "Ở, tại",
+      "pos": "Giới từ",
+      "example": {
+        "hanzi": "我在家看电视。",
+        "pinyin": "Wǒ zài jiā kàn diànshì",
+        "meaning": "Tôi ở nhà xem tivi."
+      }
+    },
+    {
+      "id": 453,
+      "level": "HSK1",
+      "hanzi": "在家",
+      "pinyin": "zàijiā",
+      "meaning": "Ở nhà",
+      "pos": "Trạng từ",
+      "example": {
+        "hanzi": "周末我一般在家休息。",
+        "pinyin": "Zhōumò wǒ yībān zàijiā xiūxi",
+        "meaning": "Cuối tuần tôi thường ở nhà nghỉ ngơi."
+      }
+    },
+    {
+      "id": 454,
+      "level": "HSK1",
+      "hanzi": "早",
+      "pinyin": "zǎo",
+      "meaning": "Sớm",
+      "pos": "Tính từ",
+      "example": {
+        "hanzi": "今天你起得很早。",
+        "pinyin": "Jīntiān nǐ qǐ de hěn zǎo",
+        "meaning": "Hôm nay bạn dậy rất sớm."
+      }
+    },
+    {
+      "id": 455,
+      "level": "HSK1",
+      "hanzi": "早饭",
+      "pinyin": "zǎofàn",
+      "meaning": "Bữa sáng",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "你今天吃早饭了吗？",
+        "pinyin": "Nǐ jīntiān chī zǎofàn le ma",
+        "meaning": "Hôm nay bạn đã ăn sáng chưa?"
+      }
+    },
+    {
+      "id": 456,
+      "level": "HSK1",
+      "hanzi": "早上",
+      "pinyin": "zǎoshang",
+      "meaning": "Buổi sáng",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "早上空气很好。",
+        "pinyin": "Zǎoshang kōngqì hěn hǎo",
+        "meaning": "Không khí buổi sáng rất tốt."
+      }
+    },
+    {
+      "id": 457,
+      "level": "HSK1",
+      "hanzi": "怎么",
+      "pinyin": "zěnme",
+      "meaning": "Như thế nào",
+      "pos": "Đại từ",
+      "example": {
+        "hanzi": "你怎么来学校的？",
+        "pinyin": "Nǐ zěnme lái xuéxiào de",
+        "meaning": "Bạn đến trường bằng cách nào?"
+      }
+    },
+    {
+      "id": 458,
+      "level": "HSK1",
+      "hanzi": "站",
+      "pinyin": "zhàn",
+      "meaning": "Đứng; Trạm, ga",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "请站在这儿。",
+        "pinyin": "Qǐng zhàn zài zhèr",
+        "meaning": "Xin hãy đứng ở đây."
+      }
+    },
+    {
+      "id": 459,
+      "level": "HSK1",
+      "hanzi": "找",
+      "pinyin": "zhǎo",
+      "meaning": "Tìm kiếm",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "我在找我的手机。",
+        "pinyin": "Wǒ zài zhǎo wǒ de shǒujī",
+        "meaning": "Tôi đang tìm điện thoại của tôi."
+      }
+    },
+    {
+      "id": 460,
+      "level": "HSK1",
+      "hanzi": "找到",
+      "pinyin": "zhǎodào",
+      "meaning": "Tìm thấy",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "我找到钥匙了。",
+        "pinyin": "Wǒ zhǎodào yàoshi le",
+        "meaning": "Tôi tìm thấy chìa khóa rồi."
+      }
+    },
+    {
+      "id": 461,
+      "level": "HSK1",
+      "hanzi": "这",
+      "pinyin": "zhè",
+      "meaning": "Này, đây",
+      "pos": "Đại từ",
+      "example": {
+        "hanzi": "这是我的书。",
+        "pinyin": "Zhè shì wǒ de shū",
+        "meaning": "Đây là sách của tôi."
+      }
+    },
+    {
+      "id": 462,
+      "level": "HSK1",
+      "hanzi": "这边",
+      "pinyin": "zhèbiān",
+      "meaning": "Bên này, phía này",
+      "pos": "Đại từ",
+      "example": {
+        "hanzi": "你坐这边吧。",
+        "pinyin": "Nǐ zuò zhèbiān ba",
+        "meaning": "Bạn ngồi bên này đi."
+      }
+    },
+    {
+      "id": 463,
+      "level": "HSK1",
+      "hanzi": "这里",
+      "pinyin": "zhè lǐ",
+      "meaning": "Ở đây, chỗ này",
+      "pos": "Đại từ",
+      "example": {
+        "hanzi": "这里的风景很美。",
+        "pinyin": "Zhè lǐ de fēngjǐng hěn měi",
+        "meaning": "Phong cảnh ở đây rất đẹp."
+      }
+    },
+    {
+      "id": 464,
+      "level": "HSK1",
+      "hanzi": "这儿",
+      "pinyin": "zhèr",
+      "meaning": "Ở đây",
+      "pos": "Đại từ",
+      "example": {
+        "hanzi": "你来这儿看看吧。",
+        "pinyin": "Nǐ lái zhèr kànkan ba",
+        "meaning": "Bạn đến chỗ này xem thử đi."
+      }
+    },
+    {
+      "id": 465,
+      "level": "HSK1",
+      "hanzi": "这些",
+      "pinyin": "zhèxiē",
+      "meaning": "Những cái này",
+      "pos": "Đại từ",
+      "example": {
+        "hanzi": "这些水果很好吃。",
+        "pinyin": "Zhèxiē shuǐguǒ hěn hǎochī",
+        "meaning": "Những loại trái cây này rất ngon."
+      }
+    },
+    {
+      "id": 466,
+      "level": "HSK1",
+      "hanzi": "着",
+      "pinyin": "zhe",
+      "meaning": "Đang (dùng để chỉ trạng thái tiếp diễn)",
+      "pos": "Trợ từ",
+      "example": {
+        "hanzi": "他笑着说话。",
+        "pinyin": "Tā xiào zhe shuōhuà",
+        "meaning": "Anh ấy vừa cười vừa nói."
+      }
+    },
+    {
+      "id": 467,
+      "level": "HSK1",
+      "hanzi": "真",
+      "pinyin": "zhēn",
+      "meaning": "Thật, rất",
+      "pos": "Phó từ",
+      "example": {
+        "hanzi": "这个地方真美。",
+        "pinyin": "Zhège dìfāng zhēn měi",
+        "meaning": "Nơi này thật đẹp!"
+      }
+    },
+    {
+      "id": 468,
+      "level": "HSK1",
+      "hanzi": "真的",
+      "pinyin": "zhēn de",
+      "meaning": "Thật sự, thực sự",
+      "pos": "Cụm từ",
+      "example": {
+        "hanzi": "你真的要去吗？",
+        "pinyin": "Nǐ zhēnde yào qù ma",
+        "meaning": "Bạn thật sự muốn đi à?"
+      }
+    },
+    {
+      "id": 469,
+      "level": "HSK1",
+      "hanzi": "正",
+      "pinyin": "zhèng",
+      "meaning": "vừa hay, đúng lúc",
+      "pos": "Phó từ",
+      "example": {
+        "hanzi": "我正好要去找你。",
+        "pinyin": "Wǒ zhènghǎo yào qù zhǎo nǐ",
+        "meaning": "Tôi vừa hay định đi tìm bạn."
+      }
+    },
+    {
+      "id": 470,
+      "level": "HSK1",
+      "hanzi": "正在",
+      "pinyin": "zhèngzài",
+      "meaning": "Đang (chỉ hành động xảy ra trong hiện tại)",
+      "pos": "Phó từ",
+      "example": {
+        "hanzi": "我正在写作业。",
+        "pinyin": "Wǒ zhèngzài xiě zuòyè",
+        "meaning": "Tôi đang làm bài tập."
+      }
+    },
+    {
+      "id": 471,
+      "level": "HSK1",
+      "hanzi": "知道",
+      "pinyin": "zhī dào",
+      "meaning": "Biết, hiểu biết",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "你知道他的名字吗？",
+        "pinyin": "Nǐ zhīdào tā de míngzi ma?",
+        "meaning": "Bạn có biết tên của anh ấy không?"
+      }
+    },
+    {
+      "id": 472,
+      "level": "HSK1",
+      "hanzi": "知识",
+      "pinyin": "zhīshi",
+      "meaning": "Kiến thức",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "学习知识很重要。",
+        "pinyin": "Xuéxí zhīshi hěn zhòngyào",
+        "meaning": "Việc học rất quan trọng."
+      }
+    },
+    {
+      "id": 473,
+      "level": "HSK1",
+      "hanzi": "中",
+      "pinyin": "zhōng",
+      "meaning": "Ở giữa, trung tâm",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "她站在房间中间。",
+        "pinyin": "Tā zhàn zài fángjiān de zhōngjiān",
+        "meaning": "Cô ấy đứng ở giữa phòng."
+      }
+    },
+    {
+      "id": 474,
+      "level": "HSK1",
+      "hanzi": "中国",
+      "pinyin": "Zhōngguó",
+      "meaning": "Trung quốc",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "中国是一个美丽的国家。",
+        "pinyin": "Zhōngguó shì yī gè měilì de guójiā",
+        "meaning": "Trung Quốc là một đất nước xinh đẹp."
+      }
+    },
+    {
+      "id": 475,
+      "level": "HSK1",
+      "hanzi": "中间",
+      "pinyin": "zhōngjiān",
+      "meaning": "Ở giữa, trung gian",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "我家在学校和公司中间。",
+        "pinyin": "Wǒ jiā zài xuéxiào hé gōngsī zhōngjiān",
+        "meaning": "Nhà tôi nằm giữa trường học và công ty."
+      }
+    },
+    {
+      "id": 476,
+      "level": "HSK1",
+      "hanzi": "中文",
+      "pinyin": "Zhōngwén",
+      "meaning": "Tiếng trung quốc",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "你的中文很好。",
+        "pinyin": "Nǐ de Zhōngwén hěn hǎo",
+        "meaning": "Tiếng Trung của bạn rất tốt"
+      }
+    },
+    {
+      "id": 477,
+      "level": "HSK1",
+      "hanzi": "中午",
+      "pinyin": "zhōngwǔ",
+      "meaning": "Buổi trưa",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "我们中午去吃饭吧。",
+        "pinyin": "Wǒmen zhōngwǔ qù chīfàn ba",
+        "meaning": "Chúng ta đi ăn trưa nhé."
+      }
+    },
+    {
+      "id": 478,
+      "level": "HSK1",
+      "hanzi": "中学",
+      "pinyin": "zhōngxué",
+      "meaning": "Trường trung học",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "他是我中学同学。",
+        "pinyin": "Tā shì wǒ zhōngxué tóngxué",
+        "meaning": "Anh ấy là bạn học của tôi ở trường trung học."
+      }
+    },
+    {
+      "id": 479,
+      "level": "HSK1",
+      "hanzi": "中学生",
+      "pinyin": "zhōngxuéshēng",
+      "meaning": "Học sinh trung học",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "他是一个中学生。",
+        "pinyin": "Tā shì yí gè zhōngxuéshēng",
+        "meaning": "Cậu ấy là một học sinh trung học."
+      }
+    },
+    {
+      "id": 480,
+      "level": "HSK1",
+      "hanzi": "重",
+      "pinyin": "zhòng",
+      "meaning": "Nặng; trọng yếu, quan trọng",
+      "pos": "Tính từ",
+      "example": {
+        "hanzi": "这个箱子很重。 这是个重大决定。",
+        "pinyin": "Zhège xiāngzi hěn zhòng/ /Zhè shìgè zhòngdà juédìng",
+        "meaning": "Chiếc hộp này rất nặng. Đây là một quyết định quan trọng."
+      }
+    },
+    {
+      "id": 481,
+      "level": "HSK1",
+      "hanzi": "重要",
+      "pinyin": "zhòngyào",
+      "meaning": "Quan trọng",
+      "pos": "Tính từ",
+      "example": {
+        "hanzi": "学习汉语对我来说很重要。",
+        "pinyin": "Xuéxí Hànyǔ duì wǒ lái shuō hěn zhòngyào",
+        "meaning": "Học tiếng Trung rất quan trọng đối với tôi."
+      }
+    },
+    {
+      "id": 482,
+      "level": "HSK1",
+      "hanzi": "住",
+      "pinyin": "zhù",
+      "meaning": "Ở, cư trú, sống",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "你住在哪个城市？",
+        "pinyin": "Nǐ zhù zài nǎge chéngshì",
+        "meaning": "Bạn sống ở thành phố nào?"
+      }
+    },
+    {
+      "id": 483,
+      "level": "HSK1",
+      "hanzi": "准备",
+      "pinyin": "zhǔnbèi",
+      "meaning": "Chuẩn bị",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "A: 你准备好了吗？ B: 我们要出发了。",
+        "pinyin": "A: /Nǐ zhǔnbèi hǎo le ma/ B: /Wǒmen yào chūfā le/",
+        "meaning": "A: Bạn chuẩn bị xong chưa? B: Chúng ta sắp xuất phát rồi."
+      }
+    },
+    {
+      "id": 484,
+      "level": "HSK1",
+      "hanzi": "桌子",
+      "pinyin": "zhuōzi",
+      "meaning": "Cái bàn",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "书在桌子上，你看见了吗？",
+        "pinyin": "Shū zài zhuōzi shàng, nǐ kànjiàn le ma",
+        "meaning": "Quyển sách ở trên bàn, bạn thấy chưa?"
+      }
+    },
+    {
+      "id": 485,
+      "level": "HSK1",
+      "hanzi": "字",
+      "pinyin": "zì",
+      "meaning": "Chữ, từ",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "我不认识这个字。",
+        "pinyin": "Wǒ bù rènshi zhège zì",
+        "meaning": "Tôi không biết chữ này."
+      }
+    },
+    {
+      "id": 486,
+      "level": "HSK1",
+      "hanzi": "子（桌子）",
+      "pinyin": "zi (zhuōzi)",
+      "meaning": "Hậu tố dùng trong danh từ",
+      "pos": "Hậu tố",
+      "example": {
+        "hanzi": "你的桌子很大，很好看。",
+        "pinyin": "Nǐ de zhuōzi hěn dà, hěn hǎokàn",
+        "meaning": "Cái bàn của bạn rất lớn, rất đẹp."
+      }
+    },
+    {
+      "id": 487,
+      "level": "HSK1",
+      "hanzi": "走",
+      "pinyin": "zǒu",
+      "meaning": "Đi, rời đi",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "我们一起走吧，太晚了。",
+        "pinyin": "Wǒmen yīqǐ zǒu ba, tài wǎn le",
+        "meaning": "Chúng ta cùng đi thôi, trễ quá rồi."
+      }
+    },
+    {
+      "id": 488,
+      "level": "HSK1",
+      "hanzi": "走路",
+      "pinyin": "zǒu lù",
+      "meaning": "Đi bộ",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "他每天早上都走路去学校。",
+        "pinyin": "Tā měitiān zǎoshang dōu zǒulù qù xuéxiào",
+        "meaning": "Mỗi sáng anh ấy đều đi bộ đến trường."
+      }
+    },
+    {
+      "id": 489,
+      "level": "HSK1",
+      "hanzi": "最",
+      "pinyin": "zuì",
+      "meaning": "Nhất (chỉ mức độ cao nhất)",
+      "pos": "Phó từ",
+      "example": {
+        "hanzi": "你最喜欢吃什么水果？",
+        "pinyin": "Nǐ zuì xǐhuan chī shénme shuǐguǒ",
+        "meaning": "Bạn thích ăn loại trái cây nào nhất?"
+      }
+    },
+    {
+      "id": 490,
+      "level": "HSK1",
+      "hanzi": "最好",
+      "pinyin": "zuìhǎo",
+      "meaning": "Tốt nhất",
+      "pos": "Tính từ",
+      "example": {
+        "hanzi": "下雨了，你最好带伞。",
+        "pinyin": "Xiàyǔ le, nǐ zuìhǎo dài sǎn",
+        "meaning": "Trời mưa rồi, tốt nhất bạn nên mang ô."
+      }
+    },
+    {
+      "id": 491,
+      "level": "HSK1",
+      "hanzi": "最后",
+      "pinyin": "zuìhòu",
+      "meaning": "Cuối cùng",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "最后一个问题，你听好了。",
+        "pinyin": "Zuìhòu yī gè wèntí, nǐ tīng hǎo le",
+        "meaning": "Câu hỏi cuối cùng, bạn nghe kỹ nhé."
+      }
+    },
+    {
+      "id": 492,
+      "level": "HSK1",
+      "hanzi": "昨天",
+      "pinyin": "zuótiān",
+      "meaning": "Hôm qua",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "昨天天气很好，我们去公园了。",
+        "pinyin": "Zuótiān tiānqì hěn hǎo, wǒmen qù gōngyuán le",
+        "meaning": "Hôm qua thời tiết rất đẹp, chúng tôi đã đi công viên."
+      }
+    },
+    {
+      "id": 493,
+      "level": "HSK1",
+      "hanzi": "左",
+      "pinyin": "zuǒ",
+      "meaning": "Bên trái",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "请往左走，那边有商店。",
+        "pinyin": "Qǐng wǎng zuǒ zǒu, nàbiān yǒu shāngdiàn",
+        "meaning": "Hãy đi về bên trái, bên đó có cửa hàng."
+      }
+    },
+    {
+      "id": 494,
+      "level": "HSK1",
+      "hanzi": "左边",
+      "pinyin": "zuǒbian",
+      "meaning": "Phía bên trái",
+      "pos": "Danh từ",
+      "example": {
+        "hanzi": "我家在学校左边。",
+        "pinyin": "Wǒ jiā zài xuéxiào zuǒbian",
+        "meaning": "Nhà tôi ở bên trái trường học."
+      }
+    },
+    {
+      "id": 495,
+      "level": "HSK1",
+      "hanzi": "坐",
+      "pinyin": "zuò",
+      "meaning": "Ngồi",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "请坐这里，老师马上来。",
+        "pinyin": "Qǐng zuò zhèlǐ, lǎoshī mǎshàng lái",
+        "meaning": "Mời ngồi đây, thầy giáo sẽ đến ngay."
+      }
+    },
+    {
+      "id": 496,
+      "level": "HSK1",
+      "hanzi": "坐下",
+      "pinyin": "zuòxia",
+      "meaning": "Ngồi xuống",
+      "pos": "Động từ",
+      "example": {
+        "hanzi": "咱们坐下谈吧。",
+        "pinyin": "Zánmen zuòxia tán ba",
+        "meaning": "Chúng ta ngồi xuống nói chuyện."
+      }
+    },
+    {
+      "id": 497,
+      "level": "HSK1",
       "hanzi": "做",
       "pinyin": "zuò",
-      "meaning": "làm",
+      "meaning": "Làm, thực hiện",
+      "pos": "Động từ",
       "example": {
-        "hanzi": "他正在做作业。",
-        "pinyin": "Tā zhèngzài zuò zuòyè.",
-        "meaning": "Anh ấy đang làm bài tập về nhà."
+        "hanzi": "我妈做中国菜非常好吃。",
+        "pinyin": "Wǒ mā zuò Zhōngguó cài fēicháng hǎochī",
+        "meaning": "Mẹ tôi làm đồ ăn Trung Quốc rất ngon."
       }
     }
   ],

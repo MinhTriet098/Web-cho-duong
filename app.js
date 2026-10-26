@@ -173,10 +173,10 @@ function setHskLevel(level) {
 
   // Update subtitle
   const subtitleMap = {
-    'HSK1': '149 Từ vựng HSK 1 chuẩn • Học vui - Nhớ sâu',
+    'HSK1': '497 Từ vựng HSK 1 chuẩn • Học vui - Nhớ sâu',
     'HSK2': '150 Từ vựng HSK 2 chuẩn • Học vui - Nhớ sâu',
     'HSK3': '295 Từ vựng HSK 3 chuẩn • Học vui - Nhớ sâu',
-    'ALL': '594 Từ vựng tổng hợp HSK 1, 2, 3 • Học vui - Nhớ sâu',
+    'ALL': '942 Từ vựng tổng hợp HSK 1, 2, 3 • Học vui - Nhớ sâu',
   };
   const subEl = document.getElementById('app-subtitle');
   if (subEl) subEl.textContent = subtitleMap[level] || subtitleMap['HSK2'];
