@@ -86,6 +86,17 @@
         </div>
       </div>
 
+      <!-- Flashcard Progress Bar -->
+      <div class="flashcard-progress-wrap">
+        <div class="quiz-progress-info">
+          <span>Tiến độ thẻ: <strong id="fc-progress-text">1 / 150</strong></span>
+          <span class="quiz-progress-pct" id="fc-progress-pct">0.7%</span>
+        </div>
+        <div class="quiz-progress-bar">
+          <div class="quiz-progress-fill" id="fc-progress-bar" style="width: 0.7%;"></div>
+        </div>
+      </div>
+
       <!-- 3D Flashcard container -->
       <div class="flashcard-container">
         <div class="flashcard" id="main-flashcard">
@@ -166,22 +177,37 @@
           </div>
         </div>
         <div class="config-group">
+          <span class="config-label">Số câu:</span>
+          <div class="toggle-pills" id="abcd-count-pills">
+            <button class="toggle-pill-btn active" data-count="150">Toàn bộ 150 từ ✨</button>
+            <button class="toggle-pill-btn" data-count="50">50 câu</button>
+            <button class="toggle-pill-btn" data-count="30">30 câu</button>
+            <button class="toggle-pill-btn" data-count="15">15 câu</button>
+          </div>
           <button class="btn btn-secondary" id="abcd-restart-btn">
-            <span>🔄 Vòng mới (15 câu)</span>
+            <span>🔄 Làm lại</span>
           </button>
         </div>
       </div>
 
       <div class="quiz-wrapper">
         <div class="quiz-card">
-          <!-- Progress & streak -->
-          <div class="quiz-progress-bar">
-            <div class="quiz-progress-fill" id="abcd-progress"></div>
-          </div>
-          <div class="quiz-meta-row">
-            <span id="abcd-question-num">Câu 1 / 15</span>
-            <span class="streak-indicator" id="abcd-streak-display">🔥 Chuỗi: 0</span>
-            <span id="abcd-score-display">Điểm: 0</span>
+          <!-- Progress Header & Stats -->
+          <div class="quiz-progress-header">
+            <div class="quiz-progress-info">
+              <span>Tiến độ: <strong id="abcd-question-num">Câu 1 / 150</strong></span>
+              <span class="quiz-progress-pct" id="abcd-progress-pct">0.0%</span>
+            </div>
+            <div class="quiz-progress-bar">
+              <div class="quiz-progress-fill" id="abcd-progress"></div>
+            </div>
+            <div class="quiz-stats-summary">
+              <div class="quiz-stat-item correct"><span>✅ Đúng:</span> <span id="abcd-stat-correct">0</span></div>
+              <div class="quiz-stat-item wrong"><span>❌ Sai:</span> <span id="abcd-stat-wrong">0</span></div>
+              <div class="quiz-stat-item remaining"><span>⏳ Còn lại:</span> <span id="abcd-stat-remaining">150</span></div>
+              <div class="quiz-stat-item streak"><span id="abcd-streak-display">🔥 Chuỗi: 0</span></div>
+              <div class="quiz-stat-item" style="color: var(--primary);"><span id="abcd-score-display">Điểm: 0</span></div>
+            </div>
           </div>
 
           <!-- Question Display -->
@@ -223,21 +249,37 @@
           </div>
         </div>
         <div class="config-group">
+          <span class="config-label">Số câu:</span>
+          <div class="toggle-pills" id="listen-count-pills">
+            <button class="toggle-pill-btn active" data-count="150">Toàn bộ 150 từ ✨</button>
+            <button class="toggle-pill-btn" data-count="50">50 câu</button>
+            <button class="toggle-pill-btn" data-count="30">30 câu</button>
+            <button class="toggle-pill-btn" data-count="15">15 câu</button>
+          </div>
           <button class="btn btn-secondary" id="listen-restart-btn">
-            <span>🔄 Làm vòng mới</span>
+            <span>🔄 Làm lại</span>
           </button>
         </div>
       </div>
 
       <div class="quiz-wrapper">
         <div class="quiz-card">
-          <div class="quiz-progress-bar">
-            <div class="quiz-progress-fill" id="listen-progress"></div>
-          </div>
-          <div class="quiz-meta-row">
-            <span id="listen-question-num">Câu 1 / 15</span>
-            <span class="streak-indicator" id="listen-streak-display">🔥 Chuỗi: 0</span>
-            <span id="listen-score-display">Điểm: 0</span>
+          <!-- Progress Header & Stats -->
+          <div class="quiz-progress-header">
+            <div class="quiz-progress-info">
+              <span>Tiến độ: <strong id="listen-question-num">Câu 1 / 150</strong></span>
+              <span class="quiz-progress-pct" id="listen-progress-pct">0.0%</span>
+            </div>
+            <div class="quiz-progress-bar">
+              <div class="quiz-progress-fill" id="listen-progress"></div>
+            </div>
+            <div class="quiz-stats-summary">
+              <div class="quiz-stat-item correct"><span>✅ Đúng:</span> <span id="listen-stat-correct">0</span></div>
+              <div class="quiz-stat-item wrong"><span>❌ Sai:</span> <span id="listen-stat-wrong">0</span></div>
+              <div class="quiz-stat-item remaining"><span>⏳ Còn lại:</span> <span id="listen-stat-remaining">150</span></div>
+              <div class="quiz-stat-item streak"><span id="listen-streak-display">🔥 Chuỗi: 0</span></div>
+              <div class="quiz-stat-item" style="color: var(--primary);"><span id="listen-score-display">Điểm: 0</span></div>
+            </div>
           </div>
 
           <!-- Audio Listening question box -->
@@ -287,21 +329,37 @@
           </div>
         </div>
         <div class="config-group">
+          <span class="config-label">Số câu:</span>
+          <div class="toggle-pills" id="match-count-pills">
+            <button class="toggle-pill-btn active" data-count="150">Toàn bộ 150 từ ✨</button>
+            <button class="toggle-pill-btn" data-count="50">50 câu</button>
+            <button class="toggle-pill-btn" data-count="30">30 câu</button>
+            <button class="toggle-pill-btn" data-count="15">15 câu</button>
+          </div>
           <button class="btn btn-secondary" id="match-restart-btn">
-            <span>🔄 Làm vòng mới</span>
+            <span>🔄 Làm lại</span>
           </button>
         </div>
       </div>
 
       <div class="quiz-wrapper">
         <div class="quiz-card">
-          <div class="quiz-progress-bar">
-            <div class="quiz-progress-fill" id="match-progress"></div>
-          </div>
-          <div class="quiz-meta-row">
-            <span id="match-question-num">Câu 1 / 15</span>
-            <span class="streak-indicator" id="match-streak-display">🔥 Chuỗi: 0</span>
-            <span id="match-score-display">Điểm: 0</span>
+          <!-- Progress Header & Stats -->
+          <div class="quiz-progress-header">
+            <div class="quiz-progress-info">
+              <span>Tiến độ: <strong id="match-question-num">Câu 1 / 150</strong></span>
+              <span class="quiz-progress-pct" id="match-progress-pct">0.0%</span>
+            </div>
+            <div class="quiz-progress-bar">
+              <div class="quiz-progress-fill" id="match-progress"></div>
+            </div>
+            <div class="quiz-stats-summary">
+              <div class="quiz-stat-item correct"><span>✅ Đúng:</span> <span id="match-stat-correct">0</span></div>
+              <div class="quiz-stat-item wrong"><span>❌ Sai:</span> <span id="match-stat-wrong">0</span></div>
+              <div class="quiz-stat-item remaining"><span>⏳ Còn lại:</span> <span id="match-stat-remaining">150</span></div>
+              <div class="quiz-stat-item streak"><span id="match-streak-display">🔥 Chuỗi: 0</span></div>
+              <div class="quiz-stat-item" style="color: var(--primary);"><span id="match-score-display">Điểm: 0</span></div>
+            </div>
           </div>
 
           <div class="question-box">

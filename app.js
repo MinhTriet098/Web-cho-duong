@@ -27,28 +27,37 @@ const state = {
 
   // ABCD quiz state
   abcdMode: 'hanzi-to-meaning', // 'hanzi-to-meaning' | 'hanzi-to-pinyin' | 'pinyin-to-meaning'
+  abcdCount: 150, // Default to full 150 words
   abcdRound: [],
   abcdIndex: 0,
   abcdScore: 0,
+  abcdCorrect: 0,
+  abcdWrong: 0,
   abcdStreak: 0,
   abcdMaxStreak: 0,
   abcdAnswered: false,
 
   // Listening quiz state
   listenAnsType: 'meaning', // 'meaning' | 'pinyin' | 'hanzi' | 'both'
+  listenCount: 150, // Default to full 150 words
   listenSpeed: 0.9,
   listenRound: [],
   listenIndex: 0,
   listenScore: 0,
+  listenCorrect: 0,
+  listenWrong: 0,
   listenStreak: 0,
   listenMaxStreak: 0,
   listenAnswered: false,
 
   // Meaning-to-Hanzi match quiz state
   matchHint: 'none', // 'none' | 'pinyin'
+  matchCount: 150, // Default to full 150 words
   matchRound: [],
   matchIndex: 0,
   matchScore: 0,
+  matchCorrect: 0,
+  matchWrong: 0,
   matchStreak: 0,
   matchMaxStreak: 0,
   matchAnswered: false,
@@ -440,6 +449,17 @@ function initFlashcard() {
 }
 
 function renderCurrentFlashcard() {
+  const fcTotal = state.fcList.length;
+  const fcCurrent = fcTotal === 0 ? 0 : state.fcIndex + 1;
+  const fcPct = fcTotal === 0 ? '0.0' : ((fcCurrent / fcTotal) * 100).toFixed(1);
+
+  const progressText = document.getElementById('fc-progress-text');
+  const progressPct = document.getElementById('fc-progress-pct');
+  const progressBar = document.getElementById('fc-progress-bar');
+  if (progressText) progressText.textContent = `${fcCurrent} / ${fcTotal}`;
+  if (progressPct) progressPct.textContent = `${fcPct}%`;
+  if (progressBar) progressBar.style.width = `${fcPct}%`;
+
   if (state.fcList.length === 0) {
     document.getElementById('fc-hanzi').textContent = '—';
     document.getElementById('fc-front-pinyin').textContent = 'Danh sách rỗng';
@@ -501,9 +521,12 @@ function generateRandomChoices(correctWord, mode) {
 
 function startAbcdRound() {
   const shuffled = [...state.words].sort(() => Math.random() - 0.5);
-  state.abcdRound = shuffled.slice(0, 15);
+  const targetCount = state.abcdCount >= state.words.length ? state.words.length : state.abcdCount;
+  state.abcdRound = shuffled.slice(0, targetCount);
   state.abcdIndex = 0;
   state.abcdScore = 0;
+  state.abcdCorrect = 0;
+  state.abcdWrong = 0;
   state.abcdStreak = 0;
   state.abcdMaxStreak = 0;
   renderAbcdQuestion();
@@ -513,9 +536,15 @@ function renderAbcdQuestion() {
   state.abcdAnswered = false;
   const curr = state.abcdRound[state.abcdIndex];
   const total = state.abcdRound.length;
+  const answeredCount = state.abcdCorrect + state.abcdWrong;
+  const pct = total === 0 ? '0.0' : ((answeredCount / total) * 100).toFixed(1);
 
   document.getElementById('abcd-question-num').textContent = `Câu ${state.abcdIndex + 1} / ${total}`;
-  document.getElementById('abcd-progress').style.width = `${((state.abcdIndex) / total) * 100}%`;
+  document.getElementById('abcd-progress').style.width = `${pct}%`;
+  document.getElementById('abcd-progress-pct').textContent = `${pct}%`;
+  document.getElementById('abcd-stat-correct').textContent = state.abcdCorrect;
+  document.getElementById('abcd-stat-wrong').textContent = state.abcdWrong;
+  document.getElementById('abcd-stat-remaining').textContent = total - answeredCount;
   document.getElementById('abcd-score-display').textContent = `Điểm: ${state.abcdScore}`;
   document.getElementById('abcd-streak-display').textContent = `🔥 Chuỗi: ${state.abcdStreak}`;
 
@@ -593,6 +622,7 @@ function handleAbcdAnswer(clickedBtn, isCorrect, correctWord) {
   if (isCorrect) {
     clickedBtn.classList.add('correct');
     playSfx('correct');
+    state.abcdCorrect++;
     state.abcdScore += 10 + state.abcdStreak * 2;
     state.abcdStreak++;
     state.currentStreak++;
@@ -605,6 +635,7 @@ function handleAbcdAnswer(clickedBtn, isCorrect, correctWord) {
   } else {
     clickedBtn.classList.add('wrong');
     playSfx('wrong');
+    state.abcdWrong++;
     state.abcdStreak = 0;
     state.currentStreak = 0;
 
@@ -622,6 +653,14 @@ function handleAbcdAnswer(clickedBtn, isCorrect, correctWord) {
   }
 
   saveStorage();
+  const total = state.abcdRound.length;
+  const answeredCount = state.abcdCorrect + state.abcdWrong;
+  const pct = total === 0 ? '0.0' : ((answeredCount / total) * 100).toFixed(1);
+  document.getElementById('abcd-progress').style.width = `${pct}%`;
+  document.getElementById('abcd-progress-pct').textContent = `${pct}%`;
+  document.getElementById('abcd-stat-correct').textContent = state.abcdCorrect;
+  document.getElementById('abcd-stat-wrong').textContent = state.abcdWrong;
+  document.getElementById('abcd-stat-remaining').textContent = total - answeredCount;
   document.getElementById('abcd-streak-display').textContent = `🔥 Chuỗi: ${state.abcdStreak}`;
   document.getElementById('abcd-score-display').textContent = `Điểm: ${state.abcdScore}`;
 }
@@ -637,6 +676,16 @@ function initAbcdQuiz() {
     });
   });
 
+  const countPills = document.querySelectorAll('#abcd-count-pills .toggle-pill-btn');
+  countPills.forEach(pill => {
+    pill.addEventListener('click', () => {
+      countPills.forEach(p => p.classList.remove('active'));
+      pill.classList.add('active');
+      state.abcdCount = parseInt(pill.dataset.count, 10);
+      startAbcdRound();
+    });
+  });
+
   document.getElementById('abcd-restart-btn').addEventListener('click', startAbcdRound);
 
   document.getElementById('abcd-next-q-btn').addEventListener('click', () => {
@@ -646,7 +695,7 @@ function initAbcdQuiz() {
     } else {
       // Finished round
       showQuizResultModal({
-        correct: Math.round(state.abcdScore / 10),
+        correct: state.abcdCorrect,
         total: state.abcdRound.length,
         maxStreak: state.abcdMaxStreak,
         onReplay: startAbcdRound,
@@ -658,9 +707,12 @@ function initAbcdQuiz() {
 // ==================== 3. NGHE ĐOÁN TỪ LOGIC ====================
 function startListenRound() {
   const shuffled = [...state.words].sort(() => Math.random() - 0.5);
-  state.listenRound = shuffled.slice(0, 15);
+  const targetCount = state.listenCount >= state.words.length ? state.words.length : state.listenCount;
+  state.listenRound = shuffled.slice(0, targetCount);
   state.listenIndex = 0;
   state.listenScore = 0;
+  state.listenCorrect = 0;
+  state.listenWrong = 0;
   state.listenStreak = 0;
   state.listenMaxStreak = 0;
   renderListenQuestion();
@@ -670,9 +722,15 @@ function renderListenQuestion() {
   state.listenAnswered = false;
   const curr = state.listenRound[state.listenIndex];
   const total = state.listenRound.length;
+  const answeredCount = state.listenCorrect + state.listenWrong;
+  const pct = total === 0 ? '0.0' : ((answeredCount / total) * 100).toFixed(1);
 
   document.getElementById('listen-question-num').textContent = `Câu ${state.listenIndex + 1} / ${total}`;
-  document.getElementById('listen-progress').style.width = `${((state.listenIndex) / total) * 100}%`;
+  document.getElementById('listen-progress').style.width = `${pct}%`;
+  document.getElementById('listen-progress-pct').textContent = `${pct}%`;
+  document.getElementById('listen-stat-correct').textContent = state.listenCorrect;
+  document.getElementById('listen-stat-wrong').textContent = state.listenWrong;
+  document.getElementById('listen-stat-remaining').textContent = total - answeredCount;
   document.getElementById('listen-score-display').textContent = `Điểm: ${state.listenScore}`;
   document.getElementById('listen-streak-display').textContent = `🔥 Chuỗi: ${state.listenStreak}`;
 
@@ -738,6 +796,7 @@ function handleListenAnswer(clickedBtn, isCorrect, correctWord) {
   if (isCorrect) {
     clickedBtn.classList.add('correct');
     playSfx('correct');
+    state.listenCorrect++;
     state.listenScore += 10 + state.listenStreak * 2;
     state.listenStreak++;
     state.currentStreak++;
@@ -750,6 +809,7 @@ function handleListenAnswer(clickedBtn, isCorrect, correctWord) {
   } else {
     clickedBtn.classList.add('wrong');
     playSfx('wrong');
+    state.listenWrong++;
     state.listenStreak = 0;
     state.currentStreak = 0;
 
@@ -763,6 +823,14 @@ function handleListenAnswer(clickedBtn, isCorrect, correctWord) {
   }
 
   saveStorage();
+  const total = state.listenRound.length;
+  const answeredCount = state.listenCorrect + state.listenWrong;
+  const pct = total === 0 ? '0.0' : ((answeredCount / total) * 100).toFixed(1);
+  document.getElementById('listen-progress').style.width = `${pct}%`;
+  document.getElementById('listen-progress-pct').textContent = `${pct}%`;
+  document.getElementById('listen-stat-correct').textContent = state.listenCorrect;
+  document.getElementById('listen-stat-wrong').textContent = state.listenWrong;
+  document.getElementById('listen-stat-remaining').textContent = total - answeredCount;
   document.getElementById('listen-streak-display').textContent = `🔥 Chuỗi: ${state.listenStreak}`;
   document.getElementById('listen-score-display').textContent = `Điểm: ${state.listenScore}`;
 }
@@ -775,6 +843,16 @@ function initListeningQuiz() {
       pill.classList.add('active');
       state.listenAnsType = pill.dataset.anstype;
       renderListenQuestion();
+    });
+  });
+
+  const countPills = document.querySelectorAll('#listen-count-pills .toggle-pill-btn');
+  countPills.forEach(pill => {
+    pill.addEventListener('click', () => {
+      countPills.forEach(p => p.classList.remove('active'));
+      pill.classList.add('active');
+      state.listenCount = parseInt(pill.dataset.count, 10);
+      startListenRound();
     });
   });
 
@@ -807,7 +885,7 @@ function initListeningQuiz() {
       renderListenQuestion();
     } else {
       showQuizResultModal({
-        correct: Math.round(state.listenScore / 10),
+        correct: state.listenCorrect,
         total: state.listenRound.length,
         maxStreak: state.listenMaxStreak,
         onReplay: startListenRound,
@@ -819,9 +897,12 @@ function initListeningQuiz() {
 // ==================== 4. NHÌN NGHĨA CHỌN CHỮ LOGIC ====================
 function startMatchRound() {
   const shuffled = [...state.words].sort(() => Math.random() - 0.5);
-  state.matchRound = shuffled.slice(0, 15);
+  const targetCount = state.matchCount >= state.words.length ? state.words.length : state.matchCount;
+  state.matchRound = shuffled.slice(0, targetCount);
   state.matchIndex = 0;
   state.matchScore = 0;
+  state.matchCorrect = 0;
+  state.matchWrong = 0;
   state.matchStreak = 0;
   state.matchMaxStreak = 0;
   renderMatchQuestion();
@@ -831,9 +912,15 @@ function renderMatchQuestion() {
   state.matchAnswered = false;
   const curr = state.matchRound[state.matchIndex];
   const total = state.matchRound.length;
+  const answeredCount = state.matchCorrect + state.matchWrong;
+  const pct = total === 0 ? '0.0' : ((answeredCount / total) * 100).toFixed(1);
 
   document.getElementById('match-question-num').textContent = `Câu ${state.matchIndex + 1} / ${total}`;
-  document.getElementById('match-progress').style.width = `${((state.matchIndex) / total) * 100}%`;
+  document.getElementById('match-progress').style.width = `${pct}%`;
+  document.getElementById('match-progress-pct').textContent = `${pct}%`;
+  document.getElementById('match-stat-correct').textContent = state.matchCorrect;
+  document.getElementById('match-stat-wrong').textContent = state.matchWrong;
+  document.getElementById('match-stat-remaining').textContent = total - answeredCount;
   document.getElementById('match-score-display').textContent = `Điểm: ${state.matchScore}`;
   document.getElementById('match-streak-display').textContent = `🔥 Chuỗi: ${state.matchStreak}`;
 
@@ -884,6 +971,7 @@ function handleMatchAnswer(clickedBtn, isCorrect, correctWord) {
   if (isCorrect) {
     clickedBtn.classList.add('correct');
     playSfx('correct');
+    state.matchCorrect++;
     state.matchScore += 10 + state.matchStreak * 2;
     state.matchStreak++;
     state.currentStreak++;
@@ -896,6 +984,7 @@ function handleMatchAnswer(clickedBtn, isCorrect, correctWord) {
   } else {
     clickedBtn.classList.add('wrong');
     playSfx('wrong');
+    state.matchWrong++;
     state.matchStreak = 0;
     state.currentStreak = 0;
 
@@ -909,6 +998,14 @@ function handleMatchAnswer(clickedBtn, isCorrect, correctWord) {
   }
 
   saveStorage();
+  const total = state.matchRound.length;
+  const answeredCount = state.matchCorrect + state.matchWrong;
+  const pct = total === 0 ? '0.0' : ((answeredCount / total) * 100).toFixed(1);
+  document.getElementById('match-progress').style.width = `${pct}%`;
+  document.getElementById('match-progress-pct').textContent = `${pct}%`;
+  document.getElementById('match-stat-correct').textContent = state.matchCorrect;
+  document.getElementById('match-stat-wrong').textContent = state.matchWrong;
+  document.getElementById('match-stat-remaining').textContent = total - answeredCount;
   document.getElementById('match-streak-display').textContent = `🔥 Chuỗi: ${state.matchStreak}`;
   document.getElementById('match-score-display').textContent = `Điểm: ${state.matchScore}`;
 }
@@ -924,6 +1021,16 @@ function initMeaningMatchQuiz() {
     });
   });
 
+  const countPills = document.querySelectorAll('#match-count-pills .toggle-pill-btn');
+  countPills.forEach(pill => {
+    pill.addEventListener('click', () => {
+      countPills.forEach(p => p.classList.remove('active'));
+      pill.classList.add('active');
+      state.matchCount = parseInt(pill.dataset.count, 10);
+      startMatchRound();
+    });
+  });
+
   document.getElementById('match-restart-btn').addEventListener('click', startMatchRound);
 
   document.getElementById('match-next-q-btn').addEventListener('click', () => {
@@ -932,7 +1039,7 @@ function initMeaningMatchQuiz() {
       renderMatchQuestion();
     } else {
       showQuizResultModal({
-        correct: Math.round(state.matchScore / 10),
+        correct: state.matchCorrect,
         total: state.matchRound.length,
         maxStreak: state.matchMaxStreak,
         onReplay: startMatchRound,
