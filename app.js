@@ -476,7 +476,38 @@ function initFlashcard() {
     card.classList.toggle('flipped', state.fcFlipped);
   }
 
+  // Mobile Touch Swipe Gestures
+  let touchStartX = 0;
+  let touchStartY = 0;
+  let isSwiping = false;
+
+  card.addEventListener('touchstart', (e) => {
+    touchStartX = e.changedTouches[0].clientX;
+    touchStartY = e.changedTouches[0].clientY;
+    isSwiping = false;
+  }, { passive: true });
+
+  card.addEventListener('touchend', (e) => {
+    const touchEndX = e.changedTouches[0].clientX;
+    const touchEndY = e.changedTouches[0].clientY;
+    const diffX = touchEndX - touchStartX;
+    const diffY = touchEndY - touchStartY;
+
+    if (Math.abs(diffX) > 45 && Math.abs(diffX) > Math.abs(diffY)) {
+      isSwiping = true;
+      if (diffX < 0) {
+        nextBtn.click();
+      } else {
+        prevBtn.click();
+      }
+    }
+  }, { passive: true });
+
   card.addEventListener('click', (e) => {
+    if (isSwiping) {
+      isSwiping = false;
+      return;
+    }
     if (e.target.closest('.icon-btn') || e.target.closest('.card-actions-top')) return;
     flip();
   });
