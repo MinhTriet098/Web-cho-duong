@@ -1,13 +1,30 @@
-# 🐼 HSK 2 Cùng Bạn Dương ✨
+# 🐼 HSK 1 - 2 - 3 Cùng Bạn Dương ✨
 
+Ứng dụng web học và ôn tập **toàn diện 594 từ vựng HSK 1, HSK 2 và HSK 3 chuẩn** được thiết kế hiện đại, vui nhộn và thân thiện dành riêng cho bạn Dương.
 
-## 🚀 Các Tính Năng Nổi Bật
+---
+
+## 🌟 Các Cấp Độ Hỗ Trợ
+
+- 📘 **HSK 1**: 149 từ vựng cơ bản kèm phiên âm, dịch nghĩa và câu ví dụ.
+- 📗 **HSK 2**: 150 từ vựng trung cấp kèm phiên âm, dịch nghĩa và câu ví dụ.
+- 📙 **HSK 3**: 295 từ vựng mở rộng kèm phiên âm, dịch nghĩa và câu ví dụ.
+- 🌟 **Cả HSK 1 - 3**: 594 từ vựng tổng hợp cho thử thách marathon toàn diện!
+
+---
+
+## 🚀 Các Tính Năng & Trò Chơi Nổi Bật
 
 - 🎴 **Flashcard 3D**: Lật thẻ học từ vựng, phát âm chuẩn giọng bản xứ, hiển thị câu ví dụ kèm phiên âm và dịch nghĩa, hỗ trợ chế độ tự động chuyển thẻ (Auto-play).
-- 🎯 **Trắc nghiệm ABCD**: 15 câu ngẫu nhiên mỗi vòng, tích hợp tính điểm chuỗi combo, âm thanh sinh động và pháo hoa ăn mừng khi hoàn thành xuất sắc.
+- 🎯 **Trắc nghiệm ABCD**: Chế độ full toàn bộ từ vựng với thanh tiến độ thời gian thực (đếm câu đúng, câu sai, còn lại), tính điểm chuỗi combo, âm thanh và pháo hoa ăn mừng.
 - 🎧 **Nghe đoán từ**: Luyện nghe phát âm chữ Hán với tùy chọn tốc độ chuẩn (1.0x) hoặc đọc chậm (0.7x), đoán đáp án bằng Tiếng Việt hoặc Pinyin.
 - 🈶 **Nhìn nghĩa chọn chữ**: Rèn luyện phản xạ nhận diện mặt chữ Hán, có chế độ bật/tắt gợi ý Pinyin.
-- 📖 **Tra cứu 150 từ**: Tìm kiếm tức thì theo chữ Hán, Pinyin hoặc nghĩa Tiếng Việt; phân loại từ đã thuộc, từ chưa thuộc và từ cần ôn lại.
+- 📖 **Tra cứu từ vựng**: Tìm kiếm tức thì theo chữ Hán, Pinyin hoặc nghĩa Tiếng Việt; phân loại từ đã thuộc, từ chưa thuộc và từ cần ôn lại.
 - 🔀 **Tùy biến đáp án đa dạng**: Đáp án trong các chế độ chơi có thể chuyển đổi linh hoạt giữa **Tiếng Việt**, **Pinyin** hoặc **Chữ Hán**.
 - 💾 **Tự động lưu tiến độ**: Tất cả từ đã thuộc, từ đánh dấu sao và điểm chuỗi đều được lưu trong trình duyệt (`localStorage`).
 
+---
+
+## 🌐 Chạy trực tuyến trên GitHub Pages
+
+👉 **https://minhtriet098.github.io/Web-cho-duong/**

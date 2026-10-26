@@ -1,20 +1,48 @@
 /**
- * HSK 2 Cùng Bạn Dương - Main Application Logic
- * 150 từ vựng HSK 2 chuẩn với Flashcard, Trắc nghiệm ABCD, Nghe đoán từ, Nhìn nghĩa chọn chữ.
+ * HSK 1 - 2 - 3 Cùng Bạn Dương - Main Application Logic
+ * Đầy đủ từ vựng HSK1 (149 từ), HSK2 (150 từ), HSK3 (295 từ)
+ * Chế độ Flashcard, Trắc nghiệm ABCD, Nghe đoán từ, Nhìn nghĩa chọn chữ.
  */
 
 // ==================== STATE MANAGEMENT ====================
 const STORAGE_KEYS = {
-  MASTERED: 'hsk2_duong_mastered',
-  STARRED: 'hsk2_duong_starred',
-  STREAK: 'hsk2_duong_streak',
-  BEST_STREAK: 'hsk2_duong_best_streak',
+  LEVEL: 'hsk_duong_current_level',
+  MASTERED: 'hsk_duong_mastered_keys',
+  STARRED: 'hsk_duong_starred_keys',
+  STREAK: 'hsk_duong_streak',
+  BEST_STREAK: 'hsk_duong_best_streak',
 };
 
+// Unique key for each word across levels (e.g. "HSK1_5", "HSK2_12")
+function getWordKey(word) {
+  if (!word) return '';
+  const lvl = word.level || 'HSK2';
+  return `${lvl}_${word.id}`;
+}
+
+function getInitialWords(level) {
+  if (typeof HSK_ALL_DATA === 'undefined') {
+    return typeof HSK2_DATA !== 'undefined' ? HSK2_DATA : [];
+  }
+  if (level === 'ALL') {
+    return [
+      ...(HSK_ALL_DATA['HSK1'] || []),
+      ...(HSK_ALL_DATA['HSK2'] || []),
+      ...(HSK_ALL_DATA['HSK3'] || [])
+    ];
+  }
+  return HSK_ALL_DATA[level] || HSK_ALL_DATA['HSK2'] || [];
+}
+
+const initialLevel = localStorage.getItem(STORAGE_KEYS.LEVEL) || 'HSK2';
+
 const state = {
-  words: typeof HSK2_DATA !== 'undefined' ? HSK2_DATA : [],
-  masteredIds: new Set(JSON.parse(localStorage.getItem(STORAGE_KEYS.MASTERED) || '[]')),
-  starredIds: new Set(JSON.parse(localStorage.getItem(STORAGE_KEYS.STARRED) || '[]')),
+  currentHskLevel: initialLevel,
+  words: getInitialWords(initialLevel),
+
+  // Mastered & Starred stored as Set of keys (e.g. "HSK2_1")
+  masteredKeys: new Set(JSON.parse(localStorage.getItem(STORAGE_KEYS.MASTERED) || '[]')),
+  starredKeys: new Set(JSON.parse(localStorage.getItem(STORAGE_KEYS.STARRED) || '[]')),
   currentStreak: 0,
   bestStreak: parseInt(localStorage.getItem(STORAGE_KEYS.BEST_STREAK) || '0', 10),
 
@@ -27,7 +55,7 @@ const state = {
 
   // ABCD quiz state
   abcdMode: 'hanzi-to-meaning', // 'hanzi-to-meaning' | 'hanzi-to-pinyin' | 'pinyin-to-meaning'
-  abcdCount: 150, // Default to full 150 words
+  abcdCount: 150, // Default to full list
   abcdRound: [],
   abcdIndex: 0,
   abcdScore: 0,
@@ -39,7 +67,7 @@ const state = {
 
   // Listening quiz state
   listenAnsType: 'meaning', // 'meaning' | 'pinyin' | 'hanzi' | 'both'
-  listenCount: 150, // Default to full 150 words
+  listenCount: 150,
   listenSpeed: 0.9,
   listenRound: [],
   listenIndex: 0,
@@ -52,7 +80,7 @@ const state = {
 
   // Meaning-to-Hanzi match quiz state
   matchHint: 'none', // 'none' | 'pinyin'
-  matchCount: 150, // Default to full 150 words
+  matchCount: 150,
   matchRound: [],
   matchIndex: 0,
   matchScore: 0,
@@ -67,9 +95,45 @@ const state = {
   vocabSearch: '',
 };
 
+function isWordMastered(word) {
+  if (!word) return false;
+  const key = getWordKey(word);
+  return state.masteredKeys.has(key) || state.masteredKeys.has(word.id);
+}
+
+function isWordStarred(word) {
+  if (!word) return false;
+  const key = getWordKey(word);
+  return state.starredKeys.has(key) || state.starredKeys.has(word.id);
+}
+
+function toggleWordMastered(word) {
+  const key = getWordKey(word);
+  if (isWordMastered(word)) {
+    state.masteredKeys.delete(key);
+    state.masteredKeys.delete(word.id);
+    return false;
+  } else {
+    state.masteredKeys.add(key);
+    return true;
+  }
+}
+
+function toggleWordStarred(word) {
+  const key = getWordKey(word);
+  if (isWordStarred(word)) {
+    state.starredKeys.delete(key);
+    state.starredKeys.delete(word.id);
+    return false;
+  } else {
+    state.starredKeys.add(key);
+    return true;
+  }
+}
+
 function saveStorage() {
-  localStorage.setItem(STORAGE_KEYS.MASTERED, JSON.stringify(Array.from(state.masteredIds)));
-  localStorage.setItem(STORAGE_KEYS.STARRED, JSON.stringify(Array.from(state.starredIds)));
+  localStorage.setItem(STORAGE_KEYS.MASTERED, JSON.stringify(Array.from(state.masteredKeys)));
+  localStorage.setItem(STORAGE_KEYS.STARRED, JSON.stringify(Array.from(state.starredKeys)));
   if (state.currentStreak > state.bestStreak) {
     state.bestStreak = state.currentStreak;
     localStorage.setItem(STORAGE_KEYS.BEST_STREAK, state.bestStreak.toString());
@@ -78,22 +142,112 @@ function saveStorage() {
 }
 
 function updateHeaderBadges() {
+  const masteredInCurrent = state.words.filter(w => isWordMastered(w)).length;
+  const starredInCurrent = state.words.filter(w => isWordStarred(w)).length;
+  const unlearnedInCurrent = state.words.length - masteredInCurrent;
+
   const masteredEl = document.getElementById('stat-mastered');
+  const totalBadgeEl = document.getElementById('stat-total-badge');
   const starredEl = document.getElementById('stat-starred');
   const streakEl = document.getElementById('stat-streak');
 
-  if (masteredEl) masteredEl.textContent = state.masteredIds.size;
-  if (starredEl) starredEl.textContent = state.starredIds.size;
+  if (masteredEl) masteredEl.textContent = masteredInCurrent;
+  if (totalBadgeEl) totalBadgeEl.textContent = state.words.length;
+  if (starredEl) starredEl.textContent = starredInCurrent;
   if (streakEl) streakEl.textContent = state.currentStreak;
 
-  // Update counts in vocab list filter chips if present
-  const unlearnedCount = state.words.length - state.masteredIds.size;
   const countUnlearned = document.getElementById('vfilter-unlearned-count');
   const countMastered = document.getElementById('vfilter-mastered-count');
   const countStarred = document.getElementById('vfilter-starred-count');
-  if (countUnlearned) countUnlearned.textContent = unlearnedCount;
-  if (countMastered) countMastered.textContent = state.masteredIds.size;
-  if (countStarred) countStarred.textContent = state.starredIds.size;
+  if (countUnlearned) countUnlearned.textContent = unlearnedInCurrent;
+  if (countMastered) countMastered.textContent = masteredInCurrent;
+  if (countStarred) countStarred.textContent = starredInCurrent;
+}
+
+// ==================== LEVEL SWITCHER ====================
+function setHskLevel(level) {
+  state.currentHskLevel = level;
+  localStorage.setItem(STORAGE_KEYS.LEVEL, level);
+  state.words = getInitialWords(level);
+
+  // Update subtitle
+  const subtitleMap = {
+    'HSK1': '149 Từ vựng HSK 1 chuẩn • Học vui - Nhớ sâu',
+    'HSK2': '150 Từ vựng HSK 2 chuẩn • Học vui - Nhớ sâu',
+    'HSK3': '295 Từ vựng HSK 3 chuẩn • Học vui - Nhớ sâu',
+    'ALL': '594 Từ vựng tổng hợp HSK 1, 2, 3 • Học vui - Nhớ sâu',
+  };
+  const subEl = document.getElementById('app-subtitle');
+  if (subEl) subEl.textContent = subtitleMap[level] || subtitleMap['HSK2'];
+
+  // Update flashcard filter button text
+  const fcAllBtn = document.querySelector('#flashcard-filter-pills [data-filter="all"]');
+  if (fcAllBtn) fcAllBtn.textContent = `Tất cả (${state.words.length})`;
+
+  // Update full count pills in all 3 quiz modes
+  updateQuizCountPills();
+
+  // Reset Flashcard
+  state.fcList = getFilteredFlashcards();
+  state.fcIndex = 0;
+  state.fcFlipped = false;
+  const card = document.getElementById('main-flashcard');
+  if (card) card.classList.remove('flipped');
+  renderCurrentFlashcard();
+
+  // Reset ABCD
+  startAbcdRound();
+
+  // Reset Listening
+  startListenRound();
+
+  // Reset Meaning Match
+  startMatchRound();
+
+  // Re-render vocab list
+  renderVocabList();
+  updateHeaderBadges();
+}
+
+function updateQuizCountPills() {
+  const total = state.words.length;
+  state.abcdCount = total;
+  state.listenCount = total;
+  state.matchCount = total;
+
+  const selectors = ['#abcd-count-pills', '#listen-count-pills', '#match-count-pills'];
+  selectors.forEach(sel => {
+    const wrap = document.querySelector(sel);
+    if (!wrap) return;
+    const allPills = wrap.querySelectorAll('.toggle-pill-btn');
+    allPills.forEach(p => p.classList.remove('active'));
+
+    const fullPill = wrap.querySelector('[data-count="150"], [data-count-full="true"]');
+    if (fullPill) {
+      fullPill.dataset.count = total;
+      fullPill.dataset.countFull = 'true';
+      fullPill.textContent = `Toàn bộ ${total} từ ✨`;
+      fullPill.classList.add('active');
+    }
+  });
+}
+
+function initLevelSelector() {
+  const pills = document.querySelectorAll('#hsk-level-pills .level-pill-btn');
+  pills.forEach(pill => {
+    if (pill.dataset.level === state.currentHskLevel) {
+      pills.forEach(p => p.classList.remove('active'));
+      pill.classList.add('active');
+    }
+    pill.addEventListener('click', () => {
+      pills.forEach(p => p.classList.remove('active'));
+      pill.classList.add('active');
+      setHskLevel(pill.dataset.level);
+    });
+  });
+
+  // Set initial subtitle and pill texts
+  setHskLevel(state.currentHskLevel);
 }
 
 // ==================== AUDIO & SOUND SYNTHESIS ====================
@@ -116,16 +270,15 @@ function playSfx(type) {
     const now = ctx.currentTime;
 
     if (type === 'correct') {
-      // Pleasant double bell chime
       const osc1 = ctx.createOscillator();
       const osc2 = ctx.createOscillator();
       const gain = ctx.createGain();
 
       osc1.type = 'sine';
       osc2.type = 'sine';
-      osc1.frequency.setValueAtTime(523.25, now); // C5
-      osc1.frequency.setValueAtTime(659.25, now + 0.1); // E5
-      osc2.frequency.setValueAtTime(1046.5, now + 0.1); // C6
+      osc1.frequency.setValueAtTime(523.25, now);
+      osc1.frequency.setValueAtTime(659.25, now + 0.1);
+      osc2.frequency.setValueAtTime(1046.5, now + 0.1);
 
       gain.gain.setValueAtTime(0.18, now);
       gain.gain.exponentialRampToValueAtTime(0.001, now + 0.35);
@@ -139,7 +292,6 @@ function playSfx(type) {
       osc1.stop(now + 0.35);
       osc2.stop(now + 0.35);
     } else if (type === 'wrong') {
-      // Low tone error buzz
       const osc = ctx.createOscillator();
       const gain = ctx.createGain();
 
@@ -156,7 +308,6 @@ function playSfx(type) {
       osc.start(now);
       osc.stop(now + 0.3);
     } else if (type === 'fanfare') {
-      // Victory chime arpeggio
       const notes = [523.25, 659.25, 783.99, 1046.5];
       notes.forEach((freq, idx) => {
         const osc = ctx.createOscillator();
@@ -172,17 +323,13 @@ function playSfx(type) {
       });
     }
   } catch (e) {
-    // Audio context not allowed before gesture or not supported
+    // Audio context not allowed before gesture
   }
 }
 
-// Text-to-Speech for Chinese (Mandarin)
 function speakChinese(text, rate = 0.9) {
-  if (!('speechSynthesis' in window)) {
-    console.warn('Speech synthesis not supported');
-    return;
-  }
-  window.speechSynthesis.cancel(); // Stop any pending speech
+  if (!('speechSynthesis' in window)) return;
+  window.speechSynthesis.cancel();
 
   const utterance = new SpeechSynthesisUtterance(text);
   utterance.lang = 'zh-CN';
@@ -196,10 +343,8 @@ function speakChinese(text, rate = 0.9) {
   window.speechSynthesis.speak(utterance);
 }
 
-// Pre-load voices
 if ('speechSynthesis' in window) {
   window.speechSynthesis.onvoiceschanged = () => {
-    // Trigger voice population
     window.speechSynthesis.getVoices();
   };
 }
@@ -237,7 +382,7 @@ function triggerConfetti() {
     particles.forEach(p => {
       p.x += p.vx;
       p.y += p.vy;
-      p.vy += 0.4; // gravity
+      p.vy += 0.4;
       p.rotation += p.vRot;
       p.alpha -= 0.009;
 
@@ -281,7 +426,6 @@ function initNavigation() {
         targetPanel.classList.add('active');
       }
 
-      // Initialize or refresh view
       if (tab.dataset.tab === 'flashcard') {
         renderCurrentFlashcard();
       } else if (tab.dataset.tab === 'abcd') {
@@ -300,11 +444,11 @@ function initNavigation() {
 // ==================== 1. FLASHCARD LOGIC ====================
 function getFilteredFlashcards() {
   if (state.fcFilter === 'mastered') {
-    return state.words.filter(w => state.masteredIds.has(w.id));
+    return state.words.filter(w => isWordMastered(w));
   } else if (state.fcFilter === 'unlearned') {
-    return state.words.filter(w => !state.masteredIds.has(w.id));
+    return state.words.filter(w => !isWordMastered(w));
   } else if (state.fcFilter === 'starred') {
-    return state.words.filter(w => state.starredIds.has(w.id));
+    return state.words.filter(w => isWordStarred(w));
   }
   return [...state.words];
 }
@@ -332,7 +476,6 @@ function initFlashcard() {
   }
 
   card.addEventListener('click', (e) => {
-    // Ignore click on action buttons
     if (e.target.closest('.icon-btn') || e.target.closest('.card-actions-top')) return;
     flip();
   });
@@ -365,7 +508,6 @@ function initFlashcard() {
     renderCurrentFlashcard();
   });
 
-  // Autoplay
   autoPlayBtn.addEventListener('click', () => {
     if (state.fcAutoPlayTimer) {
       clearInterval(state.fcAutoPlayTimer);
@@ -388,7 +530,6 @@ function initFlashcard() {
     }
   });
 
-  // Action buttons
   speakFront.addEventListener('click', (e) => {
     e.stopPropagation();
     const curr = state.fcList[state.fcIndex];
@@ -405,13 +546,8 @@ function initFlashcard() {
     e.stopPropagation();
     const curr = state.fcList[state.fcIndex];
     if (!curr) return;
-    if (state.starredIds.has(curr.id)) {
-      state.starredIds.delete(curr.id);
-      starBtn.classList.remove('starred');
-    } else {
-      state.starredIds.add(curr.id);
-      starBtn.classList.add('starred');
-    }
+    const isNowStarred = toggleWordStarred(curr);
+    starBtn.classList.toggle('starred', isNowStarred);
     saveStorage();
   });
 
@@ -419,18 +555,12 @@ function initFlashcard() {
     e.stopPropagation();
     const curr = state.fcList[state.fcIndex];
     if (!curr) return;
-    if (state.masteredIds.has(curr.id)) {
-      state.masteredIds.delete(curr.id);
-      checkBtn.classList.remove('mastered');
-    } else {
-      state.masteredIds.add(curr.id);
-      checkBtn.classList.add('mastered');
-      playSfx('correct');
-    }
+    const isNowMastered = toggleWordMastered(curr);
+    checkBtn.classList.toggle('mastered', isNowMastered);
+    if (isNowMastered) playSfx('correct');
     saveStorage();
   });
 
-  // Filter pills
   const filterPills = document.querySelectorAll('#flashcard-filter-pills .toggle-pill-btn');
   filterPills.forEach(pill => {
     pill.addEventListener('click', () => {
@@ -474,7 +604,8 @@ function renderCurrentFlashcard() {
   }
 
   const word = state.fcList[state.fcIndex];
-  document.getElementById('fc-id-badge').textContent = `#${word.id} (${state.fcIndex + 1}/${state.fcList.length})`;
+  const lvlBadge = word.level ? `[${word.level}] ` : '';
+  document.getElementById('fc-id-badge').textContent = `${lvlBadge}#${word.id} (${state.fcIndex + 1}/${state.fcList.length})`;
   document.getElementById('fc-hanzi').textContent = word.hanzi;
   document.getElementById('fc-front-pinyin').textContent = word.pinyin;
 
@@ -488,17 +619,15 @@ function renderCurrentFlashcard() {
     document.getElementById('fc-ex-meaning').textContent = word.example.meaning || '';
   }
 
-  // Update button active state
   const starBtn = document.getElementById('fc-star-btn');
   const checkBtn = document.getElementById('fc-check-btn');
-  starBtn.classList.toggle('starred', state.starredIds.has(word.id));
-  checkBtn.classList.toggle('mastered', state.masteredIds.has(word.id));
+  starBtn.classList.toggle('starred', isWordStarred(word));
+  checkBtn.classList.toggle('mastered', isWordMastered(word));
 }
 
 // ==================== 2. TRẮC NGHIỆM ABCD LOGIC ====================
 function generateRandomChoices(correctWord, mode) {
-  // mode: 'hanzi-to-meaning' | 'hanzi-to-pinyin' | 'pinyin-to-meaning'
-  const pool = state.words.filter(w => w.id !== correctWord.id);
+  const pool = state.words.filter(w => getWordKey(w) !== getWordKey(correctWord));
   const distractors = [];
   while (distractors.length < 3 && pool.length > 0) {
     const randIdx = Math.floor(Math.random() * pool.length);
@@ -510,7 +639,6 @@ function generateRandomChoices(correctWord, mode) {
     ...distractors.map(w => ({ word: w, isCorrect: false })),
   ];
 
-  // Shuffle
   for (let i = choices.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
     [choices[i], choices[j]] = [choices[j], choices[i]];
@@ -575,11 +703,9 @@ function renderAbcdQuestion() {
     pinyinEl.style.display = 'none';
   }
 
-  // Hide feedback
   const feedbackEl = document.getElementById('abcd-feedback');
   feedbackEl.className = 'feedback-box';
 
-  // Render 4 choices
   const choices = generateRandomChoices(curr, state.abcdMode);
   const choicesGrid = document.getElementById('abcd-choices');
   choicesGrid.innerHTML = '';
@@ -639,7 +765,6 @@ function handleAbcdAnswer(clickedBtn, isCorrect, correctWord) {
     state.abcdStreak = 0;
     state.currentStreak = 0;
 
-    // Highlight the correct one
     allBtns.forEach(btn => {
       if (btn.dataset.correct === 'true') btn.classList.add('correct');
     });
@@ -693,7 +818,6 @@ function initAbcdQuiz() {
     if (state.abcdIndex < state.abcdRound.length) {
       renderAbcdQuestion();
     } else {
-      // Finished round
       showQuizResultModal({
         correct: state.abcdCorrect,
         total: state.abcdRound.length,
@@ -734,17 +858,14 @@ function renderListenQuestion() {
   document.getElementById('listen-score-display').textContent = `Điểm: ${state.listenScore}`;
   document.getElementById('listen-streak-display').textContent = `🔥 Chuỗi: ${state.listenStreak}`;
 
-  // Reset feedback
   const feedbackEl = document.getElementById('listen-feedback');
   feedbackEl.className = 'feedback-box';
 
-  // Automatically pronounce the word
   speakChinese(curr.hanzi, state.listenSpeed);
 
   const playBtn = document.getElementById('listen-play-btn');
   playBtn.onclick = () => speakChinese(curr.hanzi, state.listenSpeed);
 
-  // Generate 4 choices based on state.listenAnsType (meaning, pinyin, hanzi, both)
   const choices = generateRandomChoices(curr);
   const choicesGrid = document.getElementById('listen-choices');
   choicesGrid.innerHTML = '';
@@ -1048,7 +1169,7 @@ function initMeaningMatchQuiz() {
   });
 }
 
-// ==================== 5. DANH SÁCH 150 TỪ VỰNG ====================
+// ==================== 5. DANH SÁCH TỪ VỰNG ====================
 function initVocabList() {
   const searchInput = document.getElementById('vocab-search-input');
   searchInput.addEventListener('input', (e) => {
@@ -1075,16 +1196,14 @@ function renderVocabList() {
 
   let list = state.words;
 
-  // Filter
   if (state.vocabFilter === 'mastered') {
-    list = list.filter(w => state.masteredIds.has(w.id));
+    list = list.filter(w => isWordMastered(w));
   } else if (state.vocabFilter === 'unlearned') {
-    list = list.filter(w => !state.masteredIds.has(w.id));
+    list = list.filter(w => !isWordMastered(w));
   } else if (state.vocabFilter === 'starred') {
-    list = list.filter(w => state.starredIds.has(w.id));
+    list = list.filter(w => isWordStarred(w));
   }
 
-  // Search
   if (state.vocabSearch) {
     const q = state.vocabSearch;
     list = list.filter(w => 
@@ -1111,14 +1230,19 @@ function renderVocabList() {
     const card = document.createElement('div');
     card.className = 'vocab-card';
 
-    const isMastered = state.masteredIds.has(word.id);
-    const isStarred = state.starredIds.has(word.id);
+    const isMastered = isWordMastered(word);
+    const isStarred = isWordStarred(word);
+    const lvl = word.level || 'HSK2';
+    const lvlClass = lvl.toLowerCase();
 
     card.innerHTML = `
       <div>
         <div class="vocab-card-header">
           <div>
-            <div class="vocab-hanzi">${word.hanzi}</div>
+            <div style="display: flex; align-items: center; gap: 8px;">
+              <span class="vocab-hanzi">${word.hanzi}</span>
+              <span class="badge-level ${lvlClass}">${lvl}</span>
+            </div>
             <div class="vocab-pinyin">${word.pinyin}</div>
           </div>
           <div style="display: flex; gap: 4px;">
@@ -1137,7 +1261,6 @@ function renderVocabList() {
       </div>
     `;
 
-    // Event listeners
     card.querySelector('.btn-speak').addEventListener('click', (e) => {
       e.stopPropagation();
       speakChinese(word.hanzi);
@@ -1146,27 +1269,17 @@ function renderVocabList() {
     const starBtn = card.querySelector('.btn-star');
     starBtn.addEventListener('click', (e) => {
       e.stopPropagation();
-      if (state.starredIds.has(word.id)) {
-        state.starredIds.delete(word.id);
-        starBtn.classList.remove('starred');
-      } else {
-        state.starredIds.add(word.id);
-        starBtn.classList.add('starred');
-      }
+      const starred = toggleWordStarred(word);
+      starBtn.classList.toggle('starred', starred);
       saveStorage();
     });
 
     const checkBtn = card.querySelector('.btn-check');
     checkBtn.addEventListener('click', (e) => {
       e.stopPropagation();
-      if (state.masteredIds.has(word.id)) {
-        state.masteredIds.delete(word.id);
-        checkBtn.classList.remove('mastered');
-      } else {
-        state.masteredIds.add(word.id);
-        checkBtn.classList.add('mastered');
-        playSfx('correct');
-      }
+      const mastered = toggleWordMastered(word);
+      checkBtn.classList.toggle('mastered', mastered);
+      if (mastered) playSfx('correct');
       saveStorage();
     });
 
@@ -1186,7 +1299,8 @@ function openWordModal(word) {
   currentModalWord = word;
   const modal = document.getElementById('word-detail-modal');
 
-  document.getElementById('modal-word-stt').textContent = `STT: #${word.id}`;
+  const lvl = word.level ? `[${word.level}] ` : '';
+  document.getElementById('modal-word-stt').textContent = `${lvl}STT: #${word.id}`;
   document.getElementById('modal-hanzi').textContent = word.hanzi;
   document.getElementById('modal-pinyin').textContent = word.pinyin;
   document.getElementById('modal-meaning').textContent = word.meaning;
@@ -1197,9 +1311,7 @@ function openWordModal(word) {
     document.getElementById('modal-ex-meaning').textContent = word.example.meaning || '';
   }
 
-  // Update toggle buttons
   updateModalToggleButtons(word);
-
   modal.classList.add('open');
 }
 
@@ -1207,7 +1319,7 @@ function updateModalToggleButtons(word) {
   const starBtn = document.getElementById('modal-star-toggle');
   const masterBtn = document.getElementById('modal-master-toggle');
 
-  if (state.starredIds.has(word.id)) {
+  if (isWordStarred(word)) {
     starBtn.innerHTML = '<span>⭐ Bỏ đánh dấu sao</span>';
     starBtn.classList.add('starred');
   } else {
@@ -1215,7 +1327,7 @@ function updateModalToggleButtons(word) {
     starBtn.classList.remove('starred');
   }
 
-  if (state.masteredIds.has(word.id)) {
+  if (isWordMastered(word)) {
     masterBtn.innerHTML = '<span>✅ Đã thuộc từ này</span>';
     masterBtn.classList.add('btn-secondary');
     masterBtn.classList.remove('btn-primary');
@@ -1247,11 +1359,7 @@ function initModal() {
 
   document.getElementById('modal-star-toggle').addEventListener('click', () => {
     if (!currentModalWord) return;
-    if (state.starredIds.has(currentModalWord.id)) {
-      state.starredIds.delete(currentModalWord.id);
-    } else {
-      state.starredIds.add(currentModalWord.id);
-    }
+    toggleWordStarred(currentModalWord);
     saveStorage();
     updateModalToggleButtons(currentModalWord);
     renderVocabList();
@@ -1259,12 +1367,8 @@ function initModal() {
 
   document.getElementById('modal-master-toggle').addEventListener('click', () => {
     if (!currentModalWord) return;
-    if (state.masteredIds.has(currentModalWord.id)) {
-      state.masteredIds.delete(currentModalWord.id);
-    } else {
-      state.masteredIds.add(currentModalWord.id);
-      playSfx('correct');
-    }
+    const mastered = toggleWordMastered(currentModalWord);
+    if (mastered) playSfx('correct');
     saveStorage();
     updateModalToggleButtons(currentModalWord);
     renderVocabList();
@@ -1277,7 +1381,7 @@ function showQuizResultModal({ correct, total, maxStreak, onReplay }) {
   playSfx('fanfare');
   triggerConfetti();
 
-  const accuracy = Math.round((correct / total) * 100);
+  const accuracy = total === 0 ? 0 : Math.round((correct / total) * 100);
   document.getElementById('result-correct-count').textContent = `${correct}/${total}`;
   document.getElementById('result-accuracy').textContent = `${accuracy}%`;
   document.getElementById('result-max-streak').textContent = `🔥 ${maxStreak}`;
@@ -1319,10 +1423,8 @@ function showQuizResultModal({ correct, total, maxStreak, onReplay }) {
 // ==================== KEYBOARD SHORTCUTS ====================
 function initKeyboardShortcuts() {
   window.addEventListener('keydown', (e) => {
-    // If typing in input, don't trigger shortcuts
     if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
 
-    // Flashcard shortcuts
     const isFcActive = document.getElementById('panel-flashcard').classList.contains('active');
     if (isFcActive) {
       if (e.code === 'Space') {
@@ -1338,7 +1440,6 @@ function initKeyboardShortcuts() {
       return;
     }
 
-    // Number keys 1, 2, 3, 4 for quiz choices
     const keyChoiceMap = {
       'Digit1': 0, 'KeyA': 0,
       'Digit2': 1, 'KeyB': 1,
@@ -1357,7 +1458,6 @@ function initKeyboardShortcuts() {
       }
     }
 
-    // Enter for next question
     if (e.code === 'Enter') {
       const activePanel = document.querySelector('.view-panel.active');
       if (activePanel) {
@@ -1370,7 +1470,7 @@ function initKeyboardShortcuts() {
 
 // ==================== INITIALIZATION ====================
 document.addEventListener('DOMContentLoaded', () => {
-  updateHeaderBadges();
+  initLevelSelector();
   initNavigation();
   initFlashcard();
   initAbcdQuiz();
