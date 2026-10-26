@@ -48,6 +48,7 @@ const state = {
 
   // Flashcard state
   fcFilter: 'all', // 'all' | 'unlearned' | 'mastered' | 'starred'
+  fcFrontMode: localStorage.getItem('hsk_fc_front_mode') || 'hanzi', // 'hanzi' | 'pinyin'
   fcList: [],
   fcIndex: 0,
   fcFlipped: false,
@@ -561,6 +562,21 @@ function initFlashcard() {
     saveStorage();
   });
 
+  const frontModePills = document.querySelectorAll('#fc-front-mode-pills .toggle-pill-btn');
+  frontModePills.forEach(pill => {
+    if (pill.dataset.fcmode === state.fcFrontMode) {
+      frontModePills.forEach(p => p.classList.remove('active'));
+      pill.classList.add('active');
+    }
+    pill.addEventListener('click', () => {
+      frontModePills.forEach(p => p.classList.remove('active'));
+      pill.classList.add('active');
+      state.fcFrontMode = pill.dataset.fcmode;
+      localStorage.setItem('hsk_fc_front_mode', state.fcFrontMode);
+      renderCurrentFlashcard();
+    });
+  });
+
   const filterPills = document.querySelectorAll('#flashcard-filter-pills .toggle-pill-btn');
   filterPills.forEach(pill => {
     pill.addEventListener('click', () => {
@@ -606,8 +622,25 @@ function renderCurrentFlashcard() {
   const word = state.fcList[state.fcIndex];
   const lvlBadge = word.level ? `[${word.level}] ` : '';
   document.getElementById('fc-id-badge').textContent = `${lvlBadge}#${word.id} (${state.fcIndex + 1}/${state.fcList.length})`;
-  document.getElementById('fc-hanzi').textContent = word.hanzi;
-  document.getElementById('fc-front-pinyin').textContent = word.pinyin;
+  const hanziEl = document.getElementById('fc-hanzi');
+  const frontPinyinEl = document.getElementById('fc-front-pinyin');
+  const frontHintEl = document.getElementById('fc-front-hint');
+
+  if (state.fcFrontMode === 'hanzi') {
+    // CHỈ HIỆN CHỮ HÁN, ẨN PINYIN
+    hanziEl.textContent = word.hanzi;
+    hanziEl.style.display = 'block';
+    frontPinyinEl.style.display = 'none';
+    frontPinyinEl.classList.remove('big-pinyin');
+    if (frontHintEl) frontHintEl.textContent = 'Bấm hoặc nhấn Space để xem Pinyin, nghĩa & ví dụ 👉';
+  } else {
+    // CHỈ HIỆN PINYIN, ẨN CHỮ HÁN
+    hanziEl.style.display = 'none';
+    frontPinyinEl.textContent = word.pinyin;
+    frontPinyinEl.style.display = 'block';
+    frontPinyinEl.classList.add('big-pinyin');
+    if (frontHintEl) frontHintEl.textContent = 'Bấm hoặc nhấn Space để xem Chữ Hán, nghĩa & ví dụ 👉';
+  }
 
   document.getElementById('fc-back-hanzi').textContent = word.hanzi;
   document.getElementById('fc-back-pinyin').textContent = word.pinyin;
