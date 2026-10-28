@@ -6,3 +6,11 @@ Desktop.ini
 # Temporary files
 *.tmp
 *.log
+
+# Media files
+*.mp4
+*.mkv
+*.avi
+*.mov
+*.wav
+*.mp3
